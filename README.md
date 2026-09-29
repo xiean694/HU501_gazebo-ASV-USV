@@ -463,3 +463,28 @@ python3 src/my_control/my_control/trajectory.py
 | `HU501trajectory trackingf.mp4` | 轨迹跟踪过程视频（4.7 MB） |
 | `results.png` | 跟踪结果四联图（轨迹/位置/航向/推力指令） |
 | `vrx_ws/mpc_results/*.csv / *.png` | 每次运行自动保存的原始数据 |
+
+---
+
+## 10. 引用（Citation）
+
+如果本仿真平台对你的研究或实验有帮助，欢迎引用下列论文：
+
+> Zehua Jia, **An Xie**, Wenjie Chen, Wei Xie, Weidong Zhang. *Event-triggered distributed
+> Lyapunov-based model predictive formation control of autonomous surface vehicles with
+> experimental validation*. **Control Engineering Practice**, 2026, 177: 107214.
+
+```bibtex
+@article{jia2026event,
+  title   = {Event-triggered distributed Lyapunov-based model predictive formation control
+             of autonomous surface vehicles with experimental validation},
+  author  = {Jia, Zehua and Xie, An and Chen, Wenjie and Xie, Wei and Zhang, Weidong},
+  journal = {Control Engineering Practice},
+  volume  = {177},
+  pages   = {107214},
+  year    = {2026},
+  publisher = {Elsevier}
+}
+```
+
+同时感谢开源社区：本平台基于 [VRX (Virtual RobotX)](https://github.com/osrf/vrx) 构建。
