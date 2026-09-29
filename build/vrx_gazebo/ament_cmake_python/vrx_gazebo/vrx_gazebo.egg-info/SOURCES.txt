@@ -1,0 +1,9 @@
+setup.py
+vrx_gazebo/__init__.py
+vrx_gazebo/compliance.py
+vrx_gazebo/configure_wamv.py
+vrx_gazebo/utils.py
+vrx_gazebo.egg-info/PKG-INFO
+vrx_gazebo.egg-info/SOURCES.txt
+vrx_gazebo.egg-info/dependency_links.txt
+vrx_gazebo.egg-info/top_level.txt

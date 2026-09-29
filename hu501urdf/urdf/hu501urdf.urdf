@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="hu501urdf">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0 0 -0.16302"
+        rpy="0 0 0" />
+      <mass
+        value="22.584" />
+      <inertia
+        ixx="0.568866"
+        ixy="-3.39E-06"
+        ixz="-0.0625"
+        iyy="1.81792"
+        iyz="-5.51E-06"
+        izz="2.07173" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="-0.29592 -1.03178 -0.05518"
+        rpy="0 0 3.14159" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="hu501_hull">
+        <color
+          rgba="0.72 0.74 0.78 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="-0.29592 -1.03178 -0.05518"
+        rpy="0 0 3.14159" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="thruster1_Link">
+    <inertial>
+      <origin
+        xyz="-1.3592E-07 0.0053084 -0.028391"
+        rpy="0 0 0" />
+      <mass
+        value="0.20168" />
+      <inertia
+        ixx="0.00020552"
+        ixy="-3.7292E-10"
+        ixz="-8.5462E-10"
+        iyy="0.00015966"
+        iyz="-7.6597E-06"
+        izz="0.00025129" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster1_Link.STL" />
+      </geometry>
+      <material
+        name="hu501_thruster_1">
+        <color
+          rgba="0.05 0.05 0.05 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1_turuster1"
+    type="continuous">
+    <origin
+      xyz="-0.01 0.23 -0.2597"
+      rpy="1.5708 0 1.570793" />
+    <parent
+      link="base_link" />
+    <child
+      link="thruster1_Link" />
+    <axis
+      xyz="0 0 1" />
+    <dynamics
+      damping="0.01"
+      friction="0.0" />
+    <limit
+      effort="40"
+      velocity="15" />
+  </joint>
+  <link
+    name="thruster2_Link">
+    <inertial>
+      <origin
+        xyz="-1.3745E-07 0.0051293 -0.030269"
+        rpy="0 0 0" />
+      <mass
+        value="0.20953" />
+      <inertia
+        ixx="0.00020658"
+        ixy="-4.2617E-10"
+        ixz="-8.5048E-10"
+        iyy="0.00016074"
+        iyz="-7.6696E-06"
+        izz="0.00025296" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster2_Link.STL" />
+      </geometry>
+      <material
+        name="hu501_thruster_2">
+        <color
+          rgba="0.05 0.05 0.05 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2_thruster2"
+    type="continuous">
+    <origin
+      xyz="-0.01 -0.23 -0.2597"
+      rpy="1.5708 0 1.570793" />
+    <parent
+      link="base_link" />
+    <child
+      link="thruster2_Link" />
+    <axis
+      xyz="0 0 1" />
+    <dynamics
+      damping="0.01"
+      friction="0.0" />
+    <limit
+      effort="40"
+      velocity="15" />
+  </joint>
+  <link
+    name="thruster3_Link">
+    <inertial>
+      <origin
+        xyz="9.3955E-06 -0.0051236 0.030236"
+        rpy="0 0 0" />
+      <mass
+        value="0.20976" />
+      <inertia
+        ixx="0.00020659"
+        ixy="2.2386E-10"
+        ixz="8.5055E-10"
+        iyy="0.00016074"
+        iyz="-7.6692E-06"
+        izz="0.00025296" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster3_Link.STL" />
+      </geometry>
+      <material
+        name="hu501_thruster_3">
+        <color
+          rgba="0.05 0.05 0.05 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster3_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3_thruster3"
+    type="continuous">
+    <origin
+      xyz="0.44 -0.02998 -0.25915"
+      rpy="-1.5697 -0.046487 0.098693" />
+    <parent
+      link="base_link" />
+    <child
+      link="thruster3_Link" />
+    <axis
+      xyz="0 0 -1" />
+    <dynamics
+      damping="0.01"
+      friction="0.0" />
+    <limit
+      effort="40"
+      velocity="15" />
+  </joint>
+  <link
+    name="thruster4_Link">
+    <inertial>
+      <origin
+        xyz="-1.3454E-07 -0.0051178 0.030204"
+        rpy="0 0 0" />
+      <mass
+        value="0.21" />
+      <inertia
+        ixx="0.00020659"
+        ixy="5.5639E-10"
+        ixz="8.7177E-10"
+        iyy="0.00016075"
+        iyz="-7.6696E-06"
+        izz="0.00025296" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster4_Link.STL" />
+      </geometry>
+      <material
+        name="hu501_thruster_4">
+        <color
+          rgba="0.05 0.05 0.05 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster4_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4_thruster4"
+    type="continuous">
+    <origin
+      xyz="-0.44 -0.02778 -0.26142"
+      rpy="-1.5596 -0.026539 0.012393" />
+    <parent
+      link="base_link" />
+    <child
+      link="thruster4_Link" />
+    <axis
+      xyz="0 0 -1" />
+    <dynamics
+      damping="0.01"
+      friction="0.0" />
+    <limit
+      effort="40"
+      velocity="15" />
+  </joint>
+  <!-- ================= VRX 水面物理 ================= -->
+  <!-- 浮力：两根虚拟浮筒近似船底（船体 1.04m x 0.52m，总质量约 23.4kg）
+       每个插件 = 一根浮筒：总浮力 = 圆截面浸水面积 x hull_length x rho x g
+       采样点放在船底 z=-0.2：平衡时每筒浸深约 6.9cm，即吃水约 7cm（实船标定值） -->
+  <gazebo>
+    <plugin filename="libSurface.so" name="vrx::Surface">
+      <link_name>base_link</link_name>
+      <hull_length>1.04</hull_length>
+      <hull_radius>0.13</hull_radius>
+      <fluid_level>0</fluid_level>
+      <points>
+        <point>0.4 0.13 -0.2</point>
+        <point>0.0 0.13 -0.2</point>
+        <point>-0.4 0.13 -0.2</point>
+      </points>
+      <wavefield>
+        <topic>/vrx/wavefield/parameters</topic>
+      </wavefield>
+    </plugin>
+
+    <plugin filename="libSurface.so" name="vrx::Surface">
+      <link_name>base_link</link_name>
+      <hull_length>1.04</hull_length>
+      <hull_radius>0.13</hull_radius>
+      <fluid_level>0</fluid_level>
+      <points>
+        <point>0.4 -0.13 -0.2</point>
+        <point>0.0 -0.13 -0.2</point>
+        <point>-0.4 -0.13 -0.2</point>
+      </points>
+      <wavefield>
+        <topic>/vrx/wavefield/parameters</topic>
+      </wavefield>
+    </plugin>
+
+    <!-- 水动力阻尼（初值按 23kg 小船相对 WAM-V 缩小，需后续微调） -->
+    <plugin filename="libSimpleHydrodynamics.so" name="vrx::SimpleHydrodynamics">
+      <link_name>base_link</link_name>
+      <xDotU>0.0</xDotU>
+      <yDotV>0.0</yDotV>
+      <nDotR>0.0</nDotR>
+      <xU>10.0</xU>
+      <xUU>15.0</xUU>
+      <yV>10.0</yV>
+      <yVV>10.0</yVV>
+      <zW>50.0</zW>
+      <kP>30.0</kP>
+      <kPP>60.0</kPP>
+      <mQ>30.0</mQ>
+      <mQQ>60.0</mQQ>
+      <nR>40.0</nR>
+      <nRR>40.0</nRR>
+    </plugin>
+  </gazebo>
+
+  <!-- ================= 推进器 ================= -->
+  <!-- t1/t2：主推（前后），正推力 = +x 前进
+       t3/t4：侧推（左右），正推力 = -y（向右舷），t3 在船尾 t4 在船首 -->
+  <gazebo>
+    <plugin filename="gz-sim-thruster-system" name="gz::sim::systems::Thruster">
+      <joint_name>joint1_turuster1</joint_name>
+      <thrust_coefficient>0.004422</thrust_coefficient>
+      <fluid_density>1000</fluid_density>
+      <propeller_diameter>0.06</propeller_diameter>
+      <velocity_control>true</velocity_control>
+      <max_thrust_cmd>40</max_thrust_cmd>
+      <namespace>wamv</namespace>
+      <topic>thrusters/t1/thrust</topic>
+      <name>t1</name>
+    </plugin>
+
+    <plugin filename="gz-sim-thruster-system" name="gz::sim::systems::Thruster">
+      <joint_name>joint2_thruster2</joint_name>
+      <thrust_coefficient>0.004422</thrust_coefficient>
+      <fluid_density>1000</fluid_density>
+      <propeller_diameter>0.06</propeller_diameter>
+      <velocity_control>true</velocity_control>
+      <max_thrust_cmd>40</max_thrust_cmd>
+      <namespace>wamv</namespace>
+      <topic>thrusters/t2/thrust</topic>
+      <name>t2</name>
+    </plugin>
+
+    <plugin filename="gz-sim-thruster-system" name="gz::sim::systems::Thruster">
+      <joint_name>joint3_thruster3</joint_name>
+      <thrust_coefficient>0.004422</thrust_coefficient>
+      <fluid_density>1000</fluid_density>
+      <propeller_diameter>0.06</propeller_diameter>
+      <velocity_control>true</velocity_control>
+      <max_thrust_cmd>40</max_thrust_cmd>
+      <namespace>wamv</namespace>
+      <topic>thrusters/t3/thrust</topic>
+      <name>t3</name>
+    </plugin>
+
+    <plugin filename="gz-sim-thruster-system" name="gz::sim::systems::Thruster">
+      <joint_name>joint4_thruster4</joint_name>
+      <thrust_coefficient>0.004422</thrust_coefficient>
+      <fluid_density>1000</fluid_density>
+      <propeller_diameter>0.06</propeller_diameter>
+      <velocity_control>true</velocity_control>
+      <max_thrust_cmd>40</max_thrust_cmd>
+      <namespace>wamv</namespace>
+      <topic>thrusters/t4/thrust</topic>
+      <name>t4</name>
+    </plugin>
+  </gazebo>
+
+  <!-- ================= 位置/航向真值 ================= -->
+  <gazebo>
+    <plugin filename="gz-sim-odometry-publisher-system"
+            name="gz::sim::systems::OdometryPublisher">
+      <dimensions>3</dimensions>
+      <odom_publish_frequency>10.0</odom_publish_frequency>
+      <odom_frame>map</odom_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+    </plugin>
+  </gazebo>
+
+  <!-- ================= 位姿/关节状态发布 ================= -->
+  <gazebo>
+    <plugin filename="gz-sim-pose-publisher-system"
+            name="gz::sim::systems::PosePublisher">
+      <publish_link_pose>true</publish_link_pose>
+      <publish_sensor_pose>true</publish_sensor_pose>
+      <publish_collision_pose>false</publish_collision_pose>
+      <publish_visual_pose>false</publish_visual_pose>
+      <publish_nested_model_pose>false</publish_nested_model_pose>
+      <publish_model_pose>true</publish_model_pose>
+      <use_pose_vector_msg>true</use_pose_vector_msg>
+      <static_publisher>false</static_publisher>
+      <static_update_frequency>1</static_update_frequency>
+    </plugin>
+
+    <plugin filename="gz-sim-joint-state-publisher-system"
+            name="gz::sim::systems::JointStatePublisher">
+    </plugin>
+  </gazebo>
+
+  <!-- ================= 材质 ================= -->
+  <!-- 船体（含盖子）：铝合金（金属灰，高金属度低粗糙度） -->
+  <gazebo reference="base_link">
+    <visual>
+      <material>
+        <diffuse>0.72 0.74 0.78 1</diffuse>
+        <specular>0.9 0.9 0.9 1</specular>
+        <pbr>
+          <metal>
+            <metalness>0.9</metalness>
+            <roughness>0.3</roughness>
+          </metal>
+        </pbr>
+      </material>
+    </visual>
+  </gazebo>
+
+  <!-- 电机：黑色塑料（哑光，无金属度） -->
+  <gazebo reference="thruster1_Link">
+    <visual>
+      <material>
+        <diffuse>0.04 0.04 0.04 1</diffuse>
+        <pbr>
+          <metal>
+            <metalness>0.0</metalness>
+            <roughness>0.85</roughness>
+          </metal>
+        </pbr>
+      </material>
+    </visual>
+  </gazebo>
+  <gazebo reference="thruster2_Link">
+    <visual>
+      <material>
+        <diffuse>0.04 0.04 0.04 1</diffuse>
+        <pbr>
+          <metal>
+            <metalness>0.0</metalness>
+            <roughness>0.85</roughness>
+          </metal>
+        </pbr>
+      </material>
+    </visual>
+  </gazebo>
+  <gazebo reference="thruster3_Link">
+    <visual>
+      <material>
+        <diffuse>0.04 0.04 0.04 1</diffuse>
+        <pbr>
+          <metal>
+            <metalness>0.0</metalness>
+            <roughness>0.85</roughness>
+          </metal>
+        </pbr>
+      </material>
+    </visual>
+  </gazebo>
+  <gazebo reference="thruster4_Link">
+    <visual>
+      <material>
+        <diffuse>0.04 0.04 0.04 1</diffuse>
+        <pbr>
+          <metal>
+            <metalness>0.0</metalness>
+            <roughness>0.85</roughness>
+          </metal>
+        </pbr>
+      </material>
+    </visual>
+  </gazebo>
+
+</robot>

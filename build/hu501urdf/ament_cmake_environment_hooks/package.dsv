@@ -1,0 +1,4 @@
+source;share/hu501urdf/local_setup.bash
+source;share/hu501urdf/local_setup.dsv
+source;share/hu501urdf/local_setup.sh
+source;share/hu501urdf/local_setup.zsh

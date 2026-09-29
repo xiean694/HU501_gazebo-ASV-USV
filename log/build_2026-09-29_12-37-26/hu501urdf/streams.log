@@ -1,0 +1,36 @@
+[0.020s] Invoking command in '/home/anxie/vrx_hu501_ws/build/hu501urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anxie/vrx_hu501_ws/build/hu501urdf -- -j16 -l16
+[0.154s] Invoked command in '/home/anxie/vrx_hu501_ws/build/hu501urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anxie/vrx_hu501_ws/build/hu501urdf -- -j16 -l16
+[0.162s] Invoking command in '/home/anxie/vrx_hu501_ws/build/hu501urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anxie/vrx_hu501_ws/build/hu501urdf
+[0.169s] -- Install configuration: ""
+[0.169s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/urdf
+[0.169s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/urdf/hu501urdf.urdf
+[0.169s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/urdf/hu501urdf.urdf.xacro
+[0.169s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/urdf/hu501urdf.urdf.orig
+[0.169s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/urdf/hu501urdf.csv
+[0.169s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes
+[0.169s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes/thruster3_Link.STL
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes/thruster4_Link.STL
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes/thruster2_Link.STL
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes/base_link.STL
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes/thruster1_Link.STL
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/launch
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/launch/gazebo.launch
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/launch/display.launch
+[0.170s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/launch/dual.launch.py
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/environment/resource_paths.dsv
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/ament_index/resource_index/package_run_dependencies/hu501urdf
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/ament_index/resource_index/parent_prefix_path/hu501urdf
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/environment/ament_prefix_path.sh
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/environment/ament_prefix_path.dsv
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/environment/path.sh
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/environment/path.dsv
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/local_setup.bash
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/local_setup.sh
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/local_setup.zsh
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/local_setup.dsv
+[0.170s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/package.dsv
+[0.171s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/ament_index/resource_index/packages/hu501urdf
+[0.171s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/cmake/hu501urdfConfig.cmake
+[0.171s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/cmake/hu501urdfConfig-version.cmake
+[0.171s] -- Up-to-date: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/package.xml
+[0.172s] Invoked command in '/home/anxie/vrx_hu501_ws/build/hu501urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anxie/vrx_hu501_ws/build/hu501urdf

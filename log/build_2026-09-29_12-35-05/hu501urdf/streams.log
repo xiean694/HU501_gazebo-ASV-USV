@@ -1,0 +1,55 @@
+[0.016s] Invoking command in '/home/anxie/vrx_hu501_ws/build/hu501urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/anxie/vrx_hu501_ws/hu501urdf -DCMAKE_INSTALL_PREFIX=/home/anxie/vrx_hu501_ws/install
+[0.167s] -- The C compiler identification is GNU 13.3.0
+[0.262s] -- The CXX compiler identification is GNU 13.3.0
+[0.276s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.348s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.348s] -- Detecting C compile features
+[0.348s] -- Detecting C compile features - done
+[0.354s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.427s] -- Detecting CXX compile features
+[0.427s] -- Detecting CXX compile features - done
+[0.431s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.532s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.695s] -- Configuring done (0.6s)
+[0.698s] -- Generating done (0.0s)
+[0.699s] -- Build files have been written to: /home/anxie/vrx_hu501_ws/build/hu501urdf
+[0.702s] Invoked command in '/home/anxie/vrx_hu501_ws/build/hu501urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/anxie/vrx_hu501_ws/hu501urdf -DCMAKE_INSTALL_PREFIX=/home/anxie/vrx_hu501_ws/install
+[0.703s] Invoking command in '/home/anxie/vrx_hu501_ws/build/hu501urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anxie/vrx_hu501_ws/build/hu501urdf -- -j16 -l16
+[0.733s] Invoked command in '/home/anxie/vrx_hu501_ws/build/hu501urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anxie/vrx_hu501_ws/build/hu501urdf -- -j16 -l16
+[0.739s] Invoking command in '/home/anxie/vrx_hu501_ws/build/hu501urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anxie/vrx_hu501_ws/build/hu501urdf
+[0.747s] -- Install configuration: ""
+[0.747s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/urdf
+[0.747s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/urdf/hu501urdf.urdf
+[0.747s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/urdf/hu501urdf.urdf.xacro
+[0.747s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/urdf/hu501urdf.urdf.orig
+[0.747s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/urdf/hu501urdf.csv
+[0.747s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes
+[0.747s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes/thruster3_Link.STL
+[0.747s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes/thruster4_Link.STL
+[0.748s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes/thruster2_Link.STL
+[0.748s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes/base_link.STL
+[0.749s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/meshes/thruster1_Link.STL
+[0.749s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/launch
+[0.749s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/launch/gazebo.launch
+[0.749s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/launch/display.launch
+[0.749s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/launch/dual.launch.py
+[0.749s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/environment/resource_paths.dsv
+[0.749s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/ament_index/resource_index/package_run_dependencies/hu501urdf
+[0.749s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/ament_index/resource_index/parent_prefix_path/hu501urdf
+[0.749s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/environment/ament_prefix_path.sh
+[0.750s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/environment/ament_prefix_path.dsv
+[0.750s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/environment/path.sh
+[0.750s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/environment/path.dsv
+[0.750s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/local_setup.bash
+[0.750s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/local_setup.sh
+[0.750s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/local_setup.zsh
+[0.750s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/local_setup.dsv
+[0.750s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/package.dsv
+[0.750s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/ament_index/resource_index/packages/hu501urdf
+[0.750s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/cmake/hu501urdfConfig.cmake
+[0.750s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/cmake/hu501urdfConfig-version.cmake
+[0.751s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/hu501urdf/package.xml
+[0.751s] Invoked command in '/home/anxie/vrx_hu501_ws/build/hu501urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anxie/vrx_hu501_ws/build/hu501urdf

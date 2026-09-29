@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="hu501urdf">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.29592 -0.10784 1.0318"
+        rpy="0 0 0" />
+      <mass
+        value="0.11559" />
+      <inertia
+        ixx="0.00048919"
+        ixy="1.3243E-09"
+        ixz="-1.6855E-09"
+        iyy="0.00042208"
+        iyz="-2.6454E-08"
+        izz="0.00062061" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.14902 0.14902 0.14902 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="thruster1_Link">
+    <inertial>
+      <origin
+        xyz="-1.3592E-07 0.0053084 -0.028391"
+        rpy="0 0 0" />
+      <mass
+        value="0.20168" />
+      <inertia
+        ixx="0.00020552"
+        ixy="-3.7292E-10"
+        ixz="-8.5462E-10"
+        iyy="0.00015966"
+        iyz="-7.6597E-06"
+        izz="0.00025129" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster1_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89412 0.89412 0.89412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1_turuster1"
+    type="fixed">
+    <origin
+      xyz="-0.28592 -1.2418 -0.20452"
+      rpy="1.5708 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="thruster1_Link" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      effort="40"
+      velocity="1.5" />
+  </joint>
+  <link
+    name="thruster2_Link">
+    <inertial>
+      <origin
+        xyz="-1.3745E-07 0.0051293 -0.030269"
+        rpy="0 0 0" />
+      <mass
+        value="0.20953" />
+      <inertia
+        ixx="0.00020658"
+        ixy="-4.2617E-10"
+        ixz="-8.5048E-10"
+        iyy="0.00016074"
+        iyz="-7.6696E-06"
+        izz="0.00025296" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89412 0.89412 0.89412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2_thruster2"
+    type="fixed">
+    <origin
+      xyz="-0.28592 -0.82179 -0.20452"
+      rpy="1.5708 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="thruster2_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="thruster3_Link">
+    <inertial>
+      <origin
+        xyz="9.3955E-06 -0.0051236 0.030236"
+        rpy="0 0 0" />
+      <mass
+        value="0.20976" />
+      <inertia
+        ixx="0.00020659"
+        ixy="2.2386E-10"
+        ixz="8.5055E-10"
+        iyy="0.00016074"
+        iyz="-7.6692E-06"
+        izz="0.00025296" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster3_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89412 0.89412 0.89412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster3_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3_thruster3"
+    type="fixed">
+    <origin
+      xyz="-0.77566 -1.0018 -0.20397"
+      rpy="-1.5697 -0.046487 -3.0429" />
+    <parent
+      link="base_link" />
+    <child
+      link="thruster3_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="thruster4_Link">
+    <inertial>
+      <origin
+        xyz="-1.3454E-07 -0.0051178 0.030204"
+        rpy="0 0 0" />
+      <mass
+        value="0.21" />
+      <inertia
+        ixx="0.00020659"
+        ixy="5.5639E-10"
+        ixz="8.7177E-10"
+        iyy="0.00016075"
+        iyz="-7.6696E-06"
+        izz="0.00025296" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster4_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89412 0.89412 0.89412 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hu501urdf/meshes/thruster4_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4_thruster4"
+    type="fixed">
+    <origin
+      xyz="0.17107 -1.004 -0.20624"
+      rpy="-1.5596 -0.026539 -3.1292" />
+    <parent
+      link="base_link" />
+    <child
+      link="thruster4_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

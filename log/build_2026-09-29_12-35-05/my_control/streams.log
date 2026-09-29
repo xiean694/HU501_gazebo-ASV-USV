@@ -1,0 +1,41 @@
+[0.690s] Invoking command in '/home/anxie/vrx_hu501_ws/src/my_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anxie/vrx_hu501_ws/build/my_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_control build --build-base /home/anxie/vrx_hu501_ws/build/my_control/build install --record /home/anxie/vrx_hu501_ws/build/my_control/install.log --install-scripts $base/lib/my_control --single-version-externally-managed install_data
+[0.851s] running egg_info
+[0.851s] creating ../../build/my_control/my_control.egg-info
+[0.862s] writing ../../build/my_control/my_control.egg-info/PKG-INFO
+[0.863s] writing dependency_links to ../../build/my_control/my_control.egg-info/dependency_links.txt
+[0.863s] writing entry points to ../../build/my_control/my_control.egg-info/entry_points.txt
+[0.863s] writing requirements to ../../build/my_control/my_control.egg-info/requires.txt
+[0.863s] writing top-level names to ../../build/my_control/my_control.egg-info/top_level.txt
+[0.863s] writing manifest file '../../build/my_control/my_control.egg-info/SOURCES.txt'
+[0.886s] reading manifest file '../../build/my_control/my_control.egg-info/SOURCES.txt'
+[0.886s] writing manifest file '../../build/my_control/my_control.egg-info/SOURCES.txt'
+[0.886s] running build
+[0.886s] running build_py
+[0.886s] creating /home/anxie/vrx_hu501_ws/build/my_control/build
+[0.886s] creating /home/anxie/vrx_hu501_ws/build/my_control/build/lib
+[0.886s] creating /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control
+[0.887s] copying my_control/mpc_node.py -> /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control
+[0.887s] copying my_control/__init__.py -> /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control
+[0.887s] copying my_control/test.py -> /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control
+[0.887s] copying my_control/trajectory.py -> /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control
+[0.887s] running install
+[0.890s] running install_lib
+[0.901s] creating /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control
+[0.902s] copying /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control/mpc_node.py -> /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control
+[0.902s] copying /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control/__init__.py -> /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control
+[0.902s] copying /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control/test.py -> /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control
+[0.902s] copying /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control/trajectory.py -> /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control
+[0.902s] byte-compiling /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control/mpc_node.py to mpc_node.cpython-312.pyc
+[0.905s] byte-compiling /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control/__init__.py to __init__.cpython-312.pyc
+[0.905s] byte-compiling /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control/test.py to test.cpython-312.pyc
+[0.906s] byte-compiling /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control/trajectory.py to trajectory.cpython-312.pyc
+[0.906s] running install_data
+[0.906s] copying resource/my_control -> /home/anxie/vrx_hu501_ws/install/share/ament_index/resource_index/packages
+[0.906s] copying package.xml -> /home/anxie/vrx_hu501_ws/install/share/my_control
+[0.907s] running install_egg_info
+[0.919s] Copying ../../build/my_control/my_control.egg-info to /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control-0.0.0-py3.12.egg-info
+[0.919s] running install_scripts
+[0.995s] Installing key_control script to /home/anxie/vrx_hu501_ws/install/lib/my_control
+[0.995s] Installing mpc_node script to /home/anxie/vrx_hu501_ws/install/lib/my_control
+[0.995s] writing list of installed files to '/home/anxie/vrx_hu501_ws/build/my_control/install.log'
+[1.014s] Invoked command in '/home/anxie/vrx_hu501_ws/src/my_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anxie/vrx_hu501_ws/build/my_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_control build --build-base /home/anxie/vrx_hu501_ws/build/my_control/build install --record /home/anxie/vrx_hu501_ws/build/my_control/install.log --install-scripts $base/lib/my_control --single-version-externally-managed install_data

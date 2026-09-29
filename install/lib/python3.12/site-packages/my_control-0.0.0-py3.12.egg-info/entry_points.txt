@@ -1,0 +1,3 @@
+[console_scripts]
+key_control = my_control.test:main
+mpc_node = my_control.mpc_node:main

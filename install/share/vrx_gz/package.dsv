@@ -1,0 +1,14 @@
+source;share/vrx_gz/hook/cmake_prefix_path.ps1
+source;share/vrx_gz/hook/cmake_prefix_path.dsv
+source;share/vrx_gz/hook/cmake_prefix_path.sh
+source;share/vrx_gz/hook/ld_library_path_lib.ps1
+source;share/vrx_gz/hook/ld_library_path_lib.dsv
+source;share/vrx_gz/hook/ld_library_path_lib.sh
+source;share/vrx_gz/hook/pythonpath.ps1
+source;share/vrx_gz/hook/pythonpath.dsv
+source;share/vrx_gz/hook/pythonpath.sh
+source;share/vrx_gz/local_setup.bash
+source;share/vrx_gz/local_setup.dsv
+source;share/vrx_gz/local_setup.ps1
+source;share/vrx_gz/local_setup.sh
+source;share/vrx_gz/local_setup.zsh

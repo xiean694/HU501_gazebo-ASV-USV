@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/my_control/my_control.egg-info
+writing ../../build/my_control/my_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_control/my_control.egg-info/dependency_links.txt
+writing entry points to ../../build/my_control/my_control.egg-info/entry_points.txt
+writing requirements to ../../build/my_control/my_control.egg-info/requires.txt
+writing top-level names to ../../build/my_control/my_control.egg-info/top_level.txt
+writing manifest file '../../build/my_control/my_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_control/my_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_control/my_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/anxie/vrx_hu501_ws/build/my_control/build
+creating /home/anxie/vrx_hu501_ws/build/my_control/build/lib
+creating /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control
+copying my_control/mpc_node.py -> /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control
+copying my_control/__init__.py -> /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control
+copying my_control/test.py -> /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control
+copying my_control/trajectory.py -> /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control
+running install
+running install_lib
+creating /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control
+copying /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control/mpc_node.py -> /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control
+copying /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control/__init__.py -> /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control
+copying /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control/test.py -> /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control
+copying /home/anxie/vrx_hu501_ws/build/my_control/build/lib/my_control/trajectory.py -> /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control
+byte-compiling /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control/mpc_node.py to mpc_node.cpython-312.pyc
+byte-compiling /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control/test.py to test.cpython-312.pyc
+byte-compiling /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control/trajectory.py to trajectory.cpython-312.pyc
+running install_data
+copying resource/my_control -> /home/anxie/vrx_hu501_ws/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/anxie/vrx_hu501_ws/install/share/my_control
+running install_egg_info
+Copying ../../build/my_control/my_control.egg-info to /home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages/my_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing key_control script to /home/anxie/vrx_hu501_ws/install/lib/my_control
+Installing mpc_node script to /home/anxie/vrx_hu501_ws/install/lib/my_control
+writing list of installed files to '/home/anxie/vrx_hu501_ws/build/my_control/install.log'

@@ -1,0 +1,68 @@
+[0.006s] Invoking command in '/home/anxie/vrx_hu501_ws/build/wamv_gazebo': AMENT_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/anxie/vrx_hu501_ws/install/share/wamv_description/models:/home/anxie/vrx_hu501_ws/install/share/vrx_gazebo/models:/home/anxie/vrx_hu501_ws/install/share:${GZ_SIM_RESOURCE_PATH} PYTHONPATH=/home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/anxie/vrx_hu501_ws/src/vrx/vrx_urdf/wamv_gazebo -DCMAKE_INSTALL_PREFIX=/home/anxie/vrx_hu501_ws/install
+[0.047s] -- The C compiler identification is GNU 13.3.0
+[0.083s] -- The CXX compiler identification is GNU 13.3.0
+[0.095s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.166s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.166s] -- Detecting C compile features
+[0.166s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.245s] -- Detecting CXX compile features
+[0.245s] -- Detecting CXX compile features - done
+[0.248s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.350s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.427s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[0.428s] -- Found wamv_description: 1.3.0 (/home/anxie/vrx_hu501_ws/install/share/wamv_description/cmake)
+[0.487s] -- Configuring done (0.5s)
+[0.488s] -- Generating done (0.0s)
+[0.489s] -- Build files have been written to: /home/anxie/vrx_hu501_ws/build/wamv_gazebo
+[0.492s] Invoked command in '/home/anxie/vrx_hu501_ws/build/wamv_gazebo' returned '0': AMENT_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/anxie/vrx_hu501_ws/install/share/wamv_description/models:/home/anxie/vrx_hu501_ws/install/share/vrx_gazebo/models:/home/anxie/vrx_hu501_ws/install/share:${GZ_SIM_RESOURCE_PATH} PYTHONPATH=/home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/anxie/vrx_hu501_ws/src/vrx/vrx_urdf/wamv_gazebo -DCMAKE_INSTALL_PREFIX=/home/anxie/vrx_hu501_ws/install
+[0.493s] Invoking command in '/home/anxie/vrx_hu501_ws/build/wamv_gazebo': AMENT_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/anxie/vrx_hu501_ws/install/share/wamv_description/models:/home/anxie/vrx_hu501_ws/install/share/vrx_gazebo/models:/home/anxie/vrx_hu501_ws/install/share:${GZ_SIM_RESOURCE_PATH} PYTHONPATH=/home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anxie/vrx_hu501_ws/build/wamv_gazebo -- -j16 -l16
+[0.523s] Invoked command in '/home/anxie/vrx_hu501_ws/build/wamv_gazebo' returned '0': AMENT_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/anxie/vrx_hu501_ws/install/share/wamv_description/models:/home/anxie/vrx_hu501_ws/install/share/vrx_gazebo/models:/home/anxie/vrx_hu501_ws/install/share:${GZ_SIM_RESOURCE_PATH} PYTHONPATH=/home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anxie/vrx_hu501_ws/build/wamv_gazebo -- -j16 -l16
+[0.524s] Invoking command in '/home/anxie/vrx_hu501_ws/build/wamv_gazebo': AMENT_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/anxie/vrx_hu501_ws/install/share/wamv_description/models:/home/anxie/vrx_hu501_ws/install/share/vrx_gazebo/models:/home/anxie/vrx_hu501_ws/install/share:${GZ_SIM_RESOURCE_PATH} PYTHONPATH=/home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/anxie/vrx_hu501_ws/build/wamv_gazebo
+[0.529s] -- Install configuration: ""
+[0.529s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/models
+[0.529s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/models/gps
+[0.530s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/models/gps/mesh
+[0.530s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/models/gps/mesh/gps.png
+[0.530s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/models/gps/mesh/gps.dae
+[0.530s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/models/gps/model.config
+[0.530s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf
+[0.530s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/components
+[0.530s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/components/wamv_gps.xacro
+[0.530s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/components/ball_shooter.xacro
+[0.530s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/components/wamv_p3d.xacro
+[0.530s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/components/wamv_planar_lidar.xacro
+[0.530s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/components/wamv_pinger.xacro
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/components/wamv_camera.xacro
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/components/lidar.xacro
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/components/wamv_3d_lidar.xacro
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/components/wamv_imu.xacro
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/wamv_gazebo.urdf.xacro
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/dynamics
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/dynamics/wamv_gazebo_dynamics_plugin.xacro
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/macros.xacro
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/wamv_gazebo.xacro
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/thruster_layouts
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/thruster_layouts/wamv_gazebo_thruster_config.xacro
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/thruster_layouts/wamv_aft_thrusters.xacro
+[0.531s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/thruster_layouts/wamv_t_thrusters.xacro
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/urdf/thruster_layouts/wamv_x_thrusters.xacro
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/ament_index/resource_index/package_run_dependencies/wamv_gazebo
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/ament_index/resource_index/parent_prefix_path/wamv_gazebo
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/environment/ament_prefix_path.sh
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/environment/ament_prefix_path.dsv
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/environment/path.sh
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/environment/path.dsv
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/local_setup.bash
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/local_setup.sh
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/local_setup.zsh
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/local_setup.dsv
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/package.dsv
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/ament_index/resource_index/packages/wamv_gazebo
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/cmake/wamv_gazeboConfig.cmake
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/cmake/wamv_gazeboConfig-version.cmake
+[0.532s] -- Installing: /home/anxie/vrx_hu501_ws/install/share/wamv_gazebo/package.xml
+[0.533s] Invoked command in '/home/anxie/vrx_hu501_ws/build/wamv_gazebo' returned '0': AMENT_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anxie/vrx_hu501_ws/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/anxie/vrx_hu501_ws/install/share/wamv_description/models:/home/anxie/vrx_hu501_ws/install/share/vrx_gazebo/models:/home/anxie/vrx_hu501_ws/install/share:${GZ_SIM_RESOURCE_PATH} PYTHONPATH=/home/anxie/vrx_hu501_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/anxie/vrx_hu501_ws/build/wamv_gazebo
