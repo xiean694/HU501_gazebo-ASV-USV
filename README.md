@@ -4,7 +4,7 @@
 HU501 全称 **Hainan Unmanned Surface Vehicle**（海南无人水面艇）。
 自定义船体 `hu501`（船长 1.04 m、总质量 ≈ 23.4 kg、四推进器），可键盘遥控，也可编写自己的控制算法。
 
-![仿真世界](东坡湖.png)
+![仿真世界](world.png)
 
 **轨迹跟踪效果**（圆形轨迹，稳态 RMS 误差 ≈ 0.02 m）：
 
@@ -59,7 +59,8 @@ vrx_hu501_ws/
 │           ├── trajectory.py # 实时轨迹绘图
 │           └── mpc_node.py   # 轨迹跟踪控制节点
 ├── vrx_ws/mpc_results/       # 运行自动保存的结果 CSV + 图
-├── 东坡湖.png / 东坡湖_卫星地图.jpg  # 东坡湖世界截图与卫星底图素材
+├── world.png                 # 仿真世界截图（README 展示用）
+├── 东坡湖_卫星地图.jpg        # 东坡湖实测卫星底图（地形生成素材）
 ├── results.png               # 轨迹跟踪结果图（README 展示用）
 └── HU501trajectory trackingf.mp4  # 轨迹跟踪视频（README 展示用）
 ```
@@ -477,7 +478,7 @@ python3 src/my_control/my_control/trajectory.py
 
 | 文件 | 内容 |
 |---|---|
-| `东坡湖.png` | 东坡湖仿真世界截图（README 展示用） |
+| `world.png` | 仿真世界截图（sydney_regatta，双船并排） |
 | `东坡湖_卫星地图.jpg` | 东坡湖实测卫星底图（地形生成素材） |
 | `HU501trajectory trackingf.mp4` | 轨迹跟踪过程视频（4.7 MB） |
 | `results.png` | 跟踪结果四联图（轨迹/位置/航向/推力指令） |
