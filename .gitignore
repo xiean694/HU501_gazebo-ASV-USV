@@ -1,0 +1,8 @@
+# colcon 编译产物（用 colcon build --merge-install 本地生成）
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc

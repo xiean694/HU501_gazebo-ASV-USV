@@ -3,7 +3,7 @@ project(hu501urdf)
 
 find_package(ament_cmake REQUIRED)
 
-install(DIRECTORY urdf meshes launch
+install(DIRECTORY urdf meshes launch worlds models tools
   DESTINATION share/${PROJECT_NAME})
 
 # 环境钩子：把 share 目录加入 GZ_SIM_RESOURCE_PATH，

@@ -40,13 +40,12 @@
           rgba="0.72 0.74 0.78 1" />
       </material>
     </visual>
+    <!-- 碰撞用包围盒代替 STL 网格: 网格-高度场碰撞对在 dartsim/bullet 下
+         不可靠, 且盒碰撞更省算力 -->
     <collision>
-      <origin
-        xyz="-0.29592 -1.03178 -0.05518"
-        rpy="0 0 3.14159" />
+      <origin xyz="0 0 -0.05" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://hu501urdf/meshes/base_link.STL" />
+        <box size="1.04 0.52 0.4" />
       </geometry>
     </collision>
   </link>

@@ -3,7 +3,7 @@
 基于 [VRX (Virtual RobotX)](https://github.com/osrf/vrx) 搭建的小型全驱动无人艇（USV）仿真平台。
 自定义船体 `hu501`（船长 1.04 m、总质量 ≈ 23.4 kg、四推进器），可键盘遥控，也可编写自己的控制算法。
 
-![仿真世界](world.png)
+![仿真世界](东坡湖.png)
 
 **轨迹跟踪效果**（圆形轨迹，稳态 RMS 误差 ≈ 0.02 m）：
 
@@ -46,16 +46,19 @@ vrx_hu501_ws/
 ├── hu501urdf/                # ★ hu501 船体模型包
 │   ├── urdf/hu501urdf.urdf.xacro   # 船体+推进器+传感器+水动力参数（都在这里改）
 │   ├── meshes/*.STL                # SolidWorks 导出的网格
-│   └── launch/dual.launch.py       # 双船启动文件（wamv + hu501）
+│   ├── worlds/dongpo_lake.sdf      # 东坡湖世界（含波场参数/GPS坐标）
+│   ├── models/dongpo_lake_terrain/ # 东坡湖地形（网格+高度图+卫星贴图）
+│   ├── tools/make_dongpo_terrain.py# 地形素材生成脚本
+│   └── launch/                     # dual.launch.py(悉尼) / hu501.launch.py(东坡湖)
 ├── src/
-│   ├── vrx/                  # VRX 上游源码（未修改）
+│   ├── vrx/                  # VRX 上游源码（已包含，未修改）
 │   └── my_control/           # 控制包
 │       └── my_control/
 │           ├── test.py       # 键盘遥控节点（key_control）
 │           ├── trajectory.py # 实时轨迹绘图
 │           └── mpc_node.py   # 轨迹跟踪控制节点
 ├── vrx_ws/mpc_results/       # 运行自动保存的结果 CSV + 图
-├── world.png                 # 仿真世界截图（README 展示用）
+├── 东坡湖.png / 东坡湖_卫星地图.jpg  # 东坡湖世界截图与卫星底图素材
 ├── results.png               # 轨迹跟踪结果图（README 展示用）
 └── HU501trajectory trackingf.mp4  # 轨迹跟踪视频（README 展示用）
 ```
@@ -64,9 +67,13 @@ vrx_hu501_ws/
 
 ```bash
 cd ~/vrx_hu501_ws
-colcon build --symlink-install
+colcon build --merge-install
 source install/setup.bash          # 每开一个新终端都要 source
 ```
+
+> **注意：必须使用 `--merge-install`**（把 hu501urdf、src/vrx、src/my_control
+> 等全部包合并安装到同一个 `install/` 下），否则 `hu501.launch.py` 找不到
+> `vrx_gz` 的资源，仿真起不来。不要用 `--symlink-install`。
 
 可把下面两行加进 `~/.bashrc` 省去重复输入：
 
@@ -82,15 +89,21 @@ source ~/vrx_hu501_ws/install/setup.bash
 ### 2.1 启动仿真
 
 ```bash
-# 带图形界面（推荐第一次使用）
-ros2 launch hu501urdf dual.launch.py
+# 东坡湖世界（海南大学实测湖形，推荐）—— 地形由 tools/make_dongpo_terrain.py 生成
+ros2 launch hu501urdf hu501.launch.py
+ros2 launch hu501urdf hu501.launch.py headless:=true
 
-# 无界面模式（跑算法时省资源）
+# VRX 悉尼赛道世界（wamv + hu501 双船）
+ros2 launch hu501urdf dual.launch.py
 ros2 launch hu501urdf dual.launch.py headless:=true
 ```
 
-启动后 Gazebo 打开 `sydney_regatta`（悉尼赛道）世界，`hu501` 与 VRX 自带的 `wamv`
-并排停在水面上。首次启动加载模型较慢，等终端出现 `Spawned hu501` 即就绪。
+- 东坡湖世界：地形/贴图/比例按实测数据（湖长 473.06 m）生成，GPS 读数为海南坐标，
+  水面为平静湖面参数，hu501 与 wamv 出生在湖心。地形由
+  `hu501urdf/tools/make_dongpo_terrain.py` 从卫星底图（`东坡湖_卫星地图.jpg`）
+  生成，重生成方法与参数见该脚本内的注释说明。
+- 悉尼世界：Gazebo 打开 `sydney_regatta`，`hu501` 与 `wamv` 并排停在起点附近。
+  首次启动加载模型较慢，等终端出现 `Spawned hu501` 即就绪。
 
 ### 2.2 检查话题
 
@@ -164,8 +177,12 @@ ros2 run my_control key_control
 
 ## 3. 平台参数
 
-全部定义在 `hu501urdf/urdf/hu501urdf.urdf.xacro`，改完重新 `ros2 launch` 即生效
-（xacro 每次启动重新展开，用了 `--symlink-install` 不需要重新编译）。
+全部定义在 `hu501urdf/urdf/hu501urdf.urdf.xacro`。因为用的是 `--merge-install`
+（复制安装，非符号链接），**改完 URDF 后要先重新编译该包再启动**：
+
+```bash
+colcon build --merge-install --packages-select hu501urdf
+```
 
 ### 3.1 质量与惯量
 
@@ -459,9 +476,11 @@ python3 src/my_control/my_control/trajectory.py
 
 | 文件 | 内容 |
 |---|---|
-| `world.png` | 仿真世界截图（sydney_regatta，双船并排） |
+| `东坡湖.png` | 东坡湖仿真世界截图（README 展示用） |
+| `东坡湖_卫星地图.jpg` | 东坡湖实测卫星底图（地形生成素材） |
 | `HU501trajectory trackingf.mp4` | 轨迹跟踪过程视频（4.7 MB） |
 | `results.png` | 跟踪结果四联图（轨迹/位置/航向/推力指令） |
+| `hu501urdf/tools/make_dongpo_terrain.py` | 东坡湖地形生成脚本（含用法注释） |
 | `vrx_ws/mpc_results/*.csv / *.png` | 每次运行自动保存的原始数据 |
 
 ---

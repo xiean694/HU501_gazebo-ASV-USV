@@ -1,9 +1,0 @@
-/home/anxie/vrx_hu501_ws/build/wamv_gazebo/CMakeFiles/uninstall.dir
-/home/anxie/vrx_hu501_ws/build/wamv_gazebo/CMakeFiles/wamv_gazebo_uninstall.dir
-/home/anxie/vrx_hu501_ws/build/wamv_gazebo/CMakeFiles/test.dir
-/home/anxie/vrx_hu501_ws/build/wamv_gazebo/CMakeFiles/edit_cache.dir
-/home/anxie/vrx_hu501_ws/build/wamv_gazebo/CMakeFiles/rebuild_cache.dir
-/home/anxie/vrx_hu501_ws/build/wamv_gazebo/CMakeFiles/list_install_components.dir
-/home/anxie/vrx_hu501_ws/build/wamv_gazebo/CMakeFiles/install.dir
-/home/anxie/vrx_hu501_ws/build/wamv_gazebo/CMakeFiles/install/local.dir
-/home/anxie/vrx_hu501_ws/build/wamv_gazebo/CMakeFiles/install/strip.dir

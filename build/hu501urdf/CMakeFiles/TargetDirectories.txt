@@ -1,9 +1,0 @@
-/home/anxie/vrx_hu501_ws/build/hu501urdf/CMakeFiles/uninstall.dir
-/home/anxie/vrx_hu501_ws/build/hu501urdf/CMakeFiles/hu501urdf_uninstall.dir
-/home/anxie/vrx_hu501_ws/build/hu501urdf/CMakeFiles/test.dir
-/home/anxie/vrx_hu501_ws/build/hu501urdf/CMakeFiles/edit_cache.dir
-/home/anxie/vrx_hu501_ws/build/hu501urdf/CMakeFiles/rebuild_cache.dir
-/home/anxie/vrx_hu501_ws/build/hu501urdf/CMakeFiles/list_install_components.dir
-/home/anxie/vrx_hu501_ws/build/hu501urdf/CMakeFiles/install.dir
-/home/anxie/vrx_hu501_ws/build/hu501urdf/CMakeFiles/install/local.dir
-/home/anxie/vrx_hu501_ws/build/hu501urdf/CMakeFiles/install/strip.dir
