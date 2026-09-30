@@ -1,6 +1,7 @@
 # HU501 无人艇 — VRX 仿真平台使用手册
 
 基于 [VRX (Virtual RobotX)](https://github.com/osrf/vrx) 搭建的小型全驱动无人艇（USV）仿真平台。
+HU501 全称 **Hainan Unmanned Surface Vehicle**（海南无人水面艇）。
 自定义船体 `hu501`（船长 1.04 m、总质量 ≈ 23.4 kg、四推进器），可键盘遥控，也可编写自己的控制算法。
 
 ![仿真世界](东坡湖.png)
