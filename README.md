@@ -49,6 +49,10 @@ vrx_hu501_ws/
 │   ├── meshes/*.STL                # SolidWorks 导出的网格
 │   ├── worlds/dongpo_lake.sdf      # 东坡湖世界（含波场参数/GPS坐标）
 │   ├── models/dongpo_lake_terrain/ # 东坡湖地形（网格+高度图+卫星贴图）
+│   ├── models/dongpo_buildings/    # 环湖建筑（卫星图屋顶检测生成）
+│   ├── models/dongpo_mangrove/     # 湖中红树林+白鹭（东坡湖生态特色）
+│   ├── models/dongpo_jetties/      # 亲水平台+西南弧形观景堤（带碰撞）
+│   ├── models/coast_waves_lake/    # 湖面版水面（灰青浑浊水色）
 │   ├── tools/make_dongpo_terrain.py# 地形素材生成脚本
 │   └── launch/                     # dual.launch.py(悉尼) / hu501.launch.py(东坡湖)
 ├── src/
@@ -107,7 +111,49 @@ ros2 launch hu501urdf dual.launch.py headless:=true
 - 悉尼世界：Gazebo 打开 `sydney_regatta`，`hu501` 与 `wamv` 并排停在起点附近。
   首次启动加载模型较慢，等终端出现 `Spawned hu501` 即就绪。
 
-### 2.2 检查话题
+### 2.2 东坡湖环境导入（卫星图 → 仿真世界）
+
+东坡湖环境由实测卫星底图一键生成，不需要任何手工建模：
+
+```bash
+# 1. 底图: 东坡湖_卫星地图.jpg(仓库根目录, 蓝色水面可直接像素分割)
+# 2. 生成全部素材(高度图/地形网格/贴图/建筑/红树林/堤栈道/植被)
+python3 hu501urdf/tools/make_dongpo_terrain.py
+# 3. 编译同步到 install
+colcon build --merge-install --packages-select hu501urdf
+# 4. 启动
+ros2 launch hu501urdf hu501.launch.py
+```
+
+地形生成源图（海南大学东坡湖实测卫星底图）：
+
+<img src="东坡湖_卫星地图.jpg" width="640" alt="东坡湖卫星底图(地形生成源)"/>
+
+生成产物与世界的对应关系（`dongpo_lake.sdf` 依次 include）：
+
+| 模型 | 内容 | 来源 |
+|---|---|---|
+| `dongpo_lake_terrain` | 高度图（碰撞）+ 地形网格（视觉）+ 4096² 卫星贴图 | 水体分割 + 比例标定（湖长 473.06 m 实测） |
+| `dongpo_buildings` | 环湖 3D 建筑（米黄立面 + 窗带，按区位分高度） | 卫星图屋顶检测 |
+| `dongpo_mangrove` | 湖中红树林 + 白鹭 | 湖中岛掩膜（东坡湖 2006 年起引种红海榄/海桑） |
+| `dongpo_jetties` | 亲水平台 + 西南弧形观景堤（带碰撞） | 贴水亮色检测 + 弧堤手动标定 |
+| `dongpo_shore_trees` | 岸边椰子树/阔叶树 | 岸带撒点 |
+| `coast_waves_lake` | 湖面（Gerstner 波，灰青浑浊水色按航拍校准） | 复制 vrx coast_waves 改水色 |
+
+想调整环境时改脚本顶部 `CONFIG` 再重跑即可，常用项：
+
+| 参数 | 含义 | 默认 |
+|---|---|---|
+| `lake_length_m` | 湖长标定 [m]（控制整体比例） | 473.06 |
+| `land_h` / `bed_h` | 陆地 / 湖盆高程 [m] | 2.5 / −3.5 |
+| `tex_res` | 卫星贴图边长 | 4096 |
+| `island_top_h` | 红树林岛顶高程 [m] | 0.8 |
+| `mangrove_step_px` | 红树丛间距（越小越密） | 8 |
+
+水面波浪参数（波幅/周期）在 `dongpo_lake.sdf` 的 `PublisherPlugin` 块里调；
+GPS 原点（经纬度）在同文件 `spherical_coordinates` 处。
+
+### 2.3 检查话题
 
 新开一个终端（记得 source），确认话题正常：
 
@@ -145,7 +191,7 @@ ros2 topic hz  /hu501/sensors/imu/imu/data             # 看传感器频率
 ros2 topic info /hu501/thrusters/t1/thrust             # 看话题类型
 ```
 
-### 2.3 命令行手动发推力（最快验证方式）
+### 2.4 命令行手动发推力（最快验证方式）
 
 ```bash
 # 左主推发 20 N，按 Ctrl+C 停止（松开即停不下来，需再发 0）
@@ -157,7 +203,7 @@ ros2 topic pub -r 10 /hu501/thrusters/t1/thrust std_msgs/msg/Float64 "{data: 0.0
 
 注意：仿真里还有一条 VRX 默认的 `wamv` 船（话题前缀 `/wamv/`），别搞混。
 
-### 2.4 键盘遥控
+### 2.5 键盘遥控
 
 ```bash
 ros2 run my_control key_control
@@ -457,7 +503,7 @@ if __name__ == '__main__':
 ## 8. 附带工具
 
 ```bash
-# 键盘遥控（见 §2.4）
+# 键盘遥控（见 §2.5）
 ros2 run my_control key_control
 
 # 轨迹跟踪（正弦/圆形参考轨迹，结束后自动存 CSV+图到 vrx_ws/mpc_results/）

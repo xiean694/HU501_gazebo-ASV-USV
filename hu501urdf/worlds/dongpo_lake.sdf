@@ -5,7 +5,8 @@
        - 物理:  vrx::PublisherPlugin 发布波场参数(增益/周期/方向/陡度)
        - 浮力:  船体 URDF 里的 vrx::Surface 插件读同一话题
      湖面参数已调小(gain 0.15 / period 3 s)模拟平静湖面，调参见下方
-     PublisherPlugin 块。GPS 坐标 = 东坡湖(约 20.0606N, 110.3202E)。 -->
+     PublisherPlugin 块。GPS 坐标 = 东坡湖(用户谷歌地球标定
+     20.06108569N, 110.33098135E, 见下方 spherical_coordinates)。 -->
 <sdf version="1.9">
   <world name="dongpo_lake">
 
@@ -324,6 +325,12 @@
       <grid>false</grid>
       <ambient>1.0 1.0 1.0</ambient>
       <background>0.8 0.8 0.8</background>
+      <!-- 航拍实测: 阴天薄雾, 远景城区灰蒙层次 -->
+      <fog>
+        <color>0.8 0.83 0.86</color>
+        <type>linear</type>
+        <density>0.0012</density>
+      </fog>
     </scene>
 
     <!-- 海南大学东坡湖 GPS 原点(用户谷歌地球标定, WGS84):
@@ -368,18 +375,32 @@
       <uri>model://dongpo_shore_trees</uri>
     </include>
 
-    <!-- 外围大草坪环带(遮住地形边界外的深色海洋) -->
+    <!-- 环湖校园建筑(卫星图屋顶检测: 西/北侧教学楼、东北红顶、南侧民房) -->
     <include>
-      <name>Land Apron</name>
+      <name>Campus Buildings</name>
       <pose>0 0 0 0 0 0</pose>
-      <uri>model://dongpo_land_apron</uri>
+      <uri>model://dongpo_buildings</uri>
     </include>
 
-    <!-- 水面视觉(与 VRX 相同的 Gerstner 波水面) -->
+    <!-- 湖中红树林湿地 + 白鹭(东坡湖生态特色) -->
+    <include>
+      <name>Mangroves</name>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://dongpo_mangrove</uri>
+    </include>
+
+    <!-- 亲水平台 + 西南弧形观景堤(带碰撞) -->
+    <include>
+      <name>Jetties</name>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://dongpo_jetties</uri>
+    </include>
+
+    <!-- 水面视觉(Gerstner 波, 湖面版: 灰青浑浊水色按航拍实测校准) -->
     <include>
       <name>Coast Waves</name>
       <pose>0 0 0 0 0 0</pose>
-      <uri>coast_waves</uri>
+      <uri>model://coast_waves_lake</uri>
     </include>
 
     <!-- 波场参数(湖面: 小幅微波)。gain=波幅增益, period=周期[s],
