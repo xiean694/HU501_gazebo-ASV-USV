@@ -8,7 +8,7 @@ HU501 全称 **Hainan Unmanned Surface Vehicle**（海南无人水面艇）。
 
 **轨迹跟踪效果**（圆形轨迹，稳态 RMS 误差 ≈ 0.02 m）：
 
-![轨迹跟踪视频](<HU501trajectory trackingf.mp4>)
+![轨迹跟踪视频](trajectory_tracking.mp4)
 
 ![跟踪结果](results.png)
 
@@ -66,7 +66,7 @@ vrx_hu501_ws/
 ├── world.png                 # 仿真世界截图（README 展示用）
 ├── 东坡湖_卫星地图.jpg        # 东坡湖实测卫星底图（地形生成素材）
 ├── results.png               # 轨迹跟踪结果图（README 展示用）
-└── HU501trajectory trackingf.mp4  # 轨迹跟踪视频（README 展示用）
+└── trajectory_tracking.mp4    # 轨迹跟踪视频（README 展示用）
 ```
 
 ### 1.3 编译
@@ -526,7 +526,7 @@ python3 src/my_control/my_control/trajectory.py
 |---|---|
 | `world.png` | 仿真世界截图（sydney_regatta，双船并排） |
 | `东坡湖_卫星地图.jpg` | 东坡湖实测卫星底图（地形生成素材） |
-| `HU501trajectory trackingf.mp4` | 轨迹跟踪过程视频（4.7 MB） |
+| `trajectory_tracking.mp4` | 轨迹跟踪过程视频（4.7 MB，README 内嵌播放） |
 | `results.png` | 跟踪结果四联图（轨迹/位置/航向/推力指令） |
 | `hu501urdf/tools/make_dongpo_terrain.py` | 东坡湖地形生成脚本（含用法注释） |
 | `vrx_ws/mpc_results/*.csv / *.png` | 每次运行自动保存的原始数据 |
