@@ -1,0 +1,2028 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="dongpo_buildings">
+    <static>true</static>
+    <link name="buildings">
+    <visual name="bld0" cast_shadows="true">
+      <pose>-172.02 117.44 8.72 0 0 -0.00</pose>
+      <geometry><box><size>6.00 17.99 13.23</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx0_0" cast_shadows="false">
+      <pose>-172.02 126.47 4.30 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws0_0" cast_shadows="false">
+      <pose>-172.02 108.41 4.30 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we0_0" cast_shadows="false">
+      <pose>-168.99 117.44 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 15.83 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn0_0" cast_shadows="false">
+      <pose>-175.05 117.44 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 15.83 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx0_1" cast_shadows="false">
+      <pose>-172.02 126.47 7.50 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws0_1" cast_shadows="false">
+      <pose>-172.02 108.41 7.50 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we0_1" cast_shadows="false">
+      <pose>-168.99 117.44 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 15.83 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn0_1" cast_shadows="false">
+      <pose>-175.05 117.44 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 15.83 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx0_2" cast_shadows="false">
+      <pose>-172.02 126.47 10.70 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws0_2" cast_shadows="false">
+      <pose>-172.02 108.41 10.70 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we0_2" cast_shadows="false">
+      <pose>-168.99 117.44 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 15.83 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn0_2" cast_shadows="false">
+      <pose>-175.05 117.44 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 15.83 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof0" cast_shadows="true">
+      <pose>-172.02 117.44 15.45 0 0 0</pose>
+      <geometry><box><size>6.60 18.59 0.35</size></box></geometry>
+      <material><ambient>0.51 0.50 0.52</ambient><diffuse>0.51 0.50 0.52</diffuse></material>
+    </visual>
+    <visual name="bld1" cast_shadows="true">
+      <pose>-124.76 123.08 8.24 0 0 -0.01</pose>
+      <geometry><box><size>6.72 6.72 12.28</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx1_0" cast_shadows="false">
+      <pose>-124.76 126.47 4.30 0 0 0</pose>
+      <geometry><box><size>5.91 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws1_0" cast_shadows="false">
+      <pose>-124.76 119.69 4.30 0 0 0</pose>
+      <geometry><box><size>5.91 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we1_0" cast_shadows="false">
+      <pose>-121.37 123.08 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 5.91 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn1_0" cast_shadows="false">
+      <pose>-128.15 123.08 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 5.91 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx1_1" cast_shadows="false">
+      <pose>-124.76 126.47 7.50 0 0 0</pose>
+      <geometry><box><size>5.91 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws1_1" cast_shadows="false">
+      <pose>-124.76 119.69 7.50 0 0 0</pose>
+      <geometry><box><size>5.91 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we1_1" cast_shadows="false">
+      <pose>-121.37 123.08 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 5.91 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn1_1" cast_shadows="false">
+      <pose>-128.15 123.08 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 5.91 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx1_2" cast_shadows="false">
+      <pose>-124.76 126.47 10.70 0 0 0</pose>
+      <geometry><box><size>5.91 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws1_2" cast_shadows="false">
+      <pose>-124.76 119.69 10.70 0 0 0</pose>
+      <geometry><box><size>5.91 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we1_2" cast_shadows="false">
+      <pose>-121.37 123.08 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 5.91 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn1_2" cast_shadows="false">
+      <pose>-128.15 123.08 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 5.91 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof1" cast_shadows="true">
+      <pose>-124.76 123.08 14.50 0 0 0</pose>
+      <geometry><box><size>7.32 7.32 0.35</size></box></geometry>
+      <material><ambient>0.40 0.41 0.47</ambient><diffuse>0.40 0.41 0.47</diffuse></material>
+    </visual>
+    <visual name="bld2" cast_shadows="true">
+      <pose>-116.84 122.72 8.44 0 0 -0.01</pose>
+      <geometry><box><size>8.64 7.44 12.68</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx2_0" cast_shadows="false">
+      <pose>-116.84 126.47 4.30 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws2_0" cast_shadows="false">
+      <pose>-116.84 118.97 4.30 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we2_0" cast_shadows="false">
+      <pose>-112.49 122.72 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 6.54 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn2_0" cast_shadows="false">
+      <pose>-121.19 122.72 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 6.54 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx2_1" cast_shadows="false">
+      <pose>-116.84 126.47 7.50 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws2_1" cast_shadows="false">
+      <pose>-116.84 118.97 7.50 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we2_1" cast_shadows="false">
+      <pose>-112.49 122.72 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 6.54 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn2_1" cast_shadows="false">
+      <pose>-121.19 122.72 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 6.54 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx2_2" cast_shadows="false">
+      <pose>-116.84 126.47 10.70 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws2_2" cast_shadows="false">
+      <pose>-116.84 118.97 10.70 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we2_2" cast_shadows="false">
+      <pose>-112.49 122.72 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 6.54 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn2_2" cast_shadows="false">
+      <pose>-121.19 122.72 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 6.54 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof2" cast_shadows="true">
+      <pose>-116.84 122.72 14.90 0 0 0</pose>
+      <geometry><box><size>9.24 8.04 0.35</size></box></geometry>
+      <material><ambient>0.42 0.44 0.47</ambient><diffuse>0.42 0.44 0.47</diffuse></material>
+    </visual>
+    <visual name="bld3" cast_shadows="true">
+      <pose>-182.46 113.84 11.09 0 0 -0.01</pose>
+      <geometry><box><size>12.24 20.39 17.97</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx3_0" cast_shadows="false">
+      <pose>-182.46 124.07 4.30 0 0 0</pose>
+      <geometry><box><size>10.77 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws3_0" cast_shadows="false">
+      <pose>-182.46 103.61 4.30 0 0 0</pose>
+      <geometry><box><size>10.77 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we3_0" cast_shadows="false">
+      <pose>-176.31 113.84 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 17.95 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn3_0" cast_shadows="false">
+      <pose>-188.60 113.84 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 17.95 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx3_1" cast_shadows="false">
+      <pose>-182.46 124.07 7.50 0 0 0</pose>
+      <geometry><box><size>10.77 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws3_1" cast_shadows="false">
+      <pose>-182.46 103.61 7.50 0 0 0</pose>
+      <geometry><box><size>10.77 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we3_1" cast_shadows="false">
+      <pose>-176.31 113.84 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 17.95 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn3_1" cast_shadows="false">
+      <pose>-188.60 113.84 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 17.95 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx3_2" cast_shadows="false">
+      <pose>-182.46 124.07 10.70 0 0 0</pose>
+      <geometry><box><size>10.77 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws3_2" cast_shadows="false">
+      <pose>-182.46 103.61 10.70 0 0 0</pose>
+      <geometry><box><size>10.77 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we3_2" cast_shadows="false">
+      <pose>-176.31 113.84 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 17.95 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn3_2" cast_shadows="false">
+      <pose>-188.60 113.84 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 17.95 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx3_3" cast_shadows="false">
+      <pose>-182.46 124.07 13.90 0 0 0</pose>
+      <geometry><box><size>10.77 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws3_3" cast_shadows="false">
+      <pose>-182.46 103.61 13.90 0 0 0</pose>
+      <geometry><box><size>10.77 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we3_3" cast_shadows="false">
+      <pose>-176.31 113.84 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 17.95 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn3_3" cast_shadows="false">
+      <pose>-188.60 113.84 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 17.95 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx3_4" cast_shadows="false">
+      <pose>-182.46 124.07 17.10 0 0 0</pose>
+      <geometry><box><size>10.77 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws3_4" cast_shadows="false">
+      <pose>-182.46 103.61 17.10 0 0 0</pose>
+      <geometry><box><size>10.77 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we3_4" cast_shadows="false">
+      <pose>-176.31 113.84 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 17.95 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn3_4" cast_shadows="false">
+      <pose>-188.60 113.84 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 17.95 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof3" cast_shadows="true">
+      <pose>-182.46 113.84 20.19 0 0 0</pose>
+      <geometry><box><size>12.84 20.99 0.35</size></box></geometry>
+      <material><ambient>0.41 0.46 0.49</ambient><diffuse>0.41 0.46 0.49</diffuse></material>
+    </visual>
+    <visual name="eq3" cast_shadows="true">
+      <pose>-181.66 112.01 20.82 0 0 0</pose>
+      <geometry><box><size>3.67 6.12 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld4" cast_shadows="true">
+      <pose>-161.22 97.17 8.76 0 0 0.01</pose>
+      <geometry><box><size>68.14 44.14 13.32</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx4_0" cast_shadows="false">
+      <pose>-161.22 119.27 4.30 0 0 0</pose>
+      <geometry><box><size>59.96 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws4_0" cast_shadows="false">
+      <pose>-161.22 75.06 4.30 0 0 0</pose>
+      <geometry><box><size>59.96 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we4_0" cast_shadows="false">
+      <pose>-127.13 97.17 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 38.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn4_0" cast_shadows="false">
+      <pose>-195.32 97.17 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 38.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx4_1" cast_shadows="false">
+      <pose>-161.22 119.27 7.50 0 0 0</pose>
+      <geometry><box><size>59.96 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws4_1" cast_shadows="false">
+      <pose>-161.22 75.06 7.50 0 0 0</pose>
+      <geometry><box><size>59.96 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we4_1" cast_shadows="false">
+      <pose>-127.13 97.17 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 38.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn4_1" cast_shadows="false">
+      <pose>-195.32 97.17 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 38.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx4_2" cast_shadows="false">
+      <pose>-161.22 119.27 10.70 0 0 0</pose>
+      <geometry><box><size>59.96 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws4_2" cast_shadows="false">
+      <pose>-161.22 75.06 10.70 0 0 0</pose>
+      <geometry><box><size>59.96 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we4_2" cast_shadows="false">
+      <pose>-127.13 97.17 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 38.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn4_2" cast_shadows="false">
+      <pose>-195.32 97.17 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 38.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof4" cast_shadows="true">
+      <pose>-161.22 97.17 15.54 0 0 0</pose>
+      <geometry><box><size>68.74 44.74 0.35</size></box></geometry>
+      <material><ambient>0.51 0.51 0.53</ambient><diffuse>0.51 0.51 0.53</diffuse></material>
+    </visual>
+    <visual name="bld5" cast_shadows="true">
+      <pose>-198.05 91.77 10.56 0 0 0.01</pose>
+      <geometry><box><size>8.88 21.83 16.92</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx5_0" cast_shadows="false">
+      <pose>-198.05 102.71 4.30 0 0 0</pose>
+      <geometry><box><size>7.81 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws5_0" cast_shadows="false">
+      <pose>-198.05 80.82 4.30 0 0 0</pose>
+      <geometry><box><size>7.81 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we5_0" cast_shadows="false">
+      <pose>-193.58 91.77 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 19.21 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn5_0" cast_shadows="false">
+      <pose>-202.52 91.77 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 19.21 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx5_1" cast_shadows="false">
+      <pose>-198.05 102.71 7.50 0 0 0</pose>
+      <geometry><box><size>7.81 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws5_1" cast_shadows="false">
+      <pose>-198.05 80.82 7.50 0 0 0</pose>
+      <geometry><box><size>7.81 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we5_1" cast_shadows="false">
+      <pose>-193.58 91.77 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 19.21 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn5_1" cast_shadows="false">
+      <pose>-202.52 91.77 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 19.21 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx5_2" cast_shadows="false">
+      <pose>-198.05 102.71 10.70 0 0 0</pose>
+      <geometry><box><size>7.81 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws5_2" cast_shadows="false">
+      <pose>-198.05 80.82 10.70 0 0 0</pose>
+      <geometry><box><size>7.81 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we5_2" cast_shadows="false">
+      <pose>-193.58 91.77 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 19.21 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn5_2" cast_shadows="false">
+      <pose>-202.52 91.77 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 19.21 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx5_3" cast_shadows="false">
+      <pose>-198.05 102.71 13.90 0 0 0</pose>
+      <geometry><box><size>7.81 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws5_3" cast_shadows="false">
+      <pose>-198.05 80.82 13.90 0 0 0</pose>
+      <geometry><box><size>7.81 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we5_3" cast_shadows="false">
+      <pose>-193.58 91.77 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 19.21 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn5_3" cast_shadows="false">
+      <pose>-202.52 91.77 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 19.21 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof5" cast_shadows="true">
+      <pose>-198.05 91.77 19.14 0 0 0</pose>
+      <geometry><box><size>9.48 22.43 0.35</size></box></geometry>
+      <material><ambient>0.47 0.49 0.50</ambient><diffuse>0.47 0.49 0.50</diffuse></material>
+    </visual>
+    <visual name="eq5" cast_shadows="true">
+      <pose>-196.34 89.19 19.77 0 0 0</pose>
+      <geometry><box><size>2.66 6.55 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld6" cast_shadows="true">
+      <pose>-224.08 95.13 10.76 0 0 -0.00</pose>
+      <geometry><box><size>9.60 13.20 17.32</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx6_0" cast_shadows="false">
+      <pose>-224.08 101.75 4.30 0 0 0</pose>
+      <geometry><box><size>8.45 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws6_0" cast_shadows="false">
+      <pose>-224.08 88.50 4.30 0 0 0</pose>
+      <geometry><box><size>8.45 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we6_0" cast_shadows="false">
+      <pose>-219.25 95.13 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn6_0" cast_shadows="false">
+      <pose>-228.91 95.13 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx6_1" cast_shadows="false">
+      <pose>-224.08 101.75 7.50 0 0 0</pose>
+      <geometry><box><size>8.45 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws6_1" cast_shadows="false">
+      <pose>-224.08 88.50 7.50 0 0 0</pose>
+      <geometry><box><size>8.45 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we6_1" cast_shadows="false">
+      <pose>-219.25 95.13 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn6_1" cast_shadows="false">
+      <pose>-228.91 95.13 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx6_2" cast_shadows="false">
+      <pose>-224.08 101.75 10.70 0 0 0</pose>
+      <geometry><box><size>8.45 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws6_2" cast_shadows="false">
+      <pose>-224.08 88.50 10.70 0 0 0</pose>
+      <geometry><box><size>8.45 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we6_2" cast_shadows="false">
+      <pose>-219.25 95.13 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn6_2" cast_shadows="false">
+      <pose>-228.91 95.13 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx6_3" cast_shadows="false">
+      <pose>-224.08 101.75 13.90 0 0 0</pose>
+      <geometry><box><size>8.45 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws6_3" cast_shadows="false">
+      <pose>-224.08 88.50 13.90 0 0 0</pose>
+      <geometry><box><size>8.45 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we6_3" cast_shadows="false">
+      <pose>-219.25 95.13 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn6_3" cast_shadows="false">
+      <pose>-228.91 95.13 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx6_4" cast_shadows="false">
+      <pose>-224.08 101.75 17.10 0 0 0</pose>
+      <geometry><box><size>8.45 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws6_4" cast_shadows="false">
+      <pose>-224.08 88.50 17.10 0 0 0</pose>
+      <geometry><box><size>8.45 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we6_4" cast_shadows="false">
+      <pose>-219.25 95.13 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn6_4" cast_shadows="false">
+      <pose>-228.91 95.13 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof6" cast_shadows="true">
+      <pose>-224.08 95.13 19.54 0 0 0</pose>
+      <geometry><box><size>10.20 13.80 0.35</size></box></geometry>
+      <material><ambient>0.49 0.49 0.51</ambient><diffuse>0.49 0.49 0.51</diffuse></material>
+    </visual>
+    <visual name="eq6" cast_shadows="true">
+      <pose>-223.73 93.73 20.17 0 0 0</pose>
+      <geometry><box><size>2.88 3.96 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld7" cast_shadows="true">
+      <pose>-215.32 92.97 11.95 0 0 0.01</pose>
+      <geometry><box><size>6.96 12.24 19.70</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx7_0" cast_shadows="false">
+      <pose>-215.32 99.12 4.30 0 0 0</pose>
+      <geometry><box><size>6.12 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws7_0" cast_shadows="false">
+      <pose>-215.32 86.82 4.30 0 0 0</pose>
+      <geometry><box><size>6.12 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we7_0" cast_shadows="false">
+      <pose>-211.82 92.97 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 10.77 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn7_0" cast_shadows="false">
+      <pose>-218.83 92.97 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 10.77 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx7_1" cast_shadows="false">
+      <pose>-215.32 99.12 7.50 0 0 0</pose>
+      <geometry><box><size>6.12 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws7_1" cast_shadows="false">
+      <pose>-215.32 86.82 7.50 0 0 0</pose>
+      <geometry><box><size>6.12 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we7_1" cast_shadows="false">
+      <pose>-211.82 92.97 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 10.77 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn7_1" cast_shadows="false">
+      <pose>-218.83 92.97 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 10.77 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx7_2" cast_shadows="false">
+      <pose>-215.32 99.12 10.70 0 0 0</pose>
+      <geometry><box><size>6.12 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws7_2" cast_shadows="false">
+      <pose>-215.32 86.82 10.70 0 0 0</pose>
+      <geometry><box><size>6.12 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we7_2" cast_shadows="false">
+      <pose>-211.82 92.97 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 10.77 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn7_2" cast_shadows="false">
+      <pose>-218.83 92.97 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 10.77 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx7_3" cast_shadows="false">
+      <pose>-215.32 99.12 13.90 0 0 0</pose>
+      <geometry><box><size>6.12 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws7_3" cast_shadows="false">
+      <pose>-215.32 86.82 13.90 0 0 0</pose>
+      <geometry><box><size>6.12 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we7_3" cast_shadows="false">
+      <pose>-211.82 92.97 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 10.77 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn7_3" cast_shadows="false">
+      <pose>-218.83 92.97 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 10.77 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx7_4" cast_shadows="false">
+      <pose>-215.32 99.12 17.10 0 0 0</pose>
+      <geometry><box><size>6.12 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws7_4" cast_shadows="false">
+      <pose>-215.32 86.82 17.10 0 0 0</pose>
+      <geometry><box><size>6.12 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we7_4" cast_shadows="false">
+      <pose>-211.82 92.97 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 10.77 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn7_4" cast_shadows="false">
+      <pose>-218.83 92.97 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 10.77 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof7" cast_shadows="true">
+      <pose>-215.32 92.97 21.92 0 0 0</pose>
+      <geometry><box><size>7.56 12.84 0.35</size></box></geometry>
+      <material><ambient>0.50 0.51 0.52</ambient><diffuse>0.50 0.51 0.52</diffuse></material>
+    </visual>
+    <visual name="eq7" cast_shadows="true">
+      <pose>-215.42 91.88 22.55 0 0 0</pose>
+      <geometry><box><size>2.09 3.67 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld8" cast_shadows="true">
+      <pose>-207.17 92.49 8.50 0 0 0.02</pose>
+      <geometry><box><size>12.72 13.20 12.80</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx8_0" cast_shadows="false">
+      <pose>-207.17 99.12 4.30 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws8_0" cast_shadows="false">
+      <pose>-207.17 85.86 4.30 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we8_0" cast_shadows="false">
+      <pose>-200.78 92.49 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn8_0" cast_shadows="false">
+      <pose>-213.56 92.49 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx8_1" cast_shadows="false">
+      <pose>-207.17 99.12 7.50 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws8_1" cast_shadows="false">
+      <pose>-207.17 85.86 7.50 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we8_1" cast_shadows="false">
+      <pose>-200.78 92.49 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn8_1" cast_shadows="false">
+      <pose>-213.56 92.49 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx8_2" cast_shadows="false">
+      <pose>-207.17 99.12 10.70 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws8_2" cast_shadows="false">
+      <pose>-207.17 85.86 10.70 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we8_2" cast_shadows="false">
+      <pose>-200.78 92.49 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn8_2" cast_shadows="false">
+      <pose>-213.56 92.49 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 11.61 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof8" cast_shadows="true">
+      <pose>-207.17 92.49 15.02 0 0 0</pose>
+      <geometry><box><size>13.32 13.80 0.35</size></box></geometry>
+      <material><ambient>0.49 0.50 0.51</ambient><diffuse>0.49 0.50 0.51</diffuse></material>
+    </visual>
+    <visual name="eq8" cast_shadows="true">
+      <pose>-208.96 93.40 15.65 0 0 0</pose>
+      <geometry><box><size>3.81 3.96 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld9" cast_shadows="true">
+      <pose>-158.82 74.37 9.07 0 0 0.02</pose>
+      <geometry><box><size>55.18 22.55 13.94</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx9_0" cast_shadows="false">
+      <pose>-158.82 85.68 4.30 0 0 0</pose>
+      <geometry><box><size>48.56 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws9_0" cast_shadows="false">
+      <pose>-158.82 63.07 4.30 0 0 0</pose>
+      <geometry><box><size>48.56 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we9_0" cast_shadows="false">
+      <pose>-131.20 74.37 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 19.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn9_0" cast_shadows="false">
+      <pose>-186.44 74.37 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 19.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx9_1" cast_shadows="false">
+      <pose>-158.82 85.68 7.50 0 0 0</pose>
+      <geometry><box><size>48.56 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws9_1" cast_shadows="false">
+      <pose>-158.82 63.07 7.50 0 0 0</pose>
+      <geometry><box><size>48.56 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we9_1" cast_shadows="false">
+      <pose>-131.20 74.37 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 19.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn9_1" cast_shadows="false">
+      <pose>-186.44 74.37 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 19.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx9_2" cast_shadows="false">
+      <pose>-158.82 85.68 10.70 0 0 0</pose>
+      <geometry><box><size>48.56 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws9_2" cast_shadows="false">
+      <pose>-158.82 63.07 10.70 0 0 0</pose>
+      <geometry><box><size>48.56 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we9_2" cast_shadows="false">
+      <pose>-131.20 74.37 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 19.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn9_2" cast_shadows="false">
+      <pose>-186.44 74.37 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 19.85 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof9" cast_shadows="true">
+      <pose>-158.82 74.37 16.16 0 0 0</pose>
+      <geometry><box><size>55.78 23.15 0.35</size></box></geometry>
+      <material><ambient>0.54 0.53 0.53</ambient><diffuse>0.54 0.53 0.53</diffuse></material>
+    </visual>
+    <visual name="eq9" cast_shadows="true">
+      <pose>-169.13 71.67 16.79 0 0 0</pose>
+      <geometry><box><size>16.55 6.77 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld10" cast_shadows="true">
+      <pose>-162.54 81.09 9.76 0 0 -0.00</pose>
+      <geometry><box><size>26.63 7.20 15.32</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx10_0" cast_shadows="false">
+      <pose>-162.54 84.72 4.30 0 0 0</pose>
+      <geometry><box><size>23.44 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws10_0" cast_shadows="false">
+      <pose>-162.54 77.46 4.30 0 0 0</pose>
+      <geometry><box><size>23.44 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we10_0" cast_shadows="false">
+      <pose>-149.20 81.09 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 6.33 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn10_0" cast_shadows="false">
+      <pose>-175.89 81.09 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 6.33 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx10_1" cast_shadows="false">
+      <pose>-162.54 84.72 7.50 0 0 0</pose>
+      <geometry><box><size>23.44 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws10_1" cast_shadows="false">
+      <pose>-162.54 77.46 7.50 0 0 0</pose>
+      <geometry><box><size>23.44 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we10_1" cast_shadows="false">
+      <pose>-149.20 81.09 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 6.33 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn10_1" cast_shadows="false">
+      <pose>-175.89 81.09 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 6.33 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx10_2" cast_shadows="false">
+      <pose>-162.54 84.72 10.70 0 0 0</pose>
+      <geometry><box><size>23.44 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws10_2" cast_shadows="false">
+      <pose>-162.54 77.46 10.70 0 0 0</pose>
+      <geometry><box><size>23.44 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we10_2" cast_shadows="false">
+      <pose>-149.20 81.09 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 6.33 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn10_2" cast_shadows="false">
+      <pose>-175.89 81.09 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 6.33 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx10_3" cast_shadows="false">
+      <pose>-162.54 84.72 13.90 0 0 0</pose>
+      <geometry><box><size>23.44 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws10_3" cast_shadows="false">
+      <pose>-162.54 77.46 13.90 0 0 0</pose>
+      <geometry><box><size>23.44 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we10_3" cast_shadows="false">
+      <pose>-149.20 81.09 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 6.33 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn10_3" cast_shadows="false">
+      <pose>-175.89 81.09 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 6.33 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof10" cast_shadows="true">
+      <pose>-162.54 81.09 17.54 0 0 0</pose>
+      <geometry><box><size>27.23 7.80 0.35</size></box></geometry>
+      <material><ambient>0.36 0.39 0.45</ambient><diffuse>0.36 0.39 0.45</diffuse></material>
+    </visual>
+    <visual name="bld11" cast_shadows="true">
+      <pose>-212.69 59.50 11.45 0 0 -0.01</pose>
+      <geometry><box><size>19.43 25.91 18.69</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx11_0" cast_shadows="false">
+      <pose>-212.69 72.48 4.30 0 0 0</pose>
+      <geometry><box><size>17.10 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws11_0" cast_shadows="false">
+      <pose>-212.69 46.51 4.30 0 0 0</pose>
+      <geometry><box><size>17.10 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we11_0" cast_shadows="false">
+      <pose>-202.94 59.50 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 22.80 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn11_0" cast_shadows="false">
+      <pose>-222.43 59.50 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 22.80 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx11_1" cast_shadows="false">
+      <pose>-212.69 72.48 7.50 0 0 0</pose>
+      <geometry><box><size>17.10 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws11_1" cast_shadows="false">
+      <pose>-212.69 46.51 7.50 0 0 0</pose>
+      <geometry><box><size>17.10 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we11_1" cast_shadows="false">
+      <pose>-202.94 59.50 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 22.80 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn11_1" cast_shadows="false">
+      <pose>-222.43 59.50 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 22.80 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx11_2" cast_shadows="false">
+      <pose>-212.69 72.48 10.70 0 0 0</pose>
+      <geometry><box><size>17.10 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws11_2" cast_shadows="false">
+      <pose>-212.69 46.51 10.70 0 0 0</pose>
+      <geometry><box><size>17.10 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we11_2" cast_shadows="false">
+      <pose>-202.94 59.50 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 22.80 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn11_2" cast_shadows="false">
+      <pose>-222.43 59.50 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 22.80 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx11_3" cast_shadows="false">
+      <pose>-212.69 72.48 13.90 0 0 0</pose>
+      <geometry><box><size>17.10 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws11_3" cast_shadows="false">
+      <pose>-212.69 46.51 13.90 0 0 0</pose>
+      <geometry><box><size>17.10 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we11_3" cast_shadows="false">
+      <pose>-202.94 59.50 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 22.80 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn11_3" cast_shadows="false">
+      <pose>-222.43 59.50 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 22.80 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx11_4" cast_shadows="false">
+      <pose>-212.69 72.48 17.10 0 0 0</pose>
+      <geometry><box><size>17.10 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws11_4" cast_shadows="false">
+      <pose>-212.69 46.51 17.10 0 0 0</pose>
+      <geometry><box><size>17.10 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we11_4" cast_shadows="false">
+      <pose>-202.94 59.50 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 22.80 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn11_4" cast_shadows="false">
+      <pose>-222.43 59.50 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 22.80 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof11" cast_shadows="true">
+      <pose>-212.69 59.50 20.91 0 0 0</pose>
+      <geometry><box><size>20.03 26.51 0.35</size></box></geometry>
+      <material><ambient>0.44 0.46 0.47</ambient><diffuse>0.44 0.46 0.47</diffuse></material>
+    </visual>
+    <visual name="eq11" cast_shadows="true">
+      <pose>-215.33 64.64 21.54 0 0 0</pose>
+      <geometry><box><size>5.83 7.77 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld12" cast_shadows="true">
+      <pose>-144.19 61.42 10.31 0 0 0.01</pose>
+      <geometry><box><size>6.00 9.12 16.41</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx12_0" cast_shadows="false">
+      <pose>-144.19 66.01 4.30 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws12_0" cast_shadows="false">
+      <pose>-144.19 56.83 4.30 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we12_0" cast_shadows="false">
+      <pose>-141.16 61.42 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn12_0" cast_shadows="false">
+      <pose>-147.22 61.42 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx12_1" cast_shadows="false">
+      <pose>-144.19 66.01 7.50 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws12_1" cast_shadows="false">
+      <pose>-144.19 56.83 7.50 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we12_1" cast_shadows="false">
+      <pose>-141.16 61.42 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn12_1" cast_shadows="false">
+      <pose>-147.22 61.42 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx12_2" cast_shadows="false">
+      <pose>-144.19 66.01 10.70 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws12_2" cast_shadows="false">
+      <pose>-144.19 56.83 10.70 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we12_2" cast_shadows="false">
+      <pose>-141.16 61.42 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn12_2" cast_shadows="false">
+      <pose>-147.22 61.42 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx12_3" cast_shadows="false">
+      <pose>-144.19 66.01 13.90 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws12_3" cast_shadows="false">
+      <pose>-144.19 56.83 13.90 0 0 0</pose>
+      <geometry><box><size>5.28 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we12_3" cast_shadows="false">
+      <pose>-141.16 61.42 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn12_3" cast_shadows="false">
+      <pose>-147.22 61.42 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof12" cast_shadows="true">
+      <pose>-144.19 61.42 18.63 0 0 0</pose>
+      <geometry><box><size>6.60 9.72 0.35</size></box></geometry>
+      <material><ambient>0.53 0.53 0.52</ambient><diffuse>0.53 0.53 0.52</diffuse></material>
+    </visual>
+    <visual name="eq12" cast_shadows="true">
+      <pose>-145.31 62.68 19.26 0 0 0</pose>
+      <geometry><box><size>1.80 2.74 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld13" cast_shadows="true">
+      <pose>-168.42 59.50 10.92 0 0 -0.01</pose>
+      <geometry><box><size>8.64 9.12 17.64</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx13_0" cast_shadows="false">
+      <pose>-168.42 64.09 4.30 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws13_0" cast_shadows="false">
+      <pose>-168.42 54.91 4.30 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we13_0" cast_shadows="false">
+      <pose>-164.07 59.50 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn13_0" cast_shadows="false">
+      <pose>-172.77 59.50 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx13_1" cast_shadows="false">
+      <pose>-168.42 64.09 7.50 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws13_1" cast_shadows="false">
+      <pose>-168.42 54.91 7.50 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we13_1" cast_shadows="false">
+      <pose>-164.07 59.50 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn13_1" cast_shadows="false">
+      <pose>-172.77 59.50 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx13_2" cast_shadows="false">
+      <pose>-168.42 64.09 10.70 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws13_2" cast_shadows="false">
+      <pose>-168.42 54.91 10.70 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we13_2" cast_shadows="false">
+      <pose>-164.07 59.50 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn13_2" cast_shadows="false">
+      <pose>-172.77 59.50 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx13_3" cast_shadows="false">
+      <pose>-168.42 64.09 13.90 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws13_3" cast_shadows="false">
+      <pose>-168.42 54.91 13.90 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we13_3" cast_shadows="false">
+      <pose>-164.07 59.50 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn13_3" cast_shadows="false">
+      <pose>-172.77 59.50 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx13_4" cast_shadows="false">
+      <pose>-168.42 64.09 17.10 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws13_4" cast_shadows="false">
+      <pose>-168.42 54.91 17.10 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we13_4" cast_shadows="false">
+      <pose>-164.07 59.50 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn13_4" cast_shadows="false">
+      <pose>-172.77 59.50 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 8.02 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof13" cast_shadows="true">
+      <pose>-168.42 59.50 19.86 0 0 0</pose>
+      <geometry><box><size>9.24 9.72 0.35</size></box></geometry>
+      <material><ambient>0.37 0.41 0.45</ambient><diffuse>0.37 0.41 0.45</diffuse></material>
+    </visual>
+    <visual name="eq13" cast_shadows="true">
+      <pose>-169.84 58.31 20.49 0 0 0</pose>
+      <geometry><box><size>2.59 2.74 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld14" cast_shadows="true">
+      <pose>-190.49 60.10 8.22 0 0 0.01</pose>
+      <geometry><box><size>17.27 6.00 12.24</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx14_0" cast_shadows="false">
+      <pose>-190.49 63.13 4.30 0 0 0</pose>
+      <geometry><box><size>15.20 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws14_0" cast_shadows="false">
+      <pose>-190.49 57.07 4.30 0 0 0</pose>
+      <geometry><box><size>15.20 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we14_0" cast_shadows="false">
+      <pose>-181.83 60.10 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn14_0" cast_shadows="false">
+      <pose>-199.16 60.10 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx14_1" cast_shadows="false">
+      <pose>-190.49 63.13 7.50 0 0 0</pose>
+      <geometry><box><size>15.20 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws14_1" cast_shadows="false">
+      <pose>-190.49 57.07 7.50 0 0 0</pose>
+      <geometry><box><size>15.20 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we14_1" cast_shadows="false">
+      <pose>-181.83 60.10 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn14_1" cast_shadows="false">
+      <pose>-199.16 60.10 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx14_2" cast_shadows="false">
+      <pose>-190.49 63.13 10.70 0 0 0</pose>
+      <geometry><box><size>15.20 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws14_2" cast_shadows="false">
+      <pose>-190.49 57.07 10.70 0 0 0</pose>
+      <geometry><box><size>15.20 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we14_2" cast_shadows="false">
+      <pose>-181.83 60.10 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn14_2" cast_shadows="false">
+      <pose>-199.16 60.10 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof14" cast_shadows="true">
+      <pose>-190.49 60.10 14.46 0 0 0</pose>
+      <geometry><box><size>17.87 6.60 0.35</size></box></geometry>
+      <material><ambient>0.54 0.54 0.55</ambient><diffuse>0.54 0.54 0.55</diffuse></material>
+    </visual>
+    <visual name="eq14" cast_shadows="true">
+      <pose>-193.07 60.67 15.09 0 0 0</pose>
+      <geometry><box><size>5.18 1.80 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld15" cast_shadows="true">
+      <pose>-133.99 56.26 9.04 0 0 -0.02</pose>
+      <geometry><box><size>14.16 8.40 13.88</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx15_0" cast_shadows="false">
+      <pose>-133.99 60.49 4.30 0 0 0</pose>
+      <geometry><box><size>12.46 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws15_0" cast_shadows="false">
+      <pose>-133.99 52.03 4.30 0 0 0</pose>
+      <geometry><box><size>12.46 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we15_0" cast_shadows="false">
+      <pose>-126.89 56.26 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 7.39 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn15_0" cast_shadows="false">
+      <pose>-141.10 56.26 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 7.39 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx15_1" cast_shadows="false">
+      <pose>-133.99 60.49 7.50 0 0 0</pose>
+      <geometry><box><size>12.46 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws15_1" cast_shadows="false">
+      <pose>-133.99 52.03 7.50 0 0 0</pose>
+      <geometry><box><size>12.46 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we15_1" cast_shadows="false">
+      <pose>-126.89 56.26 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 7.39 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn15_1" cast_shadows="false">
+      <pose>-141.10 56.26 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 7.39 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx15_2" cast_shadows="false">
+      <pose>-133.99 60.49 10.70 0 0 0</pose>
+      <geometry><box><size>12.46 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws15_2" cast_shadows="false">
+      <pose>-133.99 52.03 10.70 0 0 0</pose>
+      <geometry><box><size>12.46 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we15_2" cast_shadows="false">
+      <pose>-126.89 56.26 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 7.39 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn15_2" cast_shadows="false">
+      <pose>-141.10 56.26 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 7.39 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof15" cast_shadows="true">
+      <pose>-133.99 56.26 16.10 0 0 0</pose>
+      <geometry><box><size>14.76 9.00 0.35</size></box></geometry>
+      <material><ambient>0.53 0.53 0.54</ambient><diffuse>0.53 0.53 0.54</diffuse></material>
+    </visual>
+    <visual name="eq15" cast_shadows="true">
+      <pose>-131.75 54.67 16.73 0 0 0</pose>
+      <geometry><box><size>4.25 2.52 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld16" cast_shadows="true">
+      <pose>-218.44 47.50 11.96 0 0 -0.01</pose>
+      <geometry><box><size>9.36 10.08 19.73</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx16_0" cast_shadows="false">
+      <pose>-218.44 52.57 4.30 0 0 0</pose>
+      <geometry><box><size>8.23 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws16_0" cast_shadows="false">
+      <pose>-218.44 42.44 4.30 0 0 0</pose>
+      <geometry><box><size>8.23 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we16_0" cast_shadows="false">
+      <pose>-213.74 47.50 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn16_0" cast_shadows="false">
+      <pose>-223.15 47.50 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx16_1" cast_shadows="false">
+      <pose>-218.44 52.57 7.50 0 0 0</pose>
+      <geometry><box><size>8.23 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws16_1" cast_shadows="false">
+      <pose>-218.44 42.44 7.50 0 0 0</pose>
+      <geometry><box><size>8.23 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we16_1" cast_shadows="false">
+      <pose>-213.74 47.50 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn16_1" cast_shadows="false">
+      <pose>-223.15 47.50 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx16_2" cast_shadows="false">
+      <pose>-218.44 52.57 10.70 0 0 0</pose>
+      <geometry><box><size>8.23 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws16_2" cast_shadows="false">
+      <pose>-218.44 42.44 10.70 0 0 0</pose>
+      <geometry><box><size>8.23 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we16_2" cast_shadows="false">
+      <pose>-213.74 47.50 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn16_2" cast_shadows="false">
+      <pose>-223.15 47.50 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx16_3" cast_shadows="false">
+      <pose>-218.44 52.57 13.90 0 0 0</pose>
+      <geometry><box><size>8.23 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws16_3" cast_shadows="false">
+      <pose>-218.44 42.44 13.90 0 0 0</pose>
+      <geometry><box><size>8.23 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we16_3" cast_shadows="false">
+      <pose>-213.74 47.50 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn16_3" cast_shadows="false">
+      <pose>-223.15 47.50 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx16_4" cast_shadows="false">
+      <pose>-218.44 52.57 17.10 0 0 0</pose>
+      <geometry><box><size>8.23 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws16_4" cast_shadows="false">
+      <pose>-218.44 42.44 17.10 0 0 0</pose>
+      <geometry><box><size>8.23 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we16_4" cast_shadows="false">
+      <pose>-213.74 47.50 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn16_4" cast_shadows="false">
+      <pose>-223.15 47.50 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof16" cast_shadows="true">
+      <pose>-218.44 47.50 21.95 0 0 0</pose>
+      <geometry><box><size>9.96 10.68 0.35</size></box></geometry>
+      <material><ambient>0.40 0.42 0.46</ambient><diffuse>0.40 0.42 0.46</diffuse></material>
+    </visual>
+    <visual name="eq16" cast_shadows="true">
+      <pose>-220.25 46.67 22.58 0 0 0</pose>
+      <geometry><box><size>2.81 3.02 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld17" cast_shadows="true">
+      <pose>-151.75 18.35 11.59 0 0 -0.00</pose>
+      <geometry><box><size>7.44 6.00 18.98</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx17_0" cast_shadows="false">
+      <pose>-151.75 21.38 4.30 0 0 0</pose>
+      <geometry><box><size>6.54 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws17_0" cast_shadows="false">
+      <pose>-151.75 15.32 4.30 0 0 0</pose>
+      <geometry><box><size>6.54 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we17_0" cast_shadows="false">
+      <pose>-148.00 18.35 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn17_0" cast_shadows="false">
+      <pose>-155.50 18.35 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx17_1" cast_shadows="false">
+      <pose>-151.75 21.38 7.50 0 0 0</pose>
+      <geometry><box><size>6.54 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws17_1" cast_shadows="false">
+      <pose>-151.75 15.32 7.50 0 0 0</pose>
+      <geometry><box><size>6.54 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we17_1" cast_shadows="false">
+      <pose>-148.00 18.35 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn17_1" cast_shadows="false">
+      <pose>-155.50 18.35 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx17_2" cast_shadows="false">
+      <pose>-151.75 21.38 10.70 0 0 0</pose>
+      <geometry><box><size>6.54 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws17_2" cast_shadows="false">
+      <pose>-151.75 15.32 10.70 0 0 0</pose>
+      <geometry><box><size>6.54 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we17_2" cast_shadows="false">
+      <pose>-148.00 18.35 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn17_2" cast_shadows="false">
+      <pose>-155.50 18.35 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx17_3" cast_shadows="false">
+      <pose>-151.75 21.38 13.90 0 0 0</pose>
+      <geometry><box><size>6.54 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws17_3" cast_shadows="false">
+      <pose>-151.75 15.32 13.90 0 0 0</pose>
+      <geometry><box><size>6.54 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we17_3" cast_shadows="false">
+      <pose>-148.00 18.35 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn17_3" cast_shadows="false">
+      <pose>-155.50 18.35 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx17_4" cast_shadows="false">
+      <pose>-151.75 21.38 17.10 0 0 0</pose>
+      <geometry><box><size>6.54 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws17_4" cast_shadows="false">
+      <pose>-151.75 15.32 17.10 0 0 0</pose>
+      <geometry><box><size>6.54 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we17_4" cast_shadows="false">
+      <pose>-148.00 18.35 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn17_4" cast_shadows="false">
+      <pose>-155.50 18.35 17.10 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof17" cast_shadows="true">
+      <pose>-151.75 18.35 21.20 0 0 0</pose>
+      <geometry><box><size>8.04 6.60 0.35</size></box></geometry>
+      <material><ambient>0.34 0.40 0.44</ambient><diffuse>0.34 0.40 0.44</diffuse></material>
+    </visual>
+    <visual name="bld18" cast_shadows="true">
+      <pose>-119.12 -41.51 9.14 0 0 -0.01</pose>
+      <geometry><box><size>12.72 18.71 14.09</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx18_0" cast_shadows="false">
+      <pose>-119.12 -32.12 4.30 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws18_0" cast_shadows="false">
+      <pose>-119.12 -50.89 4.30 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we18_0" cast_shadows="false">
+      <pose>-112.73 -41.51 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 16.47 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn18_0" cast_shadows="false">
+      <pose>-125.51 -41.51 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 16.47 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx18_1" cast_shadows="false">
+      <pose>-119.12 -32.12 7.50 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws18_1" cast_shadows="false">
+      <pose>-119.12 -50.89 7.50 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we18_1" cast_shadows="false">
+      <pose>-112.73 -41.51 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 16.47 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn18_1" cast_shadows="false">
+      <pose>-125.51 -41.51 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 16.47 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx18_2" cast_shadows="false">
+      <pose>-119.12 -32.12 10.70 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws18_2" cast_shadows="false">
+      <pose>-119.12 -50.89 10.70 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we18_2" cast_shadows="false">
+      <pose>-112.73 -41.51 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 16.47 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn18_2" cast_shadows="false">
+      <pose>-125.51 -41.51 10.70 0 0 0</pose>
+      <geometry><box><size>0.06 16.47 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx18_3" cast_shadows="false">
+      <pose>-119.12 -32.12 13.90 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws18_3" cast_shadows="false">
+      <pose>-119.12 -50.89 13.90 0 0 0</pose>
+      <geometry><box><size>11.19 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we18_3" cast_shadows="false">
+      <pose>-112.73 -41.51 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 16.47 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn18_3" cast_shadows="false">
+      <pose>-125.51 -41.51 13.90 0 0 0</pose>
+      <geometry><box><size>0.06 16.47 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof18" cast_shadows="true">
+      <pose>-119.12 -41.51 16.31 0 0 0</pose>
+      <geometry><box><size>13.32 19.31 0.35</size></box></geometry>
+      <material><ambient>0.47 0.47 0.49</ambient><diffuse>0.47 0.47 0.49</diffuse></material>
+    </visual>
+    <visual name="eq18" cast_shadows="true">
+      <pose>-116.69 -38.20 16.94 0 0 0</pose>
+      <geometry><box><size>3.81 5.61 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld19" cast_shadows="true">
+      <pose>-126.68 -76.77 5.44 0 0 -0.00</pose>
+      <geometry><box><size>8.64 10.08 6.68</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx19_0" cast_shadows="false">
+      <pose>-126.68 -71.70 4.30 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws19_0" cast_shadows="false">
+      <pose>-126.68 -81.84 4.30 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we19_0" cast_shadows="false">
+      <pose>-122.33 -76.77 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn19_0" cast_shadows="false">
+      <pose>-131.02 -76.77 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx19_1" cast_shadows="false">
+      <pose>-126.68 -71.70 7.50 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws19_1" cast_shadows="false">
+      <pose>-126.68 -81.84 7.50 0 0 0</pose>
+      <geometry><box><size>7.60 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we19_1" cast_shadows="false">
+      <pose>-122.33 -76.77 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn19_1" cast_shadows="false">
+      <pose>-131.02 -76.77 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 8.87 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof19" cast_shadows="true">
+      <pose>-126.68 -76.77 8.90 0 0 0</pose>
+      <geometry><box><size>9.24 10.68 0.35</size></box></geometry>
+      <material><ambient>0.28 0.37 0.41</ambient><diffuse>0.28 0.37 0.41</diffuse></material>
+    </visual>
+    <visual name="eq19" cast_shadows="true">
+      <pose>-125.82 -78.63 9.53 0 0 0</pose>
+      <geometry><box><size>2.59 3.02 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld20" cast_shadows="true">
+      <pose>-126.92 -90.09 4.87 0 0 -0.00</pose>
+      <geometry><box><size>7.68 6.00 5.53</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx20_0" cast_shadows="false">
+      <pose>-126.92 -87.06 4.30 0 0 0</pose>
+      <geometry><box><size>6.76 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws20_0" cast_shadows="false">
+      <pose>-126.92 -93.12 4.30 0 0 0</pose>
+      <geometry><box><size>6.76 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we20_0" cast_shadows="false">
+      <pose>-123.05 -90.09 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn20_0" cast_shadows="false">
+      <pose>-130.78 -90.09 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx20_1" cast_shadows="false">
+      <pose>-126.92 -87.06 7.50 0 0 0</pose>
+      <geometry><box><size>6.76 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws20_1" cast_shadows="false">
+      <pose>-126.92 -93.12 7.50 0 0 0</pose>
+      <geometry><box><size>6.76 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we20_1" cast_shadows="false">
+      <pose>-123.05 -90.09 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn20_1" cast_shadows="false">
+      <pose>-130.78 -90.09 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 5.28 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof20" cast_shadows="true">
+      <pose>-126.92 -90.09 7.75 0 0 0</pose>
+      <geometry><box><size>8.28 6.60 0.35</size></box></geometry>
+      <material><ambient>0.35 0.40 0.44</ambient><diffuse>0.35 0.40 0.44</diffuse></material>
+    </visual>
+    <visual name="eq20" cast_shadows="true">
+      <pose>-125.86 -89.51 8.38 0 0 0</pose>
+      <geometry><box><size>2.30 1.80 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld21" cast_shadows="true">
+      <pose>-191.93 -112.16 5.00 0 0 0.01</pose>
+      <geometry><box><size>73.89 28.55 7.54</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx21_0" cast_shadows="false">
+      <pose>-191.93 -97.86 3.43 0 0 0</pose>
+      <geometry><box><size>65.03 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws21_0" cast_shadows="false">
+      <pose>-191.93 -126.47 3.43 0 0 0</pose>
+      <geometry><box><size>65.03 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we21_0" cast_shadows="false">
+      <pose>-154.96 -112.16 3.43 0 0 0</pose>
+      <geometry><box><size>0.06 25.12 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn21_0" cast_shadows="false">
+      <pose>-228.91 -112.16 3.43 0 0 0</pose>
+      <geometry><box><size>0.06 25.12 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx21_1" cast_shadows="false">
+      <pose>-191.93 -97.86 6.63 0 0 0</pose>
+      <geometry><box><size>65.03 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws21_1" cast_shadows="false">
+      <pose>-191.93 -126.47 6.63 0 0 0</pose>
+      <geometry><box><size>65.03 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we21_1" cast_shadows="false">
+      <pose>-154.96 -112.16 6.63 0 0 0</pose>
+      <geometry><box><size>0.06 25.12 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn21_1" cast_shadows="false">
+      <pose>-228.91 -112.16 6.63 0 0 0</pose>
+      <geometry><box><size>0.06 25.12 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof21" cast_shadows="true">
+      <pose>-191.93 -112.16 8.89 0 0 0</pose>
+      <geometry><box><size>74.49 29.15 0.35</size></box></geometry>
+      <material><ambient>0.39 0.42 0.45</ambient><diffuse>0.39 0.42 0.45</diffuse></material>
+    </visual>
+    <visual name="bld22" cast_shadows="true">
+      <pose>-114.08 -116.72 6.37 0 0 0.02</pose>
+      <geometry><box><size>17.51 10.32 8.53</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx22_0" cast_shadows="false">
+      <pose>-114.08 -111.53 4.30 0 0 0</pose>
+      <geometry><box><size>15.41 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws22_0" cast_shadows="false">
+      <pose>-114.08 -121.91 4.30 0 0 0</pose>
+      <geometry><box><size>15.41 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we22_0" cast_shadows="false">
+      <pose>-105.29 -116.72 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 9.08 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn22_0" cast_shadows="false">
+      <pose>-122.87 -116.72 4.30 0 0 0</pose>
+      <geometry><box><size>0.06 9.08 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx22_1" cast_shadows="false">
+      <pose>-114.08 -111.53 7.50 0 0 0</pose>
+      <geometry><box><size>15.41 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws22_1" cast_shadows="false">
+      <pose>-114.08 -121.91 7.50 0 0 0</pose>
+      <geometry><box><size>15.41 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we22_1" cast_shadows="false">
+      <pose>-105.29 -116.72 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 9.08 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn22_1" cast_shadows="false">
+      <pose>-122.87 -116.72 7.50 0 0 0</pose>
+      <geometry><box><size>0.06 9.08 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof22" cast_shadows="true">
+      <pose>-114.08 -116.72 10.75 0 0 0</pose>
+      <geometry><box><size>18.11 10.92 0.35</size></box></geometry>
+      <material><ambient>0.33 0.39 0.43</ambient><diffuse>0.33 0.39 0.43</diffuse></material>
+    </visual>
+    <visual name="eq22" cast_shadows="true">
+      <pose>-113.20 -118.19 11.38 0 0 0</pose>
+      <geometry><box><size>5.25 3.09 1.1</size></box></geometry>
+      <material><ambient>0.6 0.6 0.6</ambient><diffuse>0.66 0.66 0.66</diffuse></material>
+    </visual>
+    <visual name="bld23" cast_shadows="true">
+      <pose>40.55 -121.64 5.61 0 0 0.01</pose>
+      <geometry><box><size>12.48 9.60 7.11</size></box></geometry>
+      <material><ambient>0.78 0.72 0.58</ambient><diffuse>0.84 0.78 0.64</diffuse></material>
+    </visual>
+    <visual name="wx23_0" cast_shadows="false">
+      <pose>40.55 -116.81 4.25 0 0 0</pose>
+      <geometry><box><size>10.98 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws23_0" cast_shadows="false">
+      <pose>40.55 -126.47 4.25 0 0 0</pose>
+      <geometry><box><size>10.98 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we23_0" cast_shadows="false">
+      <pose>46.81 -121.64 4.25 0 0 0</pose>
+      <geometry><box><size>0.06 8.45 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn23_0" cast_shadows="false">
+      <pose>34.28 -121.64 4.25 0 0 0</pose>
+      <geometry><box><size>0.06 8.45 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wx23_1" cast_shadows="false">
+      <pose>40.55 -116.81 7.45 0 0 0</pose>
+      <geometry><box><size>10.98 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="ws23_1" cast_shadows="false">
+      <pose>40.55 -126.47 7.45 0 0 0</pose>
+      <geometry><box><size>10.98 0.06 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="we23_1" cast_shadows="false">
+      <pose>46.81 -121.64 7.45 0 0 0</pose>
+      <geometry><box><size>0.06 8.45 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="wn23_1" cast_shadows="false">
+      <pose>34.28 -121.64 7.45 0 0 0</pose>
+      <geometry><box><size>0.06 8.45 1.3</size></box></geometry>
+      <material><ambient>0.32 0.37 0.42</ambient><diffuse>0.38 0.43 0.48</diffuse></material>
+    </visual>
+    <visual name="roof23" cast_shadows="true">
+      <pose>40.55 -121.64 9.28 0 0 0</pose>
+      <geometry><box><size>13.08 10.20 0.35</size></box></geometry>
+      <material><ambient>0.40 0.41 0.45</ambient><diffuse>0.40 0.41 0.45</diffuse></material>
+    </visual>
+    </link>
+  </model>
+</sdf>

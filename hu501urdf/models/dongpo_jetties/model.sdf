@@ -1,0 +1,1277 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="dongpo_jetties">
+    <static>true</static>
+    <link name="jetties">
+    <visual name="jv0" cast_shadows="true">
+      <pose>-119.96 105.80 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc0">
+      <pose>-119.96 105.80 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv1" cast_shadows="true">
+      <pose>-120.20 105.32 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc1">
+      <pose>-120.20 105.32 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv2" cast_shadows="true">
+      <pose>-120.68 105.80 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc2">
+      <pose>-120.68 105.80 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv3" cast_shadows="true">
+      <pose>-120.68 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc3">
+      <pose>-120.68 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv4" cast_shadows="true">
+      <pose>-120.92 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc4">
+      <pose>-120.92 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv5" cast_shadows="true">
+      <pose>-121.16 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc5">
+      <pose>-121.16 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv6" cast_shadows="true">
+      <pose>-121.40 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc6">
+      <pose>-121.40 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv7" cast_shadows="true">
+      <pose>-121.88 105.80 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc7">
+      <pose>-121.88 105.80 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv8" cast_shadows="true">
+      <pose>-121.64 104.60 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc8">
+      <pose>-121.64 104.60 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv9" cast_shadows="true">
+      <pose>-122.12 105.32 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc9">
+      <pose>-122.12 105.32 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv10" cast_shadows="true">
+      <pose>-122.12 104.84 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc10">
+      <pose>-122.12 104.84 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv11" cast_shadows="true">
+      <pose>-122.60 105.56 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc11">
+      <pose>-122.60 105.56 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv12" cast_shadows="true">
+      <pose>-122.36 104.36 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc12">
+      <pose>-122.36 104.36 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv13" cast_shadows="true">
+      <pose>-122.84 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc13">
+      <pose>-122.84 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv14" cast_shadows="true">
+      <pose>-123.08 105.32 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc14">
+      <pose>-123.08 105.32 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv15" cast_shadows="true">
+      <pose>-123.08 104.84 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc15">
+      <pose>-123.08 104.84 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv16" cast_shadows="true">
+      <pose>-123.32 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc16">
+      <pose>-123.32 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv17" cast_shadows="true">
+      <pose>-123.08 104.12 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc17">
+      <pose>-123.08 104.12 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv18" cast_shadows="true">
+      <pose>-123.56 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc18">
+      <pose>-123.56 105.08 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv19" cast_shadows="true">
+      <pose>-123.32 104.12 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc19">
+      <pose>-123.32 104.12 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv20" cast_shadows="true">
+      <pose>-123.56 104.36 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc20">
+      <pose>-123.56 104.36 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv21" cast_shadows="true">
+      <pose>-123.56 103.88 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc21">
+      <pose>-123.56 103.88 0.05 0 0 -2.780</pose>
+      <geometry><box><size>1.38 2.67 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv22" cast_shadows="true">
+      <pose>-127.64 73.65 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc22">
+      <pose>-127.64 73.65 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv23" cast_shadows="true">
+      <pose>-128.83 73.65 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc23">
+      <pose>-128.83 73.65 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv24" cast_shadows="true">
+      <pose>-127.88 73.41 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc24">
+      <pose>-127.88 73.41 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv25" cast_shadows="true">
+      <pose>-129.07 73.41 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc25">
+      <pose>-129.07 73.41 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv26" cast_shadows="true">
+      <pose>-128.12 73.17 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc26">
+      <pose>-128.12 73.17 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv27" cast_shadows="true">
+      <pose>-129.31 73.17 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc27">
+      <pose>-129.31 73.17 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv28" cast_shadows="true">
+      <pose>-128.36 72.93 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc28">
+      <pose>-128.36 72.93 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv29" cast_shadows="true">
+      <pose>-129.55 72.93 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc29">
+      <pose>-129.55 72.93 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv30" cast_shadows="true">
+      <pose>-128.83 72.69 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc30">
+      <pose>-128.83 72.69 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv31" cast_shadows="true">
+      <pose>-128.12 72.45 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc31">
+      <pose>-128.12 72.45 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv32" cast_shadows="true">
+      <pose>-129.31 72.45 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc32">
+      <pose>-129.31 72.45 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv33" cast_shadows="true">
+      <pose>-128.60 72.21 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc33">
+      <pose>-128.60 72.21 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv34" cast_shadows="true">
+      <pose>-128.12 71.97 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc34">
+      <pose>-128.12 71.97 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv35" cast_shadows="true">
+      <pose>-129.31 71.97 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc35">
+      <pose>-129.31 71.97 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv36" cast_shadows="true">
+      <pose>-128.83 71.73 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc36">
+      <pose>-128.83 71.73 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv37" cast_shadows="true">
+      <pose>-128.60 71.50 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc37">
+      <pose>-128.60 71.50 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv38" cast_shadows="true">
+      <pose>-128.60 71.26 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc38">
+      <pose>-128.60 71.26 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv39" cast_shadows="true">
+      <pose>-128.60 71.02 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc39">
+      <pose>-128.60 71.02 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv40" cast_shadows="true">
+      <pose>-128.83 70.78 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc40">
+      <pose>-128.83 70.78 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv41" cast_shadows="true">
+      <pose>-129.31 70.54 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc41">
+      <pose>-129.31 70.54 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv42" cast_shadows="true">
+      <pose>-128.83 70.06 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc42">
+      <pose>-128.83 70.06 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv43" cast_shadows="true">
+      <pose>-128.12 69.82 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc43">
+      <pose>-128.12 69.82 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv44" cast_shadows="true">
+      <pose>-129.31 69.82 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc44">
+      <pose>-129.31 69.82 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv45" cast_shadows="true">
+      <pose>-128.36 69.58 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc45">
+      <pose>-128.36 69.58 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv46" cast_shadows="true">
+      <pose>-129.55 69.58 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc46">
+      <pose>-129.55 69.58 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv47" cast_shadows="true">
+      <pose>-128.83 69.34 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc47">
+      <pose>-128.83 69.34 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv48" cast_shadows="true">
+      <pose>-128.12 69.10 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc48">
+      <pose>-128.12 69.10 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv49" cast_shadows="true">
+      <pose>-129.31 69.10 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc49">
+      <pose>-129.31 69.10 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv50" cast_shadows="true">
+      <pose>-128.83 68.86 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc50">
+      <pose>-128.83 68.86 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv51" cast_shadows="true">
+      <pose>-128.83 68.62 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc51">
+      <pose>-128.83 68.62 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv52" cast_shadows="true">
+      <pose>-128.60 68.38 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc52">
+      <pose>-128.60 68.38 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv53" cast_shadows="true">
+      <pose>-129.79 68.38 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc53">
+      <pose>-129.79 68.38 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv54" cast_shadows="true">
+      <pose>-129.55 68.14 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc54">
+      <pose>-129.55 68.14 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv55" cast_shadows="true">
+      <pose>-129.31 67.90 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc55">
+      <pose>-129.31 67.90 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv56" cast_shadows="true">
+      <pose>-129.07 67.66 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc56">
+      <pose>-129.07 67.66 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv57" cast_shadows="true">
+      <pose>-128.83 67.42 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc57">
+      <pose>-128.83 67.42 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv58" cast_shadows="true">
+      <pose>-128.60 67.18 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc58">
+      <pose>-128.60 67.18 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv59" cast_shadows="true">
+      <pose>-129.79 67.18 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc59">
+      <pose>-129.79 67.18 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv60" cast_shadows="true">
+      <pose>-129.55 66.94 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc60">
+      <pose>-129.55 66.94 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv61" cast_shadows="true">
+      <pose>-129.55 66.70 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc61">
+      <pose>-129.55 66.70 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv62" cast_shadows="true">
+      <pose>-129.55 66.46 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc62">
+      <pose>-129.55 66.46 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv63" cast_shadows="true">
+      <pose>-129.55 66.22 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc63">
+      <pose>-129.55 66.22 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv64" cast_shadows="true">
+      <pose>-129.55 65.98 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc64">
+      <pose>-129.55 65.98 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv65" cast_shadows="true">
+      <pose>-129.55 65.74 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc65">
+      <pose>-129.55 65.74 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv66" cast_shadows="true">
+      <pose>-129.55 65.50 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc66">
+      <pose>-129.55 65.50 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv67" cast_shadows="true">
+      <pose>-129.55 65.26 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc67">
+      <pose>-129.55 65.26 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv68" cast_shadows="true">
+      <pose>-129.55 65.02 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc68">
+      <pose>-129.55 65.02 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv69" cast_shadows="true">
+      <pose>-129.79 64.78 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc69">
+      <pose>-129.79 64.78 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv70" cast_shadows="true">
+      <pose>-129.07 64.30 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc70">
+      <pose>-129.07 64.30 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv71" cast_shadows="true">
+      <pose>-129.31 64.06 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc71">
+      <pose>-129.31 64.06 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv72" cast_shadows="true">
+      <pose>-129.55 63.82 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc72">
+      <pose>-129.55 63.82 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv73" cast_shadows="true">
+      <pose>-129.79 63.58 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc73">
+      <pose>-129.79 63.58 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv74" cast_shadows="true">
+      <pose>-129.79 63.10 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc74">
+      <pose>-129.79 63.10 0.05 0 0 -1.670</pose>
+      <geometry><box><size>1.38 2.59 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv75" cast_shadows="true">
+      <pose>-130.99 7.44 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc75">
+      <pose>-130.99 7.44 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv76" cast_shadows="true">
+      <pose>-130.99 7.20 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc76">
+      <pose>-130.99 7.20 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv77" cast_shadows="true">
+      <pose>-131.47 6.96 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc77">
+      <pose>-131.47 6.96 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv78" cast_shadows="true">
+      <pose>-131.95 6.72 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc78">
+      <pose>-131.95 6.72 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv79" cast_shadows="true">
+      <pose>-130.27 6.96 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc79">
+      <pose>-130.27 6.96 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv80" cast_shadows="true">
+      <pose>-129.79 6.96 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc80">
+      <pose>-129.79 6.96 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv81" cast_shadows="true">
+      <pose>-130.51 6.72 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc81">
+      <pose>-130.51 6.72 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv82" cast_shadows="true">
+      <pose>-132.19 6.24 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc82">
+      <pose>-132.19 6.24 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv83" cast_shadows="true">
+      <pose>-129.55 6.72 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc83">
+      <pose>-129.55 6.72 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv84" cast_shadows="true">
+      <pose>-131.23 6.24 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc84">
+      <pose>-131.23 6.24 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv85" cast_shadows="true">
+      <pose>-131.95 6.00 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc85">
+      <pose>-131.95 6.00 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv86" cast_shadows="true">
+      <pose>-131.47 6.00 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc86">
+      <pose>-131.47 6.00 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv87" cast_shadows="true">
+      <pose>-130.99 6.00 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc87">
+      <pose>-130.99 6.00 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv88" cast_shadows="true">
+      <pose>-131.71 5.76 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc88">
+      <pose>-131.71 5.76 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv89" cast_shadows="true">
+      <pose>-130.03 6.00 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc89">
+      <pose>-130.03 6.00 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv90" cast_shadows="true">
+      <pose>-130.75 5.76 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc90">
+      <pose>-130.75 5.76 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv91" cast_shadows="true">
+      <pose>-130.27 5.76 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc91">
+      <pose>-130.27 5.76 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv92" cast_shadows="true">
+      <pose>-131.95 5.28 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc92">
+      <pose>-131.95 5.28 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv93" cast_shadows="true">
+      <pose>-131.47 5.28 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc93">
+      <pose>-131.47 5.28 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv94" cast_shadows="true">
+      <pose>-129.79 5.52 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc94">
+      <pose>-129.79 5.52 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv95" cast_shadows="true">
+      <pose>-130.51 5.28 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc95">
+      <pose>-130.51 5.28 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv96" cast_shadows="true">
+      <pose>-130.99 5.04 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc96">
+      <pose>-130.99 5.04 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv97" cast_shadows="true">
+      <pose>-130.51 5.04 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc97">
+      <pose>-130.51 5.04 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv98" cast_shadows="true">
+      <pose>-130.99 4.80 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc98">
+      <pose>-130.99 4.80 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv99" cast_shadows="true">
+      <pose>-131.47 4.56 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc99">
+      <pose>-131.47 4.56 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv100" cast_shadows="true">
+      <pose>-129.79 4.80 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc100">
+      <pose>-129.79 4.80 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv101" cast_shadows="true">
+      <pose>-131.23 4.32 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc101">
+      <pose>-131.23 4.32 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv102" cast_shadows="true">
+      <pose>-130.51 4.32 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc102">
+      <pose>-130.51 4.32 0.05 0 0 -1.371</pose>
+      <geometry><box><size>1.38 3.40 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv103" cast_shadows="true">
+      <pose>-125.72 -53.02 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc103">
+      <pose>-125.72 -53.02 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv104" cast_shadows="true">
+      <pose>-125.96 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc104">
+      <pose>-125.96 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv105" cast_shadows="true">
+      <pose>-126.44 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc105">
+      <pose>-126.44 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv106" cast_shadows="true">
+      <pose>-126.92 -53.02 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc106">
+      <pose>-126.92 -53.02 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv107" cast_shadows="true">
+      <pose>-127.16 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc107">
+      <pose>-127.16 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv108" cast_shadows="true">
+      <pose>-127.64 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc108">
+      <pose>-127.64 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv109" cast_shadows="true">
+      <pose>-128.12 -53.02 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc109">
+      <pose>-128.12 -53.02 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv110" cast_shadows="true">
+      <pose>-128.36 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc110">
+      <pose>-128.36 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv111" cast_shadows="true">
+      <pose>-128.60 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc111">
+      <pose>-128.60 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv112" cast_shadows="true">
+      <pose>-128.83 -53.74 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc112">
+      <pose>-128.83 -53.74 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv113" cast_shadows="true">
+      <pose>-129.31 -53.02 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc113">
+      <pose>-129.31 -53.02 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv114" cast_shadows="true">
+      <pose>-129.55 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc114">
+      <pose>-129.55 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv115" cast_shadows="true">
+      <pose>-129.79 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc115">
+      <pose>-129.79 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv116" cast_shadows="true">
+      <pose>-130.03 -53.74 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc116">
+      <pose>-130.03 -53.74 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv117" cast_shadows="true">
+      <pose>-130.51 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc117">
+      <pose>-130.51 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv118" cast_shadows="true">
+      <pose>-130.75 -53.74 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc118">
+      <pose>-130.75 -53.74 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv119" cast_shadows="true">
+      <pose>-131.23 -53.02 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc119">
+      <pose>-131.23 -53.02 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv120" cast_shadows="true">
+      <pose>-131.47 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc120">
+      <pose>-131.47 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv121" cast_shadows="true">
+      <pose>-131.71 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc121">
+      <pose>-131.71 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv122" cast_shadows="true">
+      <pose>-132.19 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc122">
+      <pose>-132.19 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv123" cast_shadows="true">
+      <pose>-132.43 -53.74 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc123">
+      <pose>-132.43 -53.74 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv124" cast_shadows="true">
+      <pose>-132.91 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc124">
+      <pose>-132.91 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv125" cast_shadows="true">
+      <pose>-133.63 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc125">
+      <pose>-133.63 -53.26 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv126" cast_shadows="true">
+      <pose>-134.11 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc126">
+      <pose>-134.11 -53.50 0.05 0 0 -3.122</pose>
+      <geometry><box><size>1.38 1.97 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv127" cast_shadows="true">
+      <pose>-146.14 -99.37 0.05 0 0 1.658</pose>
+      <geometry><box><size>3.62 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc127">
+      <pose>-146.14 -99.37 0.05 0 0 1.658</pose>
+      <geometry><box><size>3.62 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv128" cast_shadows="true">
+      <pose>-146.54 -96.21 0.05 0 0 1.733</pose>
+      <geometry><box><size>3.46 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc128">
+      <pose>-146.54 -96.21 0.05 0 0 1.733</pose>
+      <geometry><box><size>3.46 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv129" cast_shadows="true">
+      <pose>-147.15 -93.23 0.05 0 0 1.816</pose>
+      <geometry><box><size>3.33 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc129">
+      <pose>-147.15 -93.23 0.05 0 0 1.816</pose>
+      <geometry><box><size>3.33 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv130" cast_shadows="true">
+      <pose>-147.98 -90.43 0.05 0 0 1.906</pose>
+      <geometry><box><size>3.22 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc130">
+      <pose>-147.98 -90.43 0.05 0 0 1.906</pose>
+      <geometry><box><size>3.22 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv131" cast_shadows="true">
+      <pose>-149.04 -87.81 0.05 0 0 2.002</pose>
+      <geometry><box><size>3.13 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc131">
+      <pose>-149.04 -87.81 0.05 0 0 2.002</pose>
+      <geometry><box><size>3.13 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv132" cast_shadows="true">
+      <pose>-150.31 -85.37 0.05 0 0 2.104</pose>
+      <geometry><box><size>3.07 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc132">
+      <pose>-150.31 -85.37 0.05 0 0 2.104</pose>
+      <geometry><box><size>3.07 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv133" cast_shadows="true">
+      <pose>-151.81 -83.12 0.05 0 0 2.209</pose>
+      <geometry><box><size>3.04 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc133">
+      <pose>-151.81 -83.12 0.05 0 0 2.209</pose>
+      <geometry><box><size>3.04 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv134" cast_shadows="true">
+      <pose>-153.52 -81.05 0.05 0 0 2.315</pose>
+      <geometry><box><size>3.04 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc134">
+      <pose>-153.52 -81.05 0.05 0 0 2.315</pose>
+      <geometry><box><size>3.04 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv135" cast_shadows="true">
+      <pose>-155.45 -79.16 0.05 0 0 2.420</pose>
+      <geometry><box><size>3.07 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc135">
+      <pose>-155.45 -79.16 0.05 0 0 2.420</pose>
+      <geometry><box><size>3.07 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv136" cast_shadows="true">
+      <pose>-157.61 -77.45 0.05 0 0 2.522</pose>
+      <geometry><box><size>3.13 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc136">
+      <pose>-157.61 -77.45 0.05 0 0 2.522</pose>
+      <geometry><box><size>3.13 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv137" cast_shadows="true">
+      <pose>-159.98 -75.93 0.05 0 0 2.618</pose>
+      <geometry><box><size>3.22 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc137">
+      <pose>-159.98 -75.93 0.05 0 0 2.618</pose>
+      <geometry><box><size>3.22 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv138" cast_shadows="true">
+      <pose>-162.58 -74.58 0.05 0 0 2.708</pose>
+      <geometry><box><size>3.33 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc138">
+      <pose>-162.58 -74.58 0.05 0 0 2.708</pose>
+      <geometry><box><size>3.33 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv139" cast_shadows="true">
+      <pose>-165.39 -73.42 0.05 0 0 2.791</pose>
+      <geometry><box><size>3.46 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc139">
+      <pose>-165.39 -73.42 0.05 0 0 2.791</pose>
+      <geometry><box><size>3.46 2.60 1.1</size></box></geometry>
+    </collision>
+    <visual name="jv140" cast_shadows="true">
+      <pose>-168.43 -72.44 0.05 0 0 2.867</pose>
+      <geometry><box><size>3.62 2.60 1.1</size></box></geometry>
+      <material><ambient>0.68 0.65 0.6</ambient><diffuse>0.76 0.73 0.68</diffuse></material>
+    </visual>
+    <collision name="jc140">
+      <pose>-168.43 -72.44 0.05 0 0 2.867</pose>
+      <geometry><box><size>3.62 2.60 1.1</size></box></geometry>
+    </collision>
+    </link>
+  </model>
+</sdf>

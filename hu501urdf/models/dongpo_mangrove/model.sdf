@@ -1,0 +1,2253 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="dongpo_mangrove">
+    <static>true</static>
+    <link name="mangrove">
+    <visual name="m1_0" cast_shadows="true">
+      <pose>197.35 102.99 1.23 0 0 0</pose>
+      <geometry><sphere><radius>1.32</radius></sphere></geometry>
+      <material><ambient>0.054 0.234 0.072</ambient><diffuse>0.090 0.377 0.099</diffuse></material>
+    </visual>
+    <visual name="m1_1" cast_shadows="true">
+      <pose>196.66 103.38 1.27 0 0 0</pose>
+      <geometry><sphere><radius>1.37</radius></sphere></geometry>
+      <material><ambient>0.057 0.249 0.077</ambient><diffuse>0.096 0.402 0.105</diffuse></material>
+    </visual>
+    <visual name="m1_2" cast_shadows="true">
+      <pose>196.64 103.17 0.88 0 0 0</pose>
+      <geometry><sphere><radius>0.85</radius></sphere></geometry>
+      <material><ambient>0.059 0.254 0.078</ambient><diffuse>0.098 0.410 0.107</diffuse></material>
+    </visual>
+    <visual name="m2_0" cast_shadows="true">
+      <pose>197.84 104.60 1.43 0 0 0</pose>
+      <geometry><sphere><radius>1.39</radius></sphere></geometry>
+      <material><ambient>0.063 0.271 0.084</ambient><diffuse>0.104 0.438 0.115</diffuse></material>
+    </visual>
+    <visual name="m2_1" cast_shadows="true">
+      <pose>199.49 103.45 1.49 0 0 0</pose>
+      <geometry><sphere><radius>1.48</radius></sphere></geometry>
+      <material><ambient>0.070 0.305 0.094</ambient><diffuse>0.117 0.493 0.129</diffuse></material>
+    </visual>
+    <visual name="m3_0" cast_shadows="true">
+      <pose>200.77 105.19 0.84 0 0 0</pose>
+      <geometry><sphere><radius>1.55</radius></sphere></geometry>
+      <material><ambient>0.061 0.266 0.082</ambient><diffuse>0.102 0.430 0.113</diffuse></material>
+    </visual>
+    <visual name="m3_1" cast_shadows="true">
+      <pose>199.92 104.54 0.42 0 0 0</pose>
+      <geometry><sphere><radius>0.99</radius></sphere></geometry>
+      <material><ambient>0.068 0.295 0.091</ambient><diffuse>0.114 0.477 0.125</diffuse></material>
+    </visual>
+    <visual name="m4_0" cast_shadows="true">
+      <pose>194.82 102.19 1.97 0 0 0</pose>
+      <geometry><sphere><radius>1.58</radius></sphere></geometry>
+      <material><ambient>0.068 0.293 0.090</ambient><diffuse>0.113 0.474 0.124</diffuse></material>
+    </visual>
+    <visual name="m4_1" cast_shadows="true">
+      <pose>194.65 100.90 1.85 0 0 0</pose>
+      <geometry><sphere><radius>1.42</radius></sphere></geometry>
+      <material><ambient>0.060 0.261 0.080</ambient><diffuse>0.100 0.422 0.111</diffuse></material>
+    </visual>
+    <visual name="m4_2" cast_shadows="true">
+      <pose>194.68 102.49 1.58 0 0 0</pose>
+      <geometry><sphere><radius>1.07</radius></sphere></geometry>
+      <material><ambient>0.056 0.244 0.075</ambient><diffuse>0.094 0.394 0.103</diffuse></material>
+    </visual>
+    <visual name="m5_0" cast_shadows="true">
+      <pose>195.76 103.14 1.53 0 0 0</pose>
+      <geometry><sphere><radius>0.99</radius></sphere></geometry>
+      <material><ambient>0.064 0.276 0.085</ambient><diffuse>0.106 0.445 0.117</diffuse></material>
+    </visual>
+    <visual name="m5_1" cast_shadows="true">
+      <pose>196.50 102.36 1.69 0 0 0</pose>
+      <geometry><sphere><radius>1.21</radius></sphere></geometry>
+      <material><ambient>0.051 0.221 0.068</ambient><diffuse>0.085 0.357 0.094</diffuse></material>
+    </visual>
+    <visual name="m5_2" cast_shadows="true">
+      <pose>196.35 102.29 1.46 0 0 0</pose>
+      <geometry><sphere><radius>0.90</radius></sphere></geometry>
+      <material><ambient>0.054 0.232 0.072</ambient><diffuse>0.089 0.375 0.098</diffuse></material>
+    </visual>
+    <visual name="m6_0" cast_shadows="true">
+      <pose>200.83 101.08 1.83 0 0 0</pose>
+      <geometry><sphere><radius>1.40</radius></sphere></geometry>
+      <material><ambient>0.067 0.291 0.090</ambient><diffuse>0.112 0.471 0.123</diffuse></material>
+    </visual>
+    <visual name="m6_1" cast_shadows="true">
+      <pose>200.66 102.30 1.56 0 0 0</pose>
+      <geometry><sphere><radius>1.03</radius></sphere></geometry>
+      <material><ambient>0.075 0.324 0.100</ambient><diffuse>0.125 0.524 0.137</diffuse></material>
+    </visual>
+    <visual name="m7_0" cast_shadows="true">
+      <pose>203.41 101.54 1.45 0 0 0</pose>
+      <geometry><sphere><radius>0.93</radius></sphere></geometry>
+      <material><ambient>0.066 0.286 0.088</ambient><diffuse>0.110 0.462 0.121</diffuse></material>
+    </visual>
+    <visual name="m7_1" cast_shadows="true">
+      <pose>201.78 102.85 1.40 0 0 0</pose>
+      <geometry><sphere><radius>0.85</radius></sphere></geometry>
+      <material><ambient>0.068 0.296 0.091</ambient><diffuse>0.114 0.478 0.125</diffuse></material>
+    </visual>
+    <visual name="m7_2" cast_shadows="true">
+      <pose>202.13 101.41 1.42 0 0 0</pose>
+      <geometry><sphere><radius>0.88</radius></sphere></geometry>
+      <material><ambient>0.073 0.317 0.098</ambient><diffuse>0.122 0.513 0.134</diffuse></material>
+    </visual>
+    <visual name="m8_0" cast_shadows="true">
+      <pose>194.17 99.80 1.01 0 0 0</pose>
+      <geometry><sphere><radius>1.34</radius></sphere></geometry>
+      <material><ambient>0.056 0.243 0.075</ambient><diffuse>0.094 0.393 0.103</diffuse></material>
+    </visual>
+    <visual name="m8_1" cast_shadows="true">
+      <pose>195.61 100.50 0.95 0 0 0</pose>
+      <geometry><sphere><radius>1.26</radius></sphere></geometry>
+      <material><ambient>0.055 0.237 0.073</ambient><diffuse>0.091 0.383 0.100</diffuse></material>
+    </visual>
+    <visual name="m8_2" cast_shadows="true">
+      <pose>195.83 100.58 0.99 0 0 0</pose>
+      <geometry><sphere><radius>1.31</radius></sphere></geometry>
+      <material><ambient>0.063 0.274 0.084</ambient><diffuse>0.105 0.442 0.116</diffuse></material>
+    </visual>
+    <visual name="m9_0" cast_shadows="true">
+      <pose>197.21 99.72 1.51 0 0 0</pose>
+      <geometry><sphere><radius>0.97</radius></sphere></geometry>
+      <material><ambient>0.070 0.305 0.094</ambient><diffuse>0.117 0.492 0.129</diffuse></material>
+    </visual>
+    <visual name="m9_1" cast_shadows="true">
+      <pose>197.63 99.63 1.72 0 0 0</pose>
+      <geometry><sphere><radius>1.25</radius></sphere></geometry>
+      <material><ambient>0.048 0.210 0.065</ambient><diffuse>0.081 0.339 0.089</diffuse></material>
+    </visual>
+    <visual name="m10_0" cast_shadows="true">
+      <pose>201.52 100.06 1.46 0 0 0</pose>
+      <geometry><sphere><radius>0.90</radius></sphere></geometry>
+      <material><ambient>0.056 0.244 0.075</ambient><diffuse>0.094 0.394 0.103</diffuse></material>
+    </visual>
+    <visual name="m10_1" cast_shadows="true">
+      <pose>200.82 100.25 1.48 0 0 0</pose>
+      <geometry><sphere><radius>0.93</radius></sphere></geometry>
+      <material><ambient>0.054 0.233 0.072</ambient><diffuse>0.090 0.376 0.098</diffuse></material>
+    </visual>
+    <visual name="m10_2" cast_shadows="true">
+      <pose>200.24 100.78 1.73 0 0 0</pose>
+      <geometry><sphere><radius>1.26</radius></sphere></geometry>
+      <material><ambient>0.067 0.289 0.089</ambient><diffuse>0.111 0.467 0.122</diffuse></material>
+    </visual>
+    <visual name="m11_0" cast_shadows="true">
+      <pose>203.69 100.05 1.82 0 0 0</pose>
+      <geometry><sphere><radius>1.38</radius></sphere></geometry>
+      <material><ambient>0.050 0.218 0.067</ambient><diffuse>0.084 0.352 0.092</diffuse></material>
+    </visual>
+    <visual name="m11_1" cast_shadows="true">
+      <pose>202.00 100.93 1.83 0 0 0</pose>
+      <geometry><sphere><radius>1.39</radius></sphere></geometry>
+      <material><ambient>0.065 0.281 0.086</ambient><diffuse>0.108 0.454 0.119</diffuse></material>
+    </visual>
+    <visual name="m12_0" cast_shadows="true">
+      <pose>199.72 98.20 1.59 0 0 0</pose>
+      <geometry><sphere><radius>1.08</radius></sphere></geometry>
+      <material><ambient>0.049 0.210 0.065</ambient><diffuse>0.081 0.340 0.089</diffuse></material>
+    </visual>
+    <visual name="m12_1" cast_shadows="true">
+      <pose>199.31 98.73 1.70 0 0 0</pose>
+      <geometry><sphere><radius>1.22</radius></sphere></geometry>
+      <material><ambient>0.068 0.294 0.090</ambient><diffuse>0.113 0.475 0.124</diffuse></material>
+    </visual>
+    <visual name="m12_2" cast_shadows="true">
+      <pose>200.29 99.60 1.63 0 0 0</pose>
+      <geometry><sphere><radius>1.13</radius></sphere></geometry>
+      <material><ambient>0.053 0.229 0.070</ambient><diffuse>0.088 0.370 0.097</diffuse></material>
+    </visual>
+    <visual name="m13_0" cast_shadows="true">
+      <pose>202.30 98.48 1.48 0 0 0</pose>
+      <geometry><sphere><radius>0.93</radius></sphere></geometry>
+      <material><ambient>0.074 0.322 0.099</ambient><diffuse>0.124 0.520 0.136</diffuse></material>
+    </visual>
+    <visual name="m13_1" cast_shadows="true">
+      <pose>203.17 98.89 1.55 0 0 0</pose>
+      <geometry><sphere><radius>1.02</radius></sphere></geometry>
+      <material><ambient>0.058 0.251 0.077</ambient><diffuse>0.097 0.405 0.106</diffuse></material>
+    </visual>
+    <visual name="m14_0" cast_shadows="true">
+      <pose>202.79 99.66 0.52 0 0 0</pose>
+      <geometry><sphere><radius>1.19</radius></sphere></geometry>
+      <material><ambient>0.072 0.310 0.095</ambient><diffuse>0.119 0.501 0.131</diffuse></material>
+    </visual>
+    <visual name="m14_1" cast_shadows="true">
+      <pose>204.28 98.73 0.67 0 0 0</pose>
+      <geometry><sphere><radius>1.39</radius></sphere></geometry>
+      <material><ambient>0.063 0.273 0.084</ambient><diffuse>0.105 0.441 0.115</diffuse></material>
+    </visual>
+    <visual name="m15_0" cast_shadows="true">
+      <pose>198.42 96.45 1.66 0 0 0</pose>
+      <geometry><sphere><radius>1.17</radius></sphere></geometry>
+      <material><ambient>0.055 0.240 0.074</ambient><diffuse>0.092 0.387 0.101</diffuse></material>
+    </visual>
+    <visual name="m15_1" cast_shadows="true">
+      <pose>199.53 95.90 1.58 0 0 0</pose>
+      <geometry><sphere><radius>1.06</radius></sphere></geometry>
+      <material><ambient>0.057 0.248 0.076</ambient><diffuse>0.095 0.400 0.105</diffuse></material>
+    </visual>
+    <visual name="m15_2" cast_shadows="true">
+      <pose>199.42 96.85 1.96 0 0 0</pose>
+      <geometry><sphere><radius>1.57</radius></sphere></geometry>
+      <material><ambient>0.051 0.219 0.068</ambient><diffuse>0.084 0.355 0.093</diffuse></material>
+    </visual>
+    <visual name="m16_0" cast_shadows="true">
+      <pose>200.31 95.89 1.90 0 0 0</pose>
+      <geometry><sphere><radius>1.48</radius></sphere></geometry>
+      <material><ambient>0.064 0.278 0.085</ambient><diffuse>0.107 0.448 0.117</diffuse></material>
+    </visual>
+    <visual name="m16_1" cast_shadows="true">
+      <pose>200.46 96.19 1.48 0 0 0</pose>
+      <geometry><sphere><radius>0.94</radius></sphere></geometry>
+      <material><ambient>0.054 0.232 0.071</ambient><diffuse>0.089 0.375 0.098</diffuse></material>
+    </visual>
+    <visual name="m16_2" cast_shadows="true">
+      <pose>199.96 97.41 1.60 0 0 0</pose>
+      <geometry><sphere><radius>1.08</radius></sphere></geometry>
+      <material><ambient>0.053 0.229 0.070</ambient><diffuse>0.088 0.370 0.097</diffuse></material>
+    </visual>
+    <visual name="m17_0" cast_shadows="true">
+      <pose>202.14 97.67 1.52 0 0 0</pose>
+      <geometry><sphere><radius>0.98</radius></sphere></geometry>
+      <material><ambient>0.070 0.305 0.094</ambient><diffuse>0.117 0.493 0.129</diffuse></material>
+    </visual>
+    <visual name="m17_1" cast_shadows="true">
+      <pose>201.90 97.66 1.66 0 0 0</pose>
+      <geometry><sphere><radius>1.17</radius></sphere></geometry>
+      <material><ambient>0.051 0.220 0.068</ambient><diffuse>0.085 0.355 0.093</diffuse></material>
+    </visual>
+    <visual name="m18_0" cast_shadows="true">
+      <pose>203.56 96.38 1.22 0 0 0</pose>
+      <geometry><sphere><radius>0.87</radius></sphere></geometry>
+      <material><ambient>0.056 0.244 0.075</ambient><diffuse>0.094 0.394 0.103</diffuse></material>
+    </visual>
+    <visual name="m18_1" cast_shadows="true">
+      <pose>204.64 96.01 1.75 0 0 0</pose>
+      <geometry><sphere><radius>1.57</radius></sphere></geometry>
+      <material><ambient>0.064 0.276 0.085</ambient><diffuse>0.106 0.445 0.117</diffuse></material>
+    </visual>
+    <visual name="m18_2" cast_shadows="true">
+      <pose>204.56 95.95 1.74 0 0 0</pose>
+      <geometry><sphere><radius>1.56</radius></sphere></geometry>
+      <material><ambient>0.068 0.295 0.091</ambient><diffuse>0.113 0.476 0.125</diffuse></material>
+    </visual>
+    <visual name="m19_0" cast_shadows="true">
+      <pose>197.30 94.26 0.08 0 0 0</pose>
+      <geometry><sphere><radius>0.95</radius></sphere></geometry>
+      <material><ambient>0.056 0.242 0.074</ambient><diffuse>0.093 0.390 0.102</diffuse></material>
+    </visual>
+    <visual name="m19_1" cast_shadows="true">
+      <pose>196.37 94.63 0.29 0 0 0</pose>
+      <geometry><sphere><radius>1.22</radius></sphere></geometry>
+      <material><ambient>0.055 0.237 0.073</ambient><diffuse>0.091 0.384 0.100</diffuse></material>
+    </visual>
+    <visual name="m20_0" cast_shadows="true">
+      <pose>198.26 95.63 1.90 0 0 0</pose>
+      <geometry><sphere><radius>1.49</radius></sphere></geometry>
+      <material><ambient>0.072 0.311 0.096</ambient><diffuse>0.120 0.503 0.132</diffuse></material>
+    </visual>
+    <visual name="m20_1" cast_shadows="true">
+      <pose>198.36 94.28 1.74 0 0 0</pose>
+      <geometry><sphere><radius>1.27</radius></sphere></geometry>
+      <material><ambient>0.063 0.273 0.084</ambient><diffuse>0.105 0.441 0.116</diffuse></material>
+    </visual>
+    <visual name="m21_0" cast_shadows="true">
+      <pose>202.14 94.39 1.42 0 0 0</pose>
+      <geometry><sphere><radius>0.85</radius></sphere></geometry>
+      <material><ambient>0.067 0.290 0.089</ambient><diffuse>0.112 0.469 0.123</diffuse></material>
+    </visual>
+    <visual name="m21_1" cast_shadows="true">
+      <pose>203.81 93.83 1.49 0 0 0</pose>
+      <geometry><sphere><radius>0.94</radius></sphere></geometry>
+      <material><ambient>0.054 0.236 0.073</ambient><diffuse>0.091 0.381 0.100</diffuse></material>
+    </visual>
+    <visual name="m22_0" cast_shadows="true">
+      <pose>203.52 93.99 1.78 0 0 0</pose>
+      <geometry><sphere><radius>1.34</radius></sphere></geometry>
+      <material><ambient>0.070 0.302 0.093</ambient><diffuse>0.116 0.489 0.128</diffuse></material>
+    </visual>
+    <visual name="m22_1" cast_shadows="true">
+      <pose>203.54 94.27 1.72 0 0 0</pose>
+      <geometry><sphere><radius>1.24</radius></sphere></geometry>
+      <material><ambient>0.074 0.322 0.099</ambient><diffuse>0.124 0.521 0.136</diffuse></material>
+    </visual>
+    <visual name="m23_0" cast_shadows="true">
+      <pose>206.14 94.72 1.44 0 0 0</pose>
+      <geometry><sphere><radius>1.40</radius></sphere></geometry>
+      <material><ambient>0.071 0.307 0.094</ambient><diffuse>0.118 0.495 0.130</diffuse></material>
+    </visual>
+    <visual name="m23_1" cast_shadows="true">
+      <pose>206.01 94.95 1.40 0 0 0</pose>
+      <geometry><sphere><radius>1.36</radius></sphere></geometry>
+      <material><ambient>0.063 0.275 0.084</ambient><diffuse>0.106 0.444 0.116</diffuse></material>
+    </visual>
+    <visual name="m24_0" cast_shadows="true">
+      <pose>199.88 93.30 1.75 0 0 0</pose>
+      <geometry><sphere><radius>1.29</radius></sphere></geometry>
+      <material><ambient>0.063 0.272 0.084</ambient><diffuse>0.105 0.439 0.115</diffuse></material>
+    </visual>
+    <visual name="m24_1" cast_shadows="true">
+      <pose>200.75 93.69 1.67 0 0 0</pose>
+      <geometry><sphere><radius>1.19</radius></sphere></geometry>
+      <material><ambient>0.051 0.221 0.068</ambient><diffuse>0.085 0.356 0.093</diffuse></material>
+    </visual>
+    <visual name="m25_0" cast_shadows="true">
+      <pose>202.86 93.96 1.76 0 0 0</pose>
+      <geometry><sphere><radius>1.30</radius></sphere></geometry>
+      <material><ambient>0.054 0.236 0.073</ambient><diffuse>0.091 0.381 0.100</diffuse></material>
+    </visual>
+    <visual name="m25_1" cast_shadows="true">
+      <pose>202.22 93.39 1.54 0 0 0</pose>
+      <geometry><sphere><radius>1.01</radius></sphere></geometry>
+      <material><ambient>0.048 0.210 0.065</ambient><diffuse>0.081 0.339 0.089</diffuse></material>
+    </visual>
+    <visual name="m25_2" cast_shadows="true">
+      <pose>202.83 93.71 1.71 0 0 0</pose>
+      <geometry><sphere><radius>1.23</radius></sphere></geometry>
+      <material><ambient>0.052 0.224 0.069</ambient><diffuse>0.086 0.362 0.095</diffuse></material>
+    </visual>
+    <visual name="m26_0" cast_shadows="true">
+      <pose>204.36 93.85 1.71 0 0 0</pose>
+      <geometry><sphere><radius>1.23</radius></sphere></geometry>
+      <material><ambient>0.074 0.321 0.099</ambient><diffuse>0.124 0.519 0.136</diffuse></material>
+    </visual>
+    <visual name="m26_1" cast_shadows="true">
+      <pose>203.64 92.58 1.69 0 0 0</pose>
+      <geometry><sphere><radius>1.21</radius></sphere></geometry>
+      <material><ambient>0.066 0.287 0.088</ambient><diffuse>0.110 0.463 0.121</diffuse></material>
+    </visual>
+    <visual name="m26_2" cast_shadows="true">
+      <pose>203.23 93.53 1.53 0 0 0</pose>
+      <geometry><sphere><radius>0.99</radius></sphere></geometry>
+      <material><ambient>0.066 0.286 0.088</ambient><diffuse>0.110 0.461 0.121</diffuse></material>
+    </visual>
+    <visual name="m27_0" cast_shadows="true">
+      <pose>206.51 91.68 1.72 0 0 0</pose>
+      <geometry><sphere><radius>1.26</radius></sphere></geometry>
+      <material><ambient>0.065 0.281 0.087</ambient><diffuse>0.108 0.454 0.119</diffuse></material>
+    </visual>
+    <visual name="m27_1" cast_shadows="true">
+      <pose>206.22 92.51 1.88 0 0 0</pose>
+      <geometry><sphere><radius>1.47</radius></sphere></geometry>
+      <material><ambient>0.061 0.264 0.081</ambient><diffuse>0.101 0.426 0.112</diffuse></material>
+    </visual>
+    <visual name="m28_0" cast_shadows="true">
+      <pose>208.77 93.06 1.68 0 0 0</pose>
+      <geometry><sphere><radius>1.19</radius></sphere></geometry>
+      <material><ambient>0.071 0.309 0.095</ambient><diffuse>0.119 0.499 0.131</diffuse></material>
+    </visual>
+    <visual name="m28_1" cast_shadows="true">
+      <pose>208.55 92.57 1.89 0 0 0</pose>
+      <geometry><sphere><radius>1.48</radius></sphere></geometry>
+      <material><ambient>0.074 0.319 0.098</ambient><diffuse>0.123 0.515 0.135</diffuse></material>
+    </visual>
+    <visual name="m29_0" cast_shadows="true">
+      <pose>198.75 90.75 1.39 0 0 0</pose>
+      <geometry><sphere><radius>0.81</radius></sphere></geometry>
+      <material><ambient>0.058 0.250 0.077</ambient><diffuse>0.096 0.404 0.106</diffuse></material>
+    </visual>
+    <visual name="m29_1" cast_shadows="true">
+      <pose>197.34 91.22 1.67 0 0 0</pose>
+      <geometry><sphere><radius>1.18</radius></sphere></geometry>
+      <material><ambient>0.058 0.253 0.078</ambient><diffuse>0.097 0.408 0.107</diffuse></material>
+    </visual>
+    <visual name="m30_0" cast_shadows="true">
+      <pose>200.30 91.80 1.94 0 0 0</pose>
+      <geometry><sphere><radius>1.54</radius></sphere></geometry>
+      <material><ambient>0.065 0.280 0.086</ambient><diffuse>0.108 0.452 0.118</diffuse></material>
+    </visual>
+    <visual name="m30_1" cast_shadows="true">
+      <pose>200.33 91.20 1.62 0 0 0</pose>
+      <geometry><sphere><radius>1.11</radius></sphere></geometry>
+      <material><ambient>0.070 0.303 0.093</ambient><diffuse>0.117 0.490 0.128</diffuse></material>
+    </visual>
+    <visual name="m31_0" cast_shadows="true">
+      <pose>202.30 89.88 1.64 0 0 0</pose>
+      <geometry><sphere><radius>1.15</radius></sphere></geometry>
+      <material><ambient>0.057 0.249 0.077</ambient><diffuse>0.096 0.402 0.105</diffuse></material>
+    </visual>
+    <visual name="m31_1" cast_shadows="true">
+      <pose>202.69 89.75 1.84 0 0 0</pose>
+      <geometry><sphere><radius>1.41</radius></sphere></geometry>
+      <material><ambient>0.050 0.218 0.067</ambient><diffuse>0.084 0.352 0.092</diffuse></material>
+    </visual>
+    <visual name="m32_0" cast_shadows="true">
+      <pose>203.65 90.66 1.43 0 0 0</pose>
+      <geometry><sphere><radius>0.87</radius></sphere></geometry>
+      <material><ambient>0.049 0.212 0.065</ambient><diffuse>0.081 0.342 0.090</diffuse></material>
+    </visual>
+    <visual name="m32_1" cast_shadows="true">
+      <pose>205.35 90.88 1.51 0 0 0</pose>
+      <geometry><sphere><radius>0.96</radius></sphere></geometry>
+      <material><ambient>0.068 0.296 0.091</ambient><diffuse>0.114 0.478 0.125</diffuse></material>
+    </visual>
+    <visual name="m33_0" cast_shadows="true">
+      <pose>207.90 90.38 1.85 0 0 0</pose>
+      <geometry><sphere><radius>1.43</radius></sphere></geometry>
+      <material><ambient>0.064 0.276 0.085</ambient><diffuse>0.106 0.446 0.117</diffuse></material>
+    </visual>
+    <visual name="m33_1" cast_shadows="true">
+      <pose>207.78 90.95 1.53 0 0 0</pose>
+      <geometry><sphere><radius>1.00</radius></sphere></geometry>
+      <material><ambient>0.067 0.289 0.089</ambient><diffuse>0.111 0.466 0.122</diffuse></material>
+    </visual>
+    <visual name="m33_2" cast_shadows="true">
+      <pose>208.26 91.03 1.60 0 0 0</pose>
+      <geometry><sphere><radius>1.10</radius></sphere></geometry>
+      <material><ambient>0.056 0.242 0.074</ambient><diffuse>0.093 0.390 0.102</diffuse></material>
+    </visual>
+    <visual name="m34_0" cast_shadows="true">
+      <pose>209.90 91.08 1.67 0 0 0</pose>
+      <geometry><sphere><radius>1.18</radius></sphere></geometry>
+      <material><ambient>0.070 0.304 0.093</ambient><diffuse>0.117 0.491 0.129</diffuse></material>
+    </visual>
+    <visual name="m34_1" cast_shadows="true">
+      <pose>209.37 91.26 1.77 0 0 0</pose>
+      <geometry><sphere><radius>1.32</radius></sphere></geometry>
+      <material><ambient>0.066 0.286 0.088</ambient><diffuse>0.110 0.463 0.121</diffuse></material>
+    </visual>
+    <visual name="m35_0" cast_shadows="true">
+      <pose>212.38 89.90 0.38 0 0 0</pose>
+      <geometry><sphere><radius>1.22</radius></sphere></geometry>
+      <material><ambient>0.071 0.309 0.095</ambient><diffuse>0.119 0.500 0.131</diffuse></material>
+    </visual>
+    <visual name="m35_1" cast_shadows="true">
+      <pose>211.02 89.83 0.10 0 0 0</pose>
+      <geometry><sphere><radius>0.85</radius></sphere></geometry>
+      <material><ambient>0.054 0.235 0.072</ambient><diffuse>0.090 0.379 0.099</diffuse></material>
+    </visual>
+    <visual name="m36_0" cast_shadows="true">
+      <pose>198.59 89.68 1.87 0 0 0</pose>
+      <geometry><sphere><radius>1.45</radius></sphere></geometry>
+      <material><ambient>0.051 0.223 0.069</ambient><diffuse>0.086 0.360 0.094</diffuse></material>
+    </visual>
+    <visual name="m36_1" cast_shadows="true">
+      <pose>198.73 89.84 1.51 0 0 0</pose>
+      <geometry><sphere><radius>0.97</radius></sphere></geometry>
+      <material><ambient>0.074 0.322 0.099</ambient><diffuse>0.124 0.520 0.136</diffuse></material>
+    </visual>
+    <visual name="m36_2" cast_shadows="true">
+      <pose>198.08 88.70 1.94 0 0 0</pose>
+      <geometry><sphere><radius>1.54</radius></sphere></geometry>
+      <material><ambient>0.049 0.212 0.065</ambient><diffuse>0.081 0.342 0.089</diffuse></material>
+    </visual>
+    <visual name="m37_0" cast_shadows="true">
+      <pose>199.14 88.85 1.49 0 0 0</pose>
+      <geometry><sphere><radius>0.95</radius></sphere></geometry>
+      <material><ambient>0.054 0.233 0.072</ambient><diffuse>0.090 0.377 0.099</diffuse></material>
+    </visual>
+    <visual name="m37_1" cast_shadows="true">
+      <pose>200.34 88.73 1.63 0 0 0</pose>
+      <geometry><sphere><radius>1.12</radius></sphere></geometry>
+      <material><ambient>0.071 0.309 0.095</ambient><diffuse>0.119 0.498 0.131</diffuse></material>
+    </visual>
+    <visual name="m37_2" cast_shadows="true">
+      <pose>199.02 88.60 1.62 0 0 0</pose>
+      <geometry><sphere><radius>1.12</radius></sphere></geometry>
+      <material><ambient>0.071 0.309 0.095</ambient><diffuse>0.119 0.499 0.131</diffuse></material>
+    </visual>
+    <visual name="m38_0" cast_shadows="true">
+      <pose>201.83 88.88 1.77 0 0 0</pose>
+      <geometry><sphere><radius>1.32</radius></sphere></geometry>
+      <material><ambient>0.052 0.227 0.070</ambient><diffuse>0.087 0.367 0.096</diffuse></material>
+    </visual>
+    <visual name="m38_1" cast_shadows="true">
+      <pose>202.49 88.83 1.94 0 0 0</pose>
+      <geometry><sphere><radius>1.54</radius></sphere></geometry>
+      <material><ambient>0.063 0.271 0.083</ambient><diffuse>0.104 0.438 0.115</diffuse></material>
+    </visual>
+    <visual name="m39_0" cast_shadows="true">
+      <pose>203.79 89.56 1.61 0 0 0</pose>
+      <geometry><sphere><radius>1.10</radius></sphere></geometry>
+      <material><ambient>0.059 0.257 0.079</ambient><diffuse>0.099 0.414 0.109</diffuse></material>
+    </visual>
+    <visual name="m39_1" cast_shadows="true">
+      <pose>203.59 89.51 1.57 0 0 0</pose>
+      <geometry><sphere><radius>1.05</radius></sphere></geometry>
+      <material><ambient>0.052 0.225 0.069</ambient><diffuse>0.086 0.363 0.095</diffuse></material>
+    </visual>
+    <visual name="m40_0" cast_shadows="true">
+      <pose>207.10 88.10 1.69 0 0 0</pose>
+      <geometry><sphere><radius>1.21</radius></sphere></geometry>
+      <material><ambient>0.060 0.260 0.080</ambient><diffuse>0.100 0.420 0.110</diffuse></material>
+    </visual>
+    <visual name="m40_1" cast_shadows="true">
+      <pose>206.63 87.74 1.42 0 0 0</pose>
+      <geometry><sphere><radius>0.85</radius></sphere></geometry>
+      <material><ambient>0.051 0.222 0.068</ambient><diffuse>0.085 0.358 0.094</diffuse></material>
+    </visual>
+    <visual name="m40_2" cast_shadows="true">
+      <pose>206.50 88.94 1.77 0 0 0</pose>
+      <geometry><sphere><radius>1.31</radius></sphere></geometry>
+      <material><ambient>0.054 0.233 0.072</ambient><diffuse>0.090 0.376 0.099</diffuse></material>
+    </visual>
+    <visual name="m41_0" cast_shadows="true">
+      <pose>208.84 89.38 1.48 0 0 0</pose>
+      <geometry><sphere><radius>0.94</radius></sphere></geometry>
+      <material><ambient>0.062 0.269 0.083</ambient><diffuse>0.103 0.434 0.114</diffuse></material>
+    </visual>
+    <visual name="m41_1" cast_shadows="true">
+      <pose>207.91 89.02 1.43 0 0 0</pose>
+      <geometry><sphere><radius>0.86</radius></sphere></geometry>
+      <material><ambient>0.057 0.249 0.077</ambient><diffuse>0.096 0.402 0.105</diffuse></material>
+    </visual>
+    <visual name="m41_2" cast_shadows="true">
+      <pose>207.89 89.79 1.90 0 0 0</pose>
+      <geometry><sphere><radius>1.49</radius></sphere></geometry>
+      <material><ambient>0.052 0.225 0.069</ambient><diffuse>0.086 0.363 0.095</diffuse></material>
+    </visual>
+    <visual name="m42_0" cast_shadows="true">
+      <pose>210.92 88.50 1.90 0 0 0</pose>
+      <geometry><sphere><radius>1.49</radius></sphere></geometry>
+      <material><ambient>0.061 0.266 0.082</ambient><diffuse>0.102 0.429 0.112</diffuse></material>
+    </visual>
+    <visual name="m42_1" cast_shadows="true">
+      <pose>211.19 88.81 1.43 0 0 0</pose>
+      <geometry><sphere><radius>0.86</radius></sphere></geometry>
+      <material><ambient>0.051 0.220 0.068</ambient><diffuse>0.085 0.355 0.093</diffuse></material>
+    </visual>
+    <visual name="m43_0" cast_shadows="true">
+      <pose>211.86 88.94 1.63 0 0 0</pose>
+      <geometry><sphere><radius>1.13</radius></sphere></geometry>
+      <material><ambient>0.050 0.217 0.067</ambient><diffuse>0.083 0.350 0.092</diffuse></material>
+    </visual>
+    <visual name="m43_1" cast_shadows="true">
+      <pose>211.10 88.56 1.55 0 0 0</pose>
+      <geometry><sphere><radius>1.02</radius></sphere></geometry>
+      <material><ambient>0.071 0.307 0.095</ambient><diffuse>0.118 0.496 0.130</diffuse></material>
+    </visual>
+    <visual name="m43_2" cast_shadows="true">
+      <pose>211.08 89.56 1.61 0 0 0</pose>
+      <geometry><sphere><radius>1.11</radius></sphere></geometry>
+      <material><ambient>0.057 0.245 0.075</ambient><diffuse>0.094 0.396 0.104</diffuse></material>
+    </visual>
+    <visual name="m44_0" cast_shadows="true">
+      <pose>193.80 87.81 -0.46 0 0 0</pose>
+      <geometry><sphere><radius>0.85</radius></sphere></geometry>
+      <material><ambient>0.061 0.263 0.081</ambient><diffuse>0.101 0.424 0.111</diffuse></material>
+    </visual>
+    <visual name="m44_1" cast_shadows="true">
+      <pose>193.27 86.77 -0.24 0 0 0</pose>
+      <geometry><sphere><radius>1.15</radius></sphere></geometry>
+      <material><ambient>0.056 0.244 0.075</ambient><diffuse>0.094 0.394 0.103</diffuse></material>
+    </visual>
+    <visual name="m45_0" cast_shadows="true">
+      <pose>196.42 87.92 1.57 0 0 0</pose>
+      <geometry><sphere><radius>1.04</radius></sphere></geometry>
+      <material><ambient>0.072 0.310 0.095</ambient><diffuse>0.119 0.501 0.131</diffuse></material>
+    </visual>
+    <visual name="m45_1" cast_shadows="true">
+      <pose>195.53 87.39 1.39 0 0 0</pose>
+      <geometry><sphere><radius>0.81</radius></sphere></geometry>
+      <material><ambient>0.065 0.283 0.087</ambient><diffuse>0.109 0.457 0.120</diffuse></material>
+    </visual>
+    <visual name="m45_2" cast_shadows="true">
+      <pose>195.76 88.30 1.57 0 0 0</pose>
+      <geometry><sphere><radius>1.05</radius></sphere></geometry>
+      <material><ambient>0.059 0.254 0.078</ambient><diffuse>0.098 0.410 0.107</diffuse></material>
+    </visual>
+    <visual name="m46_0" cast_shadows="true">
+      <pose>197.78 87.95 1.83 0 0 0</pose>
+      <geometry><sphere><radius>1.40</radius></sphere></geometry>
+      <material><ambient>0.066 0.285 0.088</ambient><diffuse>0.109 0.460 0.120</diffuse></material>
+    </visual>
+    <visual name="m46_1" cast_shadows="true">
+      <pose>198.48 87.01 1.91 0 0 0</pose>
+      <geometry><sphere><radius>1.50</radius></sphere></geometry>
+      <material><ambient>0.073 0.318 0.098</ambient><diffuse>0.122 0.514 0.135</diffuse></material>
+    </visual>
+    <visual name="m47_0" cast_shadows="true">
+      <pose>199.89 86.61 1.63 0 0 0</pose>
+      <geometry><sphere><radius>1.13</radius></sphere></geometry>
+      <material><ambient>0.071 0.306 0.094</ambient><diffuse>0.118 0.495 0.130</diffuse></material>
+    </visual>
+    <visual name="m47_1" cast_shadows="true">
+      <pose>199.92 86.29 1.93 0 0 0</pose>
+      <geometry><sphere><radius>1.53</radius></sphere></geometry>
+      <material><ambient>0.055 0.238 0.073</ambient><diffuse>0.092 0.385 0.101</diffuse></material>
+    </visual>
+    <visual name="m48_0" cast_shadows="true">
+      <pose>202.44 87.08 1.86 0 0 0</pose>
+      <geometry><sphere><radius>1.44</radius></sphere></geometry>
+      <material><ambient>0.050 0.219 0.067</ambient><diffuse>0.084 0.353 0.092</diffuse></material>
+    </visual>
+    <visual name="m48_1" cast_shadows="true">
+      <pose>202.56 86.86 1.64 0 0 0</pose>
+      <geometry><sphere><radius>1.15</radius></sphere></geometry>
+      <material><ambient>0.056 0.244 0.075</ambient><diffuse>0.094 0.393 0.103</diffuse></material>
+    </visual>
+    <visual name="m49_0" cast_shadows="true">
+      <pose>204.43 86.26 1.53 0 0 0</pose>
+      <geometry><sphere><radius>1.00</radius></sphere></geometry>
+      <material><ambient>0.055 0.237 0.073</ambient><diffuse>0.091 0.382 0.100</diffuse></material>
+    </visual>
+    <visual name="m49_1" cast_shadows="true">
+      <pose>204.13 86.46 1.84 0 0 0</pose>
+      <geometry><sphere><radius>1.41</radius></sphere></geometry>
+      <material><ambient>0.073 0.315 0.097</ambient><diffuse>0.121 0.509 0.133</diffuse></material>
+    </visual>
+    <visual name="m50_0" cast_shadows="true">
+      <pose>206.09 87.42 1.45 0 0 0</pose>
+      <geometry><sphere><radius>0.89</radius></sphere></geometry>
+      <material><ambient>0.073 0.314 0.097</ambient><diffuse>0.121 0.508 0.133</diffuse></material>
+    </visual>
+    <visual name="m50_1" cast_shadows="true">
+      <pose>205.77 86.95 1.55 0 0 0</pose>
+      <geometry><sphere><radius>1.02</radius></sphere></geometry>
+      <material><ambient>0.066 0.285 0.088</ambient><diffuse>0.110 0.461 0.121</diffuse></material>
+    </visual>
+    <visual name="m51_0" cast_shadows="true">
+      <pose>206.99 87.63 1.95 0 0 0</pose>
+      <geometry><sphere><radius>1.55</radius></sphere></geometry>
+      <material><ambient>0.057 0.247 0.076</ambient><diffuse>0.095 0.399 0.104</diffuse></material>
+    </visual>
+    <visual name="m51_1" cast_shadows="true">
+      <pose>206.75 87.97 1.80 0 0 0</pose>
+      <geometry><sphere><radius>1.36</radius></sphere></geometry>
+      <material><ambient>0.053 0.230 0.071</ambient><diffuse>0.089 0.372 0.097</diffuse></material>
+    </visual>
+    <visual name="m51_2" cast_shadows="true">
+      <pose>206.73 86.73 1.44 0 0 0</pose>
+      <geometry><sphere><radius>0.87</radius></sphere></geometry>
+      <material><ambient>0.057 0.245 0.075</ambient><diffuse>0.094 0.396 0.104</diffuse></material>
+    </visual>
+    <visual name="m52_0" cast_shadows="true">
+      <pose>209.98 86.28 1.82 0 0 0</pose>
+      <geometry><sphere><radius>1.38</radius></sphere></geometry>
+      <material><ambient>0.066 0.288 0.089</ambient><diffuse>0.111 0.465 0.122</diffuse></material>
+    </visual>
+    <visual name="m52_1" cast_shadows="true">
+      <pose>211.37 86.21 1.52 0 0 0</pose>
+      <geometry><sphere><radius>0.98</radius></sphere></geometry>
+      <material><ambient>0.069 0.298 0.092</ambient><diffuse>0.115 0.481 0.126</diffuse></material>
+    </visual>
+    <visual name="m52_2" cast_shadows="true">
+      <pose>210.11 86.36 1.97 0 0 0</pose>
+      <geometry><sphere><radius>1.59</radius></sphere></geometry>
+      <material><ambient>0.061 0.266 0.082</ambient><diffuse>0.102 0.429 0.112</diffuse></material>
+    </visual>
+    <visual name="m53_0" cast_shadows="true">
+      <pose>211.71 85.83 1.96 0 0 0</pose>
+      <geometry><sphere><radius>1.57</radius></sphere></geometry>
+      <material><ambient>0.057 0.248 0.076</ambient><diffuse>0.095 0.401 0.105</diffuse></material>
+    </visual>
+    <visual name="m53_1" cast_shadows="true">
+      <pose>211.77 86.07 1.94 0 0 0</pose>
+      <geometry><sphere><radius>1.54</radius></sphere></geometry>
+      <material><ambient>0.066 0.287 0.088</ambient><diffuse>0.110 0.464 0.121</diffuse></material>
+    </visual>
+    <visual name="m53_2" cast_shadows="true">
+      <pose>212.64 87.22 1.79 0 0 0</pose>
+      <geometry><sphere><radius>1.35</radius></sphere></geometry>
+      <material><ambient>0.056 0.243 0.075</ambient><diffuse>0.094 0.393 0.103</diffuse></material>
+    </visual>
+    <visual name="m54_0" cast_shadows="true">
+      <pose>213.08 86.45 1.44 0 0 0</pose>
+      <geometry><sphere><radius>0.87</radius></sphere></geometry>
+      <material><ambient>0.051 0.220 0.068</ambient><diffuse>0.085 0.355 0.093</diffuse></material>
+    </visual>
+    <visual name="m54_1" cast_shadows="true">
+      <pose>213.55 86.03 1.76 0 0 0</pose>
+      <geometry><sphere><radius>1.31</radius></sphere></geometry>
+      <material><ambient>0.071 0.307 0.094</ambient><diffuse>0.118 0.495 0.130</diffuse></material>
+    </visual>
+    <visual name="m54_2" cast_shadows="true">
+      <pose>212.58 86.78 1.72 0 0 0</pose>
+      <geometry><sphere><radius>1.25</radius></sphere></geometry>
+      <material><ambient>0.069 0.301 0.092</ambient><diffuse>0.116 0.486 0.127</diffuse></material>
+    </visual>
+    <visual name="m55_0" cast_shadows="true">
+      <pose>219.61 85.78 1.48 0 0 0</pose>
+      <geometry><sphere><radius>1.59</radius></sphere></geometry>
+      <material><ambient>0.052 0.226 0.070</ambient><diffuse>0.087 0.365 0.096</diffuse></material>
+    </visual>
+    <visual name="m55_1" cast_shadows="true">
+      <pose>220.27 86.58 1.46 0 0 0</pose>
+      <geometry><sphere><radius>1.57</radius></sphere></geometry>
+      <material><ambient>0.074 0.322 0.099</ambient><diffuse>0.124 0.521 0.136</diffuse></material>
+    </visual>
+    <visual name="m56_0" cast_shadows="true">
+      <pose>195.05 86.14 1.23 0 0 0</pose>
+      <geometry><sphere><radius>1.44</radius></sphere></geometry>
+      <material><ambient>0.066 0.285 0.088</ambient><diffuse>0.110 0.460 0.120</diffuse></material>
+    </visual>
+    <visual name="m56_1" cast_shadows="true">
+      <pose>195.09 86.39 1.04 0 0 0</pose>
+      <geometry><sphere><radius>1.19</radius></sphere></geometry>
+      <material><ambient>0.064 0.279 0.086</ambient><diffuse>0.107 0.451 0.118</diffuse></material>
+    </visual>
+    <visual name="m56_2" cast_shadows="true">
+      <pose>195.62 85.92 0.80 0 0 0</pose>
+      <geometry><sphere><radius>0.87</radius></sphere></geometry>
+      <material><ambient>0.054 0.235 0.072</ambient><diffuse>0.090 0.379 0.099</diffuse></material>
+    </visual>
+    <visual name="m57_0" cast_shadows="true">
+      <pose>195.39 84.10 1.43 0 0 0</pose>
+      <geometry><sphere><radius>0.86</radius></sphere></geometry>
+      <material><ambient>0.069 0.300 0.092</ambient><diffuse>0.115 0.485 0.127</diffuse></material>
+    </visual>
+    <visual name="m57_1" cast_shadows="true">
+      <pose>196.15 83.76 1.46 0 0 0</pose>
+      <geometry><sphere><radius>0.90</radius></sphere></geometry>
+      <material><ambient>0.071 0.308 0.095</ambient><diffuse>0.118 0.497 0.130</diffuse></material>
+    </visual>
+    <visual name="m57_2" cast_shadows="true">
+      <pose>195.70 84.62 1.59 0 0 0</pose>
+      <geometry><sphere><radius>1.08</radius></sphere></geometry>
+      <material><ambient>0.065 0.283 0.087</ambient><diffuse>0.109 0.457 0.120</diffuse></material>
+    </visual>
+    <visual name="m58_0" cast_shadows="true">
+      <pose>196.98 84.70 1.46 0 0 0</pose>
+      <geometry><sphere><radius>0.90</radius></sphere></geometry>
+      <material><ambient>0.067 0.290 0.089</ambient><diffuse>0.111 0.468 0.123</diffuse></material>
+    </visual>
+    <visual name="m58_1" cast_shadows="true">
+      <pose>196.87 85.39 1.54 0 0 0</pose>
+      <geometry><sphere><radius>1.00</radius></sphere></geometry>
+      <material><ambient>0.068 0.297 0.091</ambient><diffuse>0.114 0.479 0.125</diffuse></material>
+    </visual>
+    <visual name="m59_0" cast_shadows="true">
+      <pose>201.59 84.58 1.42 0 0 0</pose>
+      <geometry><sphere><radius>0.85</radius></sphere></geometry>
+      <material><ambient>0.049 0.210 0.065</ambient><diffuse>0.081 0.340 0.089</diffuse></material>
+    </visual>
+    <visual name="m59_1" cast_shadows="true">
+      <pose>201.42 85.05 1.71 0 0 0</pose>
+      <geometry><sphere><radius>1.24</radius></sphere></geometry>
+      <material><ambient>0.048 0.209 0.064</ambient><diffuse>0.080 0.338 0.088</diffuse></material>
+    </visual>
+    <visual name="m59_2" cast_shadows="true">
+      <pose>201.84 84.45 1.85 0 0 0</pose>
+      <geometry><sphere><radius>1.42</radius></sphere></geometry>
+      <material><ambient>0.055 0.240 0.074</ambient><diffuse>0.092 0.388 0.102</diffuse></material>
+    </visual>
+    <visual name="m60_0" cast_shadows="true">
+      <pose>204.66 85.85 1.58 0 0 0</pose>
+      <geometry><sphere><radius>1.06</radius></sphere></geometry>
+      <material><ambient>0.060 0.259 0.080</ambient><diffuse>0.100 0.419 0.110</diffuse></material>
+    </visual>
+    <visual name="m60_1" cast_shadows="true">
+      <pose>204.32 85.24 1.48 0 0 0</pose>
+      <geometry><sphere><radius>0.93</radius></sphere></geometry>
+      <material><ambient>0.054 0.235 0.072</ambient><diffuse>0.091 0.380 0.100</diffuse></material>
+    </visual>
+    <visual name="m60_2" cast_shadows="true">
+      <pose>204.41 85.45 1.92 0 0 0</pose>
+      <geometry><sphere><radius>1.51</radius></sphere></geometry>
+      <material><ambient>0.053 0.229 0.071</ambient><diffuse>0.088 0.370 0.097</diffuse></material>
+    </visual>
+    <visual name="m61_0" cast_shadows="true">
+      <pose>205.96 84.40 1.52 0 0 0</pose>
+      <geometry><sphere><radius>0.98</radius></sphere></geometry>
+      <material><ambient>0.067 0.292 0.090</ambient><diffuse>0.112 0.471 0.123</diffuse></material>
+    </visual>
+    <visual name="m61_1" cast_shadows="true">
+      <pose>206.58 85.08 1.58 0 0 0</pose>
+      <geometry><sphere><radius>1.06</radius></sphere></geometry>
+      <material><ambient>0.062 0.267 0.082</ambient><diffuse>0.103 0.432 0.113</diffuse></material>
+    </visual>
+    <visual name="m62_0" cast_shadows="true">
+      <pose>208.53 85.47 1.63 0 0 0</pose>
+      <geometry><sphere><radius>1.12</radius></sphere></geometry>
+      <material><ambient>0.062 0.271 0.083</ambient><diffuse>0.104 0.437 0.115</diffuse></material>
+    </visual>
+    <visual name="m62_1" cast_shadows="true">
+      <pose>207.98 84.85 1.48 0 0 0</pose>
+      <geometry><sphere><radius>0.93</radius></sphere></geometry>
+      <material><ambient>0.053 0.230 0.071</ambient><diffuse>0.088 0.372 0.097</diffuse></material>
+    </visual>
+    <visual name="m63_0" cast_shadows="true">
+      <pose>209.99 85.14 1.75 0 0 0</pose>
+      <geometry><sphere><radius>1.30</radius></sphere></geometry>
+      <material><ambient>0.074 0.320 0.099</ambient><diffuse>0.123 0.518 0.136</diffuse></material>
+    </visual>
+    <visual name="m63_1" cast_shadows="true">
+      <pose>210.67 83.77 1.84 0 0 0</pose>
+      <geometry><sphere><radius>1.41</radius></sphere></geometry>
+      <material><ambient>0.068 0.297 0.091</ambient><diffuse>0.114 0.479 0.125</diffuse></material>
+    </visual>
+    <visual name="m63_2" cast_shadows="true">
+      <pose>209.65 84.81 1.44 0 0 0</pose>
+      <geometry><sphere><radius>0.88</radius></sphere></geometry>
+      <material><ambient>0.050 0.215 0.066</ambient><diffuse>0.083 0.347 0.091</diffuse></material>
+    </visual>
+    <visual name="m64_0" cast_shadows="true">
+      <pose>211.90 84.33 1.59 0 0 0</pose>
+      <geometry><sphere><radius>1.08</radius></sphere></geometry>
+      <material><ambient>0.050 0.218 0.067</ambient><diffuse>0.084 0.353 0.092</diffuse></material>
+    </visual>
+    <visual name="m64_1" cast_shadows="true">
+      <pose>211.72 85.30 1.80 0 0 0</pose>
+      <geometry><sphere><radius>1.36</radius></sphere></geometry>
+      <material><ambient>0.069 0.299 0.092</ambient><diffuse>0.115 0.484 0.127</diffuse></material>
+    </visual>
+    <visual name="m64_2" cast_shadows="true">
+      <pose>211.33 85.53 1.90 0 0 0</pose>
+      <geometry><sphere><radius>1.49</radius></sphere></geometry>
+      <material><ambient>0.064 0.279 0.086</ambient><diffuse>0.107 0.450 0.118</diffuse></material>
+    </visual>
+    <visual name="m65_0" cast_shadows="true">
+      <pose>213.95 85.44 1.77 0 0 0</pose>
+      <geometry><sphere><radius>1.32</radius></sphere></geometry>
+      <material><ambient>0.065 0.282 0.087</ambient><diffuse>0.109 0.456 0.120</diffuse></material>
+    </visual>
+    <visual name="m65_1" cast_shadows="true">
+      <pose>214.91 84.56 1.46 0 0 0</pose>
+      <geometry><sphere><radius>0.90</radius></sphere></geometry>
+      <material><ambient>0.073 0.318 0.098</ambient><diffuse>0.122 0.513 0.134</diffuse></material>
+    </visual>
+    <visual name="m66_0" cast_shadows="true">
+      <pose>215.33 85.66 1.68 0 0 0</pose>
+      <geometry><sphere><radius>1.20</radius></sphere></geometry>
+      <material><ambient>0.049 0.213 0.065</ambient><diffuse>0.082 0.343 0.090</diffuse></material>
+    </visual>
+    <visual name="m66_1" cast_shadows="true">
+      <pose>214.95 85.08 1.42 0 0 0</pose>
+      <geometry><sphere><radius>0.85</radius></sphere></geometry>
+      <material><ambient>0.055 0.238 0.073</ambient><diffuse>0.092 0.384 0.101</diffuse></material>
+    </visual>
+    <visual name="m67_0" cast_shadows="true">
+      <pose>218.05 85.29 1.46 0 0 0</pose>
+      <geometry><sphere><radius>0.90</radius></sphere></geometry>
+      <material><ambient>0.066 0.288 0.088</ambient><diffuse>0.111 0.465 0.122</diffuse></material>
+    </visual>
+    <visual name="m67_1" cast_shadows="true">
+      <pose>218.44 85.13 1.43 0 0 0</pose>
+      <geometry><sphere><radius>0.87</radius></sphere></geometry>
+      <material><ambient>0.075 0.324 0.100</ambient><diffuse>0.124 0.523 0.137</diffuse></material>
+    </visual>
+    <visual name="m68_0" cast_shadows="true">
+      <pose>218.99 84.92 1.39 0 0 0</pose>
+      <geometry><sphere><radius>0.81</radius></sphere></geometry>
+      <material><ambient>0.065 0.281 0.087</ambient><diffuse>0.108 0.454 0.119</diffuse></material>
+    </visual>
+    <visual name="m68_1" cast_shadows="true">
+      <pose>219.01 84.18 1.41 0 0 0</pose>
+      <geometry><sphere><radius>0.84</radius></sphere></geometry>
+      <material><ambient>0.068 0.294 0.090</ambient><diffuse>0.113 0.474 0.124</diffuse></material>
+    </visual>
+    <visual name="m68_2" cast_shadows="true">
+      <pose>218.82 85.50 1.53 0 0 0</pose>
+      <geometry><sphere><radius>1.00</radius></sphere></geometry>
+      <material><ambient>0.052 0.224 0.069</ambient><diffuse>0.086 0.362 0.095</diffuse></material>
+    </visual>
+    <visual name="m69_0" cast_shadows="true">
+      <pose>221.38 84.69 1.31 0 0 0</pose>
+      <geometry><sphere><radius>0.99</radius></sphere></geometry>
+      <material><ambient>0.072 0.314 0.097</ambient><diffuse>0.121 0.507 0.133</diffuse></material>
+    </visual>
+    <visual name="m69_1" cast_shadows="true">
+      <pose>220.46 84.51 1.75 0 0 0</pose>
+      <geometry><sphere><radius>1.58</radius></sphere></geometry>
+      <material><ambient>0.069 0.297 0.091</ambient><diffuse>0.114 0.480 0.126</diffuse></material>
+    </visual>
+    <visual name="m69_2" cast_shadows="true">
+      <pose>221.86 85.49 1.72 0 0 0</pose>
+      <geometry><sphere><radius>1.53</radius></sphere></geometry>
+      <material><ambient>0.059 0.256 0.079</ambient><diffuse>0.098 0.413 0.108</diffuse></material>
+    </visual>
+    <visual name="m70_0" cast_shadows="true">
+      <pose>224.19 85.55 -0.41 0 0 0</pose>
+      <geometry><sphere><radius>1.42</radius></sphere></geometry>
+      <material><ambient>0.067 0.288 0.089</ambient><diffuse>0.111 0.466 0.122</diffuse></material>
+    </visual>
+    <visual name="m70_1" cast_shadows="true">
+      <pose>224.15 84.32 -0.37 0 0 0</pose>
+      <geometry><sphere><radius>1.47</radius></sphere></geometry>
+      <material><ambient>0.054 0.234 0.072</ambient><diffuse>0.090 0.378 0.099</diffuse></material>
+    </visual>
+    <visual name="m70_2" cast_shadows="true">
+      <pose>223.57 84.64 -0.28 0 0 0</pose>
+      <geometry><sphere><radius>1.60</radius></sphere></geometry>
+      <material><ambient>0.055 0.239 0.074</ambient><diffuse>0.092 0.386 0.101</diffuse></material>
+    </visual>
+    <visual name="m71_0" cast_shadows="true">
+      <pose>196.49 82.93 0.63 0 0 0</pose>
+      <geometry><sphere><radius>1.09</radius></sphere></geometry>
+      <material><ambient>0.049 0.213 0.065</ambient><diffuse>0.082 0.343 0.090</diffuse></material>
+    </visual>
+    <visual name="m71_1" cast_shadows="true">
+      <pose>195.29 83.14 0.46 0 0 0</pose>
+      <geometry><sphere><radius>0.86</radius></sphere></geometry>
+      <material><ambient>0.059 0.255 0.078</ambient><diffuse>0.098 0.411 0.108</diffuse></material>
+    </visual>
+    <visual name="m71_2" cast_shadows="true">
+      <pose>196.01 84.63 0.82 0 0 0</pose>
+      <geometry><sphere><radius>1.33</radius></sphere></geometry>
+      <material><ambient>0.067 0.289 0.089</ambient><diffuse>0.111 0.467 0.122</diffuse></material>
+    </visual>
+    <visual name="m72_0" cast_shadows="true">
+      <pose>198.42 83.81 1.72 0 0 0</pose>
+      <geometry><sphere><radius>1.25</radius></sphere></geometry>
+      <material><ambient>0.075 0.324 0.100</ambient><diffuse>0.125 0.524 0.137</diffuse></material>
+    </visual>
+    <visual name="m72_1" cast_shadows="true">
+      <pose>197.78 83.86 1.55 0 0 0</pose>
+      <geometry><sphere><radius>1.03</radius></sphere></geometry>
+      <material><ambient>0.057 0.247 0.076</ambient><diffuse>0.095 0.400 0.105</diffuse></material>
+    </visual>
+    <visual name="m73_0" cast_shadows="true">
+      <pose>205.26 83.07 1.67 0 0 0</pose>
+      <geometry><sphere><radius>1.19</radius></sphere></geometry>
+      <material><ambient>0.056 0.242 0.075</ambient><diffuse>0.093 0.391 0.102</diffuse></material>
+    </visual>
+    <visual name="m73_1" cast_shadows="true">
+      <pose>204.55 84.22 1.50 0 0 0</pose>
+      <geometry><sphere><radius>0.96</radius></sphere></geometry>
+      <material><ambient>0.057 0.246 0.076</ambient><diffuse>0.094 0.397 0.104</diffuse></material>
+    </visual>
+    <visual name="m74_0" cast_shadows="true">
+      <pose>205.58 83.36 1.71 0 0 0</pose>
+      <geometry><sphere><radius>1.24</radius></sphere></geometry>
+      <material><ambient>0.073 0.315 0.097</ambient><diffuse>0.121 0.509 0.133</diffuse></material>
+    </visual>
+    <visual name="m74_1" cast_shadows="true">
+      <pose>205.26 83.02 1.52 0 0 0</pose>
+      <geometry><sphere><radius>0.99</radius></sphere></geometry>
+      <material><ambient>0.063 0.275 0.085</ambient><diffuse>0.106 0.444 0.116</diffuse></material>
+    </visual>
+    <visual name="m75_0" cast_shadows="true">
+      <pose>208.45 82.71 1.84 0 0 0</pose>
+      <geometry><sphere><radius>1.41</radius></sphere></geometry>
+      <material><ambient>0.055 0.239 0.074</ambient><diffuse>0.092 0.386 0.101</diffuse></material>
+    </visual>
+    <visual name="m75_1" cast_shadows="true">
+      <pose>207.45 82.57 1.57 0 0 0</pose>
+      <geometry><sphere><radius>1.05</radius></sphere></geometry>
+      <material><ambient>0.061 0.266 0.082</ambient><diffuse>0.102 0.430 0.113</diffuse></material>
+    </visual>
+    <visual name="m75_2" cast_shadows="true">
+      <pose>208.27 82.53 1.75 0 0 0</pose>
+      <geometry><sphere><radius>1.29</radius></sphere></geometry>
+      <material><ambient>0.075 0.325 0.100</ambient><diffuse>0.125 0.525 0.137</diffuse></material>
+    </visual>
+    <visual name="m76_0" cast_shadows="true">
+      <pose>209.55 83.91 1.85 0 0 0</pose>
+      <geometry><sphere><radius>1.43</radius></sphere></geometry>
+      <material><ambient>0.064 0.276 0.085</ambient><diffuse>0.106 0.446 0.117</diffuse></material>
+    </visual>
+    <visual name="m76_1" cast_shadows="true">
+      <pose>210.96 82.38 1.49 0 0 0</pose>
+      <geometry><sphere><radius>0.94</radius></sphere></geometry>
+      <material><ambient>0.072 0.311 0.096</ambient><diffuse>0.119 0.502 0.131</diffuse></material>
+    </visual>
+    <visual name="m77_0" cast_shadows="true">
+      <pose>212.20 82.64 1.49 0 0 0</pose>
+      <geometry><sphere><radius>0.94</radius></sphere></geometry>
+      <material><ambient>0.071 0.308 0.095</ambient><diffuse>0.119 0.498 0.130</diffuse></material>
+    </visual>
+    <visual name="m77_1" cast_shadows="true">
+      <pose>213.41 82.88 1.66 0 0 0</pose>
+      <geometry><sphere><radius>1.17</radius></sphere></geometry>
+      <material><ambient>0.048 0.208 0.064</ambient><diffuse>0.080 0.337 0.088</diffuse></material>
+    </visual>
+    <visual name="m77_2" cast_shadows="true">
+      <pose>213.08 83.44 1.55 0 0 0</pose>
+      <geometry><sphere><radius>1.02</radius></sphere></geometry>
+      <material><ambient>0.067 0.288 0.089</ambient><diffuse>0.111 0.466 0.122</diffuse></material>
+    </visual>
+    <visual name="m78_0" cast_shadows="true">
+      <pose>214.27 82.35 1.54 0 0 0</pose>
+      <geometry><sphere><radius>1.01</radius></sphere></geometry>
+      <material><ambient>0.059 0.254 0.078</ambient><diffuse>0.098 0.411 0.108</diffuse></material>
+    </visual>
+    <visual name="m78_1" cast_shadows="true">
+      <pose>214.29 82.88 1.79 0 0 0</pose>
+      <geometry><sphere><radius>1.35</radius></sphere></geometry>
+      <material><ambient>0.055 0.238 0.073</ambient><diffuse>0.092 0.385 0.101</diffuse></material>
+    </visual>
+    <visual name="m79_0" cast_shadows="true">
+      <pose>214.93 84.18 1.63 0 0 0</pose>
+      <geometry><sphere><radius>1.13</radius></sphere></geometry>
+      <material><ambient>0.062 0.267 0.082</ambient><diffuse>0.103 0.432 0.113</diffuse></material>
+    </visual>
+    <visual name="m79_1" cast_shadows="true">
+      <pose>214.66 83.44 1.76 0 0 0</pose>
+      <geometry><sphere><radius>1.30</radius></sphere></geometry>
+      <material><ambient>0.057 0.247 0.076</ambient><diffuse>0.095 0.398 0.104</diffuse></material>
+    </visual>
+    <visual name="m80_0" cast_shadows="true">
+      <pose>218.38 82.35 1.43 0 0 0</pose>
+      <geometry><sphere><radius>0.86</radius></sphere></geometry>
+      <material><ambient>0.055 0.237 0.073</ambient><diffuse>0.091 0.382 0.100</diffuse></material>
+    </visual>
+    <visual name="m80_1" cast_shadows="true">
+      <pose>218.66 82.68 1.81 0 0 0</pose>
+      <geometry><sphere><radius>1.37</radius></sphere></geometry>
+      <material><ambient>0.049 0.211 0.065</ambient><diffuse>0.081 0.341 0.089</diffuse></material>
+    </visual>
+    <visual name="m81_0" cast_shadows="true">
+      <pose>198.03 80.12 0.87 0 0 0</pose>
+      <geometry><sphere><radius>1.28</radius></sphere></geometry>
+      <material><ambient>0.068 0.294 0.090</ambient><diffuse>0.113 0.475 0.124</diffuse></material>
+    </visual>
+    <visual name="m81_1" cast_shadows="true">
+      <pose>198.86 81.44 0.58 0 0 0</pose>
+      <geometry><sphere><radius>0.89</radius></sphere></geometry>
+      <material><ambient>0.072 0.313 0.096</ambient><diffuse>0.121 0.506 0.133</diffuse></material>
+    </visual>
+    <visual name="m82_0" cast_shadows="true">
+      <pose>200.22 80.59 1.79 0 0 0</pose>
+      <geometry><sphere><radius>1.34</radius></sphere></geometry>
+      <material><ambient>0.062 0.267 0.082</ambient><diffuse>0.103 0.431 0.113</diffuse></material>
+    </visual>
+    <visual name="m82_1" cast_shadows="true">
+      <pose>201.06 81.16 1.49 0 0 0</pose>
+      <geometry><sphere><radius>0.94</radius></sphere></geometry>
+      <material><ambient>0.051 0.220 0.068</ambient><diffuse>0.085 0.356 0.093</diffuse></material>
+    </visual>
+    <visual name="m83_0" cast_shadows="true">
+      <pose>202.39 80.61 1.69 0 0 0</pose>
+      <geometry><sphere><radius>1.21</radius></sphere></geometry>
+      <material><ambient>0.073 0.315 0.097</ambient><diffuse>0.121 0.508 0.133</diffuse></material>
+    </visual>
+    <visual name="m83_1" cast_shadows="true">
+      <pose>201.01 80.89 1.84 0 0 0</pose>
+      <geometry><sphere><radius>1.40</radius></sphere></geometry>
+      <material><ambient>0.068 0.294 0.090</ambient><diffuse>0.113 0.475 0.124</diffuse></material>
+    </visual>
+    <visual name="m83_2" cast_shadows="true">
+      <pose>202.20 80.08 1.64 0 0 0</pose>
+      <geometry><sphere><radius>1.14</radius></sphere></geometry>
+      <material><ambient>0.053 0.232 0.071</ambient><diffuse>0.089 0.374 0.098</diffuse></material>
+    </visual>
+    <visual name="m84_0" cast_shadows="true">
+      <pose>204.69 81.52 1.61 0 0 0</pose>
+      <geometry><sphere><radius>1.10</radius></sphere></geometry>
+      <material><ambient>0.053 0.228 0.070</ambient><diffuse>0.088 0.368 0.096</diffuse></material>
+    </visual>
+    <visual name="m84_1" cast_shadows="true">
+      <pose>205.08 81.90 1.68 0 0 0</pose>
+      <geometry><sphere><radius>1.20</radius></sphere></geometry>
+      <material><ambient>0.071 0.309 0.095</ambient><diffuse>0.119 0.499 0.131</diffuse></material>
+    </visual>
+    <visual name="m85_0" cast_shadows="true">
+      <pose>204.54 80.88 1.75 0 0 0</pose>
+      <geometry><sphere><radius>1.30</radius></sphere></geometry>
+      <material><ambient>0.049 0.210 0.065</ambient><diffuse>0.081 0.340 0.089</diffuse></material>
+    </visual>
+    <visual name="m85_1" cast_shadows="true">
+      <pose>205.13 81.08 1.82 0 0 0</pose>
+      <geometry><sphere><radius>1.38</radius></sphere></geometry>
+      <material><ambient>0.052 0.224 0.069</ambient><diffuse>0.086 0.363 0.095</diffuse></material>
+    </visual>
+    <visual name="m85_2" cast_shadows="true">
+      <pose>205.26 81.31 1.88 0 0 0</pose>
+      <geometry><sphere><radius>1.46</radius></sphere></geometry>
+      <material><ambient>0.058 0.250 0.077</ambient><diffuse>0.096 0.404 0.106</diffuse></material>
+    </visual>
+    <visual name="m86_0" cast_shadows="true">
+      <pose>207.56 80.63 1.73 0 0 0</pose>
+      <geometry><sphere><radius>1.27</radius></sphere></geometry>
+      <material><ambient>0.069 0.300 0.092</ambient><diffuse>0.115 0.484 0.127</diffuse></material>
+    </visual>
+    <visual name="m86_1" cast_shadows="true">
+      <pose>207.50 81.03 1.85 0 0 0</pose>
+      <geometry><sphere><radius>1.42</radius></sphere></geometry>
+      <material><ambient>0.070 0.305 0.094</ambient><diffuse>0.117 0.493 0.129</diffuse></material>
+    </visual>
+    <visual name="m86_2" cast_shadows="true">
+      <pose>207.58 81.23 1.60 0 0 0</pose>
+      <geometry><sphere><radius>1.10</radius></sphere></geometry>
+      <material><ambient>0.052 0.226 0.069</ambient><diffuse>0.087 0.365 0.095</diffuse></material>
+    </visual>
+    <visual name="m87_0" cast_shadows="true">
+      <pose>209.46 81.18 1.39 0 0 0</pose>
+      <geometry><sphere><radius>0.81</radius></sphere></geometry>
+      <material><ambient>0.048 0.209 0.064</ambient><diffuse>0.080 0.338 0.088</diffuse></material>
+    </visual>
+    <visual name="m87_1" cast_shadows="true">
+      <pose>210.06 80.65 1.73 0 0 0</pose>
+      <geometry><sphere><radius>1.27</radius></sphere></geometry>
+      <material><ambient>0.063 0.272 0.084</ambient><diffuse>0.105 0.439 0.115</diffuse></material>
+    </visual>
+    <visual name="m87_2" cast_shadows="true">
+      <pose>210.18 80.62 1.39 0 0 0</pose>
+      <geometry><sphere><radius>0.81</radius></sphere></geometry>
+      <material><ambient>0.064 0.278 0.085</ambient><diffuse>0.107 0.448 0.117</diffuse></material>
+    </visual>
+    <visual name="m88_0" cast_shadows="true">
+      <pose>212.47 81.10 1.58 0 0 0</pose>
+      <geometry><sphere><radius>1.06</radius></sphere></geometry>
+      <material><ambient>0.055 0.240 0.074</ambient><diffuse>0.092 0.387 0.101</diffuse></material>
+    </visual>
+    <visual name="m88_1" cast_shadows="true">
+      <pose>212.08 80.80 1.50 0 0 0</pose>
+      <geometry><sphere><radius>0.96</radius></sphere></geometry>
+      <material><ambient>0.069 0.297 0.091</ambient><diffuse>0.114 0.480 0.126</diffuse></material>
+    </visual>
+    <visual name="m89_0" cast_shadows="true">
+      <pose>214.02 80.95 1.94 0 0 0</pose>
+      <geometry><sphere><radius>1.55</radius></sphere></geometry>
+      <material><ambient>0.052 0.227 0.070</ambient><diffuse>0.087 0.367 0.096</diffuse></material>
+    </visual>
+    <visual name="m89_1" cast_shadows="true">
+      <pose>214.65 79.79 1.70 0 0 0</pose>
+      <geometry><sphere><radius>1.22</radius></sphere></geometry>
+      <material><ambient>0.066 0.285 0.088</ambient><diffuse>0.110 0.461 0.121</diffuse></material>
+    </visual>
+    <visual name="m90_0" cast_shadows="true">
+      <pose>216.06 80.25 1.60 0 0 0</pose>
+      <geometry><sphere><radius>1.08</radius></sphere></geometry>
+      <material><ambient>0.060 0.260 0.080</ambient><diffuse>0.100 0.420 0.110</diffuse></material>
+    </visual>
+    <visual name="m90_1" cast_shadows="true">
+      <pose>214.50 80.75 1.83 0 0 0</pose>
+      <geometry><sphere><radius>1.40</radius></sphere></geometry>
+      <material><ambient>0.067 0.288 0.089</ambient><diffuse>0.111 0.466 0.122</diffuse></material>
+    </visual>
+    <visual name="m90_2" cast_shadows="true">
+      <pose>214.61 79.82 1.48 0 0 0</pose>
+      <geometry><sphere><radius>0.93</radius></sphere></geometry>
+      <material><ambient>0.050 0.215 0.066</ambient><diffuse>0.083 0.347 0.091</diffuse></material>
+    </visual>
+    <visual name="m91_0" cast_shadows="true">
+      <pose>218.04 81.57 1.60 0 0 0</pose>
+      <geometry><sphere><radius>1.09</radius></sphere></geometry>
+      <material><ambient>0.049 0.214 0.066</ambient><diffuse>0.082 0.346 0.091</diffuse></material>
+    </visual>
+    <visual name="m91_1" cast_shadows="true">
+      <pose>217.32 80.97 1.53 0 0 0</pose>
+      <geometry><sphere><radius>1.00</radius></sphere></geometry>
+      <material><ambient>0.057 0.249 0.077</ambient><diffuse>0.096 0.402 0.105</diffuse></material>
+    </visual>
+    <visual name="m92_0" cast_shadows="true">
+      <pose>218.56 81.59 -0.20 0 0 0</pose>
+      <geometry><sphere><radius>1.17</radius></sphere></geometry>
+      <material><ambient>0.069 0.300 0.092</ambient><diffuse>0.115 0.485 0.127</diffuse></material>
+    </visual>
+    <visual name="m92_1" cast_shadows="true">
+      <pose>219.51 81.38 -0.11 0 0 0</pose>
+      <geometry><sphere><radius>1.28</radius></sphere></geometry>
+      <material><ambient>0.069 0.300 0.092</ambient><diffuse>0.116 0.485 0.127</diffuse></material>
+    </visual>
+    <visual name="m93_0" cast_shadows="true">
+      <pose>204.60 79.93 0.79 0 0 0</pose>
+      <geometry><sphere><radius>0.99</radius></sphere></geometry>
+      <material><ambient>0.064 0.276 0.085</ambient><diffuse>0.106 0.445 0.117</diffuse></material>
+    </visual>
+    <visual name="m93_1" cast_shadows="true">
+      <pose>204.29 78.91 0.70 0 0 0</pose>
+      <geometry><sphere><radius>0.86</radius></sphere></geometry>
+      <material><ambient>0.067 0.291 0.090</ambient><diffuse>0.112 0.470 0.123</diffuse></material>
+    </visual>
+    <visual name="m94_0" cast_shadows="true">
+      <pose>205.39 78.65 1.88 0 0 0</pose>
+      <geometry><sphere><radius>1.46</radius></sphere></geometry>
+      <material><ambient>0.069 0.299 0.092</ambient><diffuse>0.115 0.484 0.127</diffuse></material>
+    </visual>
+    <visual name="m94_1" cast_shadows="true">
+      <pose>205.62 78.54 1.47 0 0 0</pose>
+      <geometry><sphere><radius>0.91</radius></sphere></geometry>
+      <material><ambient>0.071 0.306 0.094</ambient><diffuse>0.118 0.495 0.130</diffuse></material>
+    </visual>
+    <visual name="m94_2" cast_shadows="true">
+      <pose>205.78 78.84 1.46 0 0 0</pose>
+      <geometry><sphere><radius>0.90</radius></sphere></geometry>
+      <material><ambient>0.070 0.303 0.093</ambient><diffuse>0.116 0.489 0.128</diffuse></material>
+    </visual>
+    <visual name="m95_0" cast_shadows="true">
+      <pose>207.37 79.15 1.92 0 0 0</pose>
+      <geometry><sphere><radius>1.51</radius></sphere></geometry>
+      <material><ambient>0.056 0.243 0.075</ambient><diffuse>0.094 0.393 0.103</diffuse></material>
+    </visual>
+    <visual name="m95_1" cast_shadows="true">
+      <pose>207.74 79.01 1.88 0 0 0</pose>
+      <geometry><sphere><radius>1.46</radius></sphere></geometry>
+      <material><ambient>0.064 0.276 0.085</ambient><diffuse>0.106 0.446 0.117</diffuse></material>
+    </visual>
+    <visual name="m96_0" cast_shadows="true">
+      <pose>209.48 77.87 1.81 0 0 0</pose>
+      <geometry><sphere><radius>1.37</radius></sphere></geometry>
+      <material><ambient>0.058 0.251 0.077</ambient><diffuse>0.097 0.406 0.106</diffuse></material>
+    </visual>
+    <visual name="m96_1" cast_shadows="true">
+      <pose>210.02 78.57 1.90 0 0 0</pose>
+      <geometry><sphere><radius>1.49</radius></sphere></geometry>
+      <material><ambient>0.070 0.304 0.094</ambient><diffuse>0.117 0.492 0.129</diffuse></material>
+    </visual>
+    <visual name="m97_0" cast_shadows="true">
+      <pose>212.45 80.48 1.44 0 0 0</pose>
+      <geometry><sphere><radius>0.88</radius></sphere></geometry>
+      <material><ambient>0.060 0.258 0.080</ambient><diffuse>0.099 0.417 0.109</diffuse></material>
+    </visual>
+    <visual name="m97_1" cast_shadows="true">
+      <pose>212.67 80.29 1.65 0 0 0</pose>
+      <geometry><sphere><radius>1.16</radius></sphere></geometry>
+      <material><ambient>0.055 0.238 0.073</ambient><diffuse>0.092 0.385 0.101</diffuse></material>
+    </visual>
+    <visual name="m98_0" cast_shadows="true">
+      <pose>207.71 77.24 1.95 0 0 0</pose>
+      <geometry><sphere><radius>1.55</radius></sphere></geometry>
+      <material><ambient>0.071 0.309 0.095</ambient><diffuse>0.119 0.500 0.131</diffuse></material>
+    </visual>
+    <visual name="m98_1" cast_shadows="true">
+      <pose>208.44 76.97 1.89 0 0 0</pose>
+      <geometry><sphere><radius>1.48</radius></sphere></geometry>
+      <material><ambient>0.056 0.241 0.074</ambient><diffuse>0.093 0.389 0.102</diffuse></material>
+    </visual>
+    <visual name="m98_2" cast_shadows="true">
+      <pose>208.28 77.60 1.38 0 0 0</pose>
+      <geometry><sphere><radius>0.80</radius></sphere></geometry>
+      <material><ambient>0.066 0.286 0.088</ambient><diffuse>0.110 0.463 0.121</diffuse></material>
+    </visual>
+    <visual name="m99_0" cast_shadows="true">
+      <pose>210.64 76.16 1.12 0 0 0</pose>
+      <geometry><sphere><radius>0.91</radius></sphere></geometry>
+      <material><ambient>0.058 0.251 0.077</ambient><diffuse>0.096 0.405 0.106</diffuse></material>
+    </visual>
+    <visual name="m99_1" cast_shadows="true">
+      <pose>211.69 76.90 1.56 0 0 0</pose>
+      <geometry><sphere><radius>1.50</radius></sphere></geometry>
+      <material><ambient>0.064 0.278 0.086</ambient><diffuse>0.107 0.449 0.118</diffuse></material>
+    </visual>
+    <visual name="m100_0" cast_shadows="true">
+      <pose>209.93 75.99 1.74 0 0 0</pose>
+      <geometry><sphere><radius>1.27</radius></sphere></geometry>
+      <material><ambient>0.068 0.295 0.091</ambient><diffuse>0.114 0.477 0.125</diffuse></material>
+    </visual>
+    <visual name="m100_1" cast_shadows="true">
+      <pose>208.73 76.08 1.75 0 0 0</pose>
+      <geometry><sphere><radius>1.29</radius></sphere></geometry>
+      <material><ambient>0.065 0.282 0.087</ambient><diffuse>0.109 0.456 0.119</diffuse></material>
+    </visual>
+    <visual name="m101_0" cast_shadows="true">
+      <pose>211.25 75.45 1.19 0 0 0</pose>
+      <geometry><sphere><radius>1.39</radius></sphere></geometry>
+      <material><ambient>0.066 0.286 0.088</ambient><diffuse>0.110 0.462 0.121</diffuse></material>
+    </visual>
+    <visual name="m101_1" cast_shadows="true">
+      <pose>211.82 75.81 0.98 0 0 0</pose>
+      <geometry><sphere><radius>1.11</radius></sphere></geometry>
+      <material><ambient>0.074 0.323 0.099</ambient><diffuse>0.124 0.521 0.137</diffuse></material>
+    </visual>
+    <visual name="m101_2" cast_shadows="true">
+      <pose>211.98 75.55 1.02 0 0 0</pose>
+      <geometry><sphere><radius>1.16</radius></sphere></geometry>
+      <material><ambient>0.065 0.281 0.086</ambient><diffuse>0.108 0.453 0.119</diffuse></material>
+    </visual>
+    <visual name="m102_0" cast_shadows="true">
+      <pose>188.07 72.97 0.58 0 0 0</pose>
+      <geometry><sphere><radius>0.96</radius></sphere></geometry>
+      <material><ambient>0.068 0.296 0.091</ambient><diffuse>0.114 0.478 0.125</diffuse></material>
+    </visual>
+    <visual name="m102_1" cast_shadows="true">
+      <pose>186.99 72.44 0.79 0 0 0</pose>
+      <geometry><sphere><radius>1.24</radius></sphere></geometry>
+      <material><ambient>0.055 0.240 0.074</ambient><diffuse>0.092 0.388 0.102</diffuse></material>
+    </visual>
+    <visual name="m102_2" cast_shadows="true">
+      <pose>188.09 72.47 0.93 0 0 0</pose>
+      <geometry><sphere><radius>1.42</radius></sphere></geometry>
+      <material><ambient>0.049 0.213 0.066</ambient><diffuse>0.082 0.345 0.090</diffuse></material>
+    </visual>
+    <visual name="m103_0" cast_shadows="true">
+      <pose>188.13 72.60 0.29 0 0 0</pose>
+      <geometry><sphere><radius>1.26</radius></sphere></geometry>
+      <material><ambient>0.059 0.254 0.078</ambient><diffuse>0.098 0.410 0.107</diffuse></material>
+    </visual>
+    <visual name="m103_1" cast_shadows="true">
+      <pose>188.65 73.91 0.43 0 0 0</pose>
+      <geometry><sphere><radius>1.44</radius></sphere></geometry>
+      <material><ambient>0.070 0.305 0.094</ambient><diffuse>0.117 0.492 0.129</diffuse></material>
+    </visual>
+    <visual name="m103_2" cast_shadows="true">
+      <pose>188.96 73.92 0.20 0 0 0</pose>
+      <geometry><sphere><radius>1.14</radius></sphere></geometry>
+      <material><ambient>0.066 0.285 0.088</ambient><diffuse>0.110 0.460 0.121</diffuse></material>
+    </visual>
+    <visual name="m104_0" cast_shadows="true">
+      <pose>194.58 73.55 0.67 0 0 0</pose>
+      <geometry><sphere><radius>1.39</radius></sphere></geometry>
+      <material><ambient>0.073 0.317 0.097</ambient><diffuse>0.122 0.511 0.134</diffuse></material>
+    </visual>
+    <visual name="m104_1" cast_shadows="true">
+      <pose>195.65 73.26 0.81 0 0 0</pose>
+      <geometry><sphere><radius>1.57</radius></sphere></geometry>
+      <material><ambient>0.066 0.288 0.089</ambient><diffuse>0.111 0.465 0.122</diffuse></material>
+    </visual>
+    <visual name="m104_2" cast_shadows="true">
+      <pose>195.58 73.38 0.74 0 0 0</pose>
+      <geometry><sphere><radius>1.49</radius></sphere></geometry>
+      <material><ambient>0.053 0.229 0.071</ambient><diffuse>0.088 0.371 0.097</diffuse></material>
+    </visual>
+    <visual name="m105_0" cast_shadows="true">
+      <pose>212.33 72.54 0.85 0 0 0</pose>
+      <geometry><sphere><radius>1.06</radius></sphere></geometry>
+      <material><ambient>0.067 0.292 0.090</ambient><diffuse>0.112 0.471 0.123</diffuse></material>
+    </visual>
+    <visual name="m105_1" cast_shadows="true">
+      <pose>211.64 73.01 0.71 0 0 0</pose>
+      <geometry><sphere><radius>0.87</radius></sphere></geometry>
+      <material><ambient>0.065 0.282 0.087</ambient><diffuse>0.108 0.456 0.119</diffuse></material>
+    </visual>
+    <visual name="m106_0" cast_shadows="true">
+      <pose>184.05 72.08 1.91 0 0 0</pose>
+      <geometry><sphere><radius>1.53</radius></sphere></geometry>
+      <material><ambient>0.060 0.260 0.080</ambient><diffuse>0.100 0.420 0.110</diffuse></material>
+    </visual>
+    <visual name="m106_1" cast_shadows="true">
+      <pose>184.74 71.36 1.42 0 0 0</pose>
+      <geometry><sphere><radius>0.88</radius></sphere></geometry>
+      <material><ambient>0.049 0.214 0.066</ambient><diffuse>0.082 0.346 0.091</diffuse></material>
+    </visual>
+    <visual name="m107_0" cast_shadows="true">
+      <pose>187.36 72.01 1.48 0 0 0</pose>
+      <geometry><sphere><radius>1.21</radius></sphere></geometry>
+      <material><ambient>0.063 0.272 0.084</ambient><diffuse>0.105 0.440 0.115</diffuse></material>
+    </visual>
+    <visual name="m107_1" cast_shadows="true">
+      <pose>185.99 71.60 1.27 0 0 0</pose>
+      <geometry><sphere><radius>0.94</radius></sphere></geometry>
+      <material><ambient>0.048 0.209 0.064</ambient><diffuse>0.080 0.337 0.088</diffuse></material>
+    </visual>
+    <visual name="m107_2" cast_shadows="true">
+      <pose>186.70 71.40 1.52 0 0 0</pose>
+      <geometry><sphere><radius>1.26</radius></sphere></geometry>
+      <material><ambient>0.056 0.244 0.075</ambient><diffuse>0.094 0.394 0.103</diffuse></material>
+    </visual>
+    <visual name="m108_0" cast_shadows="true">
+      <pose>190.35 70.92 0.72 0 0 0</pose>
+      <geometry><sphere><radius>1.33</radius></sphere></geometry>
+      <material><ambient>0.068 0.293 0.090</ambient><diffuse>0.113 0.473 0.124</diffuse></material>
+    </visual>
+    <visual name="m108_1" cast_shadows="true">
+      <pose>189.16 71.72 0.39 0 0 0</pose>
+      <geometry><sphere><radius>0.89</radius></sphere></geometry>
+      <material><ambient>0.064 0.278 0.086</ambient><diffuse>0.107 0.450 0.118</diffuse></material>
+    </visual>
+    <visual name="m109_0" cast_shadows="true">
+      <pose>191.11 71.33 1.24 0 0 0</pose>
+      <geometry><sphere><radius>1.40</radius></sphere></geometry>
+      <material><ambient>0.065 0.281 0.087</ambient><diffuse>0.108 0.454 0.119</diffuse></material>
+    </visual>
+    <visual name="m109_1" cast_shadows="true">
+      <pose>190.64 70.78 0.86 0 0 0</pose>
+      <geometry><sphere><radius>0.88</radius></sphere></geometry>
+      <material><ambient>0.063 0.273 0.084</ambient><diffuse>0.105 0.441 0.116</diffuse></material>
+    </visual>
+    <visual name="m110_0" cast_shadows="true">
+      <pose>192.05 70.75 1.68 0 0 0</pose>
+      <geometry><sphere><radius>1.20</radius></sphere></geometry>
+      <material><ambient>0.073 0.318 0.098</ambient><diffuse>0.122 0.513 0.134</diffuse></material>
+    </visual>
+    <visual name="m110_1" cast_shadows="true">
+      <pose>192.08 70.70 1.58 0 0 0</pose>
+      <geometry><sphere><radius>1.06</radius></sphere></geometry>
+      <material><ambient>0.068 0.296 0.091</ambient><diffuse>0.114 0.478 0.125</diffuse></material>
+    </visual>
+    <visual name="m110_2" cast_shadows="true">
+      <pose>192.46 71.79 1.96 0 0 0</pose>
+      <geometry><sphere><radius>1.57</radius></sphere></geometry>
+      <material><ambient>0.063 0.274 0.084</ambient><diffuse>0.105 0.442 0.116</diffuse></material>
+    </visual>
+    <visual name="m111_0" cast_shadows="true">
+      <pose>193.91 71.52 0.32 0 0 0</pose>
+      <geometry><sphere><radius>1.14</radius></sphere></geometry>
+      <material><ambient>0.064 0.276 0.085</ambient><diffuse>0.106 0.446 0.117</diffuse></material>
+    </visual>
+    <visual name="m111_1" cast_shadows="true">
+      <pose>194.01 70.86 0.41 0 0 0</pose>
+      <geometry><sphere><radius>1.26</radius></sphere></geometry>
+      <material><ambient>0.071 0.307 0.095</ambient><diffuse>0.118 0.497 0.130</diffuse></material>
+    </visual>
+    <visual name="m111_2" cast_shadows="true">
+      <pose>193.89 70.67 0.49 0 0 0</pose>
+      <geometry><sphere><radius>1.36</radius></sphere></geometry>
+      <material><ambient>0.058 0.251 0.077</ambient><diffuse>0.097 0.405 0.106</diffuse></material>
+    </visual>
+    <visual name="m112_0" cast_shadows="true">
+      <pose>212.65 71.31 1.57 0 0 0</pose>
+      <geometry><sphere><radius>1.52</radius></sphere></geometry>
+      <material><ambient>0.064 0.279 0.086</ambient><diffuse>0.107 0.451 0.118</diffuse></material>
+    </visual>
+    <visual name="m112_1" cast_shadows="true">
+      <pose>212.57 70.70 1.10 0 0 0</pose>
+      <geometry><sphere><radius>0.90</radius></sphere></geometry>
+      <material><ambient>0.049 0.212 0.065</ambient><diffuse>0.082 0.343 0.090</diffuse></material>
+    </visual>
+    <visual name="m112_2" cast_shadows="true">
+      <pose>211.92 71.42 1.14 0 0 0</pose>
+      <geometry><sphere><radius>0.95</radius></sphere></geometry>
+      <material><ambient>0.064 0.279 0.086</ambient><diffuse>0.107 0.451 0.118</diffuse></material>
+    </visual>
+    <visual name="m113_0" cast_shadows="true">
+      <pose>185.49 69.48 1.61 0 0 0</pose>
+      <geometry><sphere><radius>1.10</radius></sphere></geometry>
+      <material><ambient>0.062 0.267 0.082</ambient><diffuse>0.103 0.432 0.113</diffuse></material>
+    </visual>
+    <visual name="m113_1" cast_shadows="true">
+      <pose>185.66 70.28 1.66 0 0 0</pose>
+      <geometry><sphere><radius>1.17</radius></sphere></geometry>
+      <material><ambient>0.065 0.280 0.086</ambient><diffuse>0.108 0.453 0.119</diffuse></material>
+    </visual>
+    <visual name="m113_2" cast_shadows="true">
+      <pose>186.19 70.88 1.77 0 0 0</pose>
+      <geometry><sphere><radius>1.31</radius></sphere></geometry>
+      <material><ambient>0.071 0.306 0.094</ambient><diffuse>0.118 0.495 0.130</diffuse></material>
+    </visual>
+    <visual name="m114_0" cast_shadows="true">
+      <pose>187.77 70.21 1.47 0 0 0</pose>
+      <geometry><sphere><radius>1.14</radius></sphere></geometry>
+      <material><ambient>0.067 0.292 0.090</ambient><diffuse>0.112 0.472 0.124</diffuse></material>
+    </visual>
+    <visual name="m114_1" cast_shadows="true">
+      <pose>189.25 70.41 1.69 0 0 0</pose>
+      <geometry><sphere><radius>1.43</radius></sphere></geometry>
+      <material><ambient>0.073 0.318 0.098</ambient><diffuse>0.122 0.514 0.135</diffuse></material>
+    </visual>
+    <visual name="m115_0" cast_shadows="true">
+      <pose>190.14 68.75 1.70 0 0 0</pose>
+      <geometry><sphere><radius>1.22</radius></sphere></geometry>
+      <material><ambient>0.070 0.304 0.094</ambient><diffuse>0.117 0.491 0.129</diffuse></material>
+    </visual>
+    <visual name="m115_1" cast_shadows="true">
+      <pose>189.58 68.38 1.60 0 0 0</pose>
+      <geometry><sphere><radius>1.09</radius></sphere></geometry>
+      <material><ambient>0.061 0.264 0.081</ambient><diffuse>0.102 0.427 0.112</diffuse></material>
+    </visual>
+    <visual name="m115_2" cast_shadows="true">
+      <pose>190.99 68.80 1.89 0 0 0</pose>
+      <geometry><sphere><radius>1.48</radius></sphere></geometry>
+      <material><ambient>0.062 0.270 0.083</ambient><diffuse>0.104 0.436 0.114</diffuse></material>
+    </visual>
+    <visual name="m116_0" cast_shadows="true">
+      <pose>191.83 68.55 1.55 0 0 0</pose>
+      <geometry><sphere><radius>1.03</radius></sphere></geometry>
+      <material><ambient>0.074 0.322 0.099</ambient><diffuse>0.124 0.521 0.136</diffuse></material>
+    </visual>
+    <visual name="m116_1" cast_shadows="true">
+      <pose>192.48 68.79 1.95 0 0 0</pose>
+      <geometry><sphere><radius>1.56</radius></sphere></geometry>
+      <material><ambient>0.048 0.209 0.064</ambient><diffuse>0.080 0.337 0.088</diffuse></material>
+    </visual>
+    <visual name="m116_2" cast_shadows="true">
+      <pose>191.96 68.24 1.40 0 0 0</pose>
+      <geometry><sphere><radius>0.82</radius></sphere></geometry>
+      <material><ambient>0.071 0.309 0.095</ambient><diffuse>0.119 0.499 0.131</diffuse></material>
+    </visual>
+    <visual name="m117_0" cast_shadows="true">
+      <pose>211.49 68.68 1.65 0 0 0</pose>
+      <geometry><sphere><radius>1.16</radius></sphere></geometry>
+      <material><ambient>0.062 0.267 0.082</ambient><diffuse>0.103 0.432 0.113</diffuse></material>
+    </visual>
+    <visual name="m117_1" cast_shadows="true">
+      <pose>211.74 69.89 1.84 0 0 0</pose>
+      <geometry><sphere><radius>1.41</radius></sphere></geometry>
+      <material><ambient>0.071 0.306 0.094</ambient><diffuse>0.118 0.495 0.130</diffuse></material>
+    </visual>
+    <visual name="m117_2" cast_shadows="true">
+      <pose>210.72 69.57 1.80 0 0 0</pose>
+      <geometry><sphere><radius>1.35</radius></sphere></geometry>
+      <material><ambient>0.055 0.237 0.073</ambient><diffuse>0.091 0.383 0.100</diffuse></material>
+    </visual>
+    <visual name="m118_0" cast_shadows="true">
+      <pose>212.99 70.46 0.25 0 0 0</pose>
+      <geometry><sphere><radius>0.82</radius></sphere></geometry>
+      <material><ambient>0.071 0.308 0.095</ambient><diffuse>0.118 0.497 0.130</diffuse></material>
+    </visual>
+    <visual name="m118_1" cast_shadows="true">
+      <pose>214.49 70.74 0.44 0 0 0</pose>
+      <geometry><sphere><radius>1.08</radius></sphere></geometry>
+      <material><ambient>0.061 0.265 0.082</ambient><diffuse>0.102 0.429 0.112</diffuse></material>
+    </visual>
+    <visual name="m119_0" cast_shadows="true">
+      <pose>184.60 66.57 1.38 0 0 0</pose>
+      <geometry><sphere><radius>0.95</radius></sphere></geometry>
+      <material><ambient>0.066 0.285 0.088</ambient><diffuse>0.110 0.461 0.121</diffuse></material>
+    </visual>
+    <visual name="m119_1" cast_shadows="true">
+      <pose>185.07 66.48 1.70 0 0 0</pose>
+      <geometry><sphere><radius>1.38</radius></sphere></geometry>
+      <material><ambient>0.053 0.231 0.071</ambient><diffuse>0.089 0.373 0.098</diffuse></material>
+    </visual>
+    <visual name="m119_2" cast_shadows="true">
+      <pose>185.49 68.03 1.47 0 0 0</pose>
+      <geometry><sphere><radius>1.07</radius></sphere></geometry>
+      <material><ambient>0.057 0.245 0.076</ambient><diffuse>0.094 0.397 0.104</diffuse></material>
+    </visual>
+    <visual name="m120_0" cast_shadows="true">
+      <pose>187.37 66.79 1.60 0 0 0</pose>
+      <geometry><sphere><radius>1.09</radius></sphere></geometry>
+      <material><ambient>0.058 0.250 0.077</ambient><diffuse>0.096 0.404 0.106</diffuse></material>
+    </visual>
+    <visual name="m120_1" cast_shadows="true">
+      <pose>186.90 67.25 1.69 0 0 0</pose>
+      <geometry><sphere><radius>1.21</radius></sphere></geometry>
+      <material><ambient>0.054 0.233 0.072</ambient><diffuse>0.090 0.377 0.099</diffuse></material>
+    </visual>
+    <visual name="m120_2" cast_shadows="true">
+      <pose>186.82 66.86 1.92 0 0 0</pose>
+      <geometry><sphere><radius>1.51</radius></sphere></geometry>
+      <material><ambient>0.059 0.256 0.079</ambient><diffuse>0.099 0.414 0.108</diffuse></material>
+    </visual>
+    <visual name="m121_0" cast_shadows="true">
+      <pose>187.72 66.74 1.66 0 0 0</pose>
+      <geometry><sphere><radius>1.17</radius></sphere></geometry>
+      <material><ambient>0.063 0.273 0.084</ambient><diffuse>0.105 0.441 0.115</diffuse></material>
+    </visual>
+    <visual name="m121_1" cast_shadows="true">
+      <pose>188.21 67.99 1.81 0 0 0</pose>
+      <geometry><sphere><radius>1.37</radius></sphere></geometry>
+      <material><ambient>0.057 0.247 0.076</ambient><diffuse>0.095 0.399 0.105</diffuse></material>
+    </visual>
+    <visual name="m122_0" cast_shadows="true">
+      <pose>190.18 68.00 1.51 0 0 0</pose>
+      <geometry><sphere><radius>1.25</radius></sphere></geometry>
+      <material><ambient>0.059 0.257 0.079</ambient><diffuse>0.099 0.415 0.109</diffuse></material>
+    </visual>
+    <visual name="m122_1" cast_shadows="true">
+      <pose>190.25 67.20 1.59 0 0 0</pose>
+      <geometry><sphere><radius>1.36</radius></sphere></geometry>
+      <material><ambient>0.049 0.212 0.065</ambient><diffuse>0.081 0.342 0.089</diffuse></material>
+    </visual>
+    <visual name="m122_2" cast_shadows="true">
+      <pose>190.09 67.68 1.68 0 0 0</pose>
+      <geometry><sphere><radius>1.47</radius></sphere></geometry>
+      <material><ambient>0.058 0.250 0.077</ambient><diffuse>0.096 0.403 0.106</diffuse></material>
+    </visual>
+    <visual name="m123_0" cast_shadows="true">
+      <pose>192.33 67.38 1.76 0 0 0</pose>
+      <geometry><sphere><radius>1.52</radius></sphere></geometry>
+      <material><ambient>0.052 0.224 0.069</ambient><diffuse>0.086 0.362 0.095</diffuse></material>
+    </visual>
+    <visual name="m123_1" cast_shadows="true">
+      <pose>192.54 67.05 1.48 0 0 0</pose>
+      <geometry><sphere><radius>1.15</radius></sphere></geometry>
+      <material><ambient>0.072 0.311 0.096</ambient><diffuse>0.120 0.503 0.132</diffuse></material>
+    </visual>
+    <visual name="m123_2" cast_shadows="true">
+      <pose>191.93 68.07 1.63 0 0 0</pose>
+      <geometry><sphere><radius>1.35</radius></sphere></geometry>
+      <material><ambient>0.055 0.237 0.073</ambient><diffuse>0.091 0.383 0.100</diffuse></material>
+    </visual>
+    <visual name="m124_0" cast_shadows="true">
+      <pose>194.15 68.54 1.72 0 0 0</pose>
+      <geometry><sphere><radius>1.53</radius></sphere></geometry>
+      <material><ambient>0.054 0.234 0.072</ambient><diffuse>0.090 0.378 0.099</diffuse></material>
+    </visual>
+    <visual name="m124_1" cast_shadows="true">
+      <pose>194.66 68.14 1.42 0 0 0</pose>
+      <geometry><sphere><radius>1.14</radius></sphere></geometry>
+      <material><ambient>0.054 0.233 0.072</ambient><diffuse>0.090 0.377 0.099</diffuse></material>
+    </visual>
+    <visual name="m124_2" cast_shadows="true">
+      <pose>193.54 67.26 1.52 0 0 0</pose>
+      <geometry><sphere><radius>1.27</radius></sphere></geometry>
+      <material><ambient>0.050 0.216 0.067</ambient><diffuse>0.083 0.349 0.092</diffuse></material>
+    </visual>
+    <visual name="m125_0" cast_shadows="true">
+      <pose>196.34 67.26 0.34 0 0 0</pose>
+      <geometry><sphere><radius>1.01</radius></sphere></geometry>
+      <material><ambient>0.060 0.259 0.080</ambient><diffuse>0.100 0.418 0.110</diffuse></material>
+    </visual>
+    <visual name="m125_1" cast_shadows="true">
+      <pose>196.26 67.30 0.65 0 0 0</pose>
+      <geometry><sphere><radius>1.42</radius></sphere></geometry>
+      <material><ambient>0.053 0.228 0.070</ambient><diffuse>0.088 0.368 0.097</diffuse></material>
+    </visual>
+    <visual name="m125_2" cast_shadows="true">
+      <pose>196.98 68.09 0.65 0 0 0</pose>
+      <geometry><sphere><radius>1.43</radius></sphere></geometry>
+      <material><ambient>0.061 0.266 0.082</ambient><diffuse>0.102 0.430 0.113</diffuse></material>
+    </visual>
+    <visual name="m126_0" cast_shadows="true">
+      <pose>212.26 66.97 1.76 0 0 0</pose>
+      <geometry><sphere><radius>1.33</radius></sphere></geometry>
+      <material><ambient>0.058 0.251 0.077</ambient><diffuse>0.096 0.405 0.106</diffuse></material>
+    </visual>
+    <visual name="m126_1" cast_shadows="true">
+      <pose>211.43 67.62 1.42 0 0 0</pose>
+      <geometry><sphere><radius>0.87</radius></sphere></geometry>
+      <material><ambient>0.068 0.296 0.091</ambient><diffuse>0.114 0.478 0.125</diffuse></material>
+    </visual>
+    <visual name="m126_2" cast_shadows="true">
+      <pose>212.30 67.19 1.80 0 0 0</pose>
+      <geometry><sphere><radius>1.39</radius></sphere></geometry>
+      <material><ambient>0.059 0.256 0.079</ambient><diffuse>0.099 0.414 0.108</diffuse></material>
+    </visual>
+    <visual name="m127_0" cast_shadows="true">
+      <pose>213.78 68.67 1.53 0 0 0</pose>
+      <geometry><sphere><radius>1.16</radius></sphere></geometry>
+      <material><ambient>0.072 0.314 0.097</ambient><diffuse>0.121 0.507 0.133</diffuse></material>
+    </visual>
+    <visual name="m127_1" cast_shadows="true">
+      <pose>213.69 67.68 1.44 0 0 0</pose>
+      <geometry><sphere><radius>1.03</radius></sphere></geometry>
+      <material><ambient>0.073 0.318 0.098</ambient><diffuse>0.122 0.513 0.134</diffuse></material>
+    </visual>
+    <visual name="m127_2" cast_shadows="true">
+      <pose>213.21 68.11 1.56 0 0 0</pose>
+      <geometry><sphere><radius>1.20</radius></sphere></geometry>
+      <material><ambient>0.069 0.297 0.091</ambient><diffuse>0.114 0.480 0.126</diffuse></material>
+    </visual>
+    <visual name="m128_0" cast_shadows="true">
+      <pose>194.81 65.92 1.44 0 0 0</pose>
+      <geometry><sphere><radius>0.87</radius></sphere></geometry>
+      <material><ambient>0.059 0.257 0.079</ambient><diffuse>0.099 0.415 0.109</diffuse></material>
+    </visual>
+    <visual name="m128_1" cast_shadows="true">
+      <pose>194.12 65.71 1.93 0 0 0</pose>
+      <geometry><sphere><radius>1.53</radius></sphere></geometry>
+      <material><ambient>0.073 0.317 0.097</ambient><diffuse>0.122 0.512 0.134</diffuse></material>
+    </visual>
+    <visual name="m128_2" cast_shadows="true">
+      <pose>195.14 65.01 1.79 0 0 0</pose>
+      <geometry><sphere><radius>1.35</radius></sphere></geometry>
+      <material><ambient>0.063 0.273 0.084</ambient><diffuse>0.105 0.441 0.115</diffuse></material>
+    </visual>
+    <visual name="m129_0" cast_shadows="true">
+      <pose>196.15 65.60 1.42 0 0 0</pose>
+      <geometry><sphere><radius>0.84</radius></sphere></geometry>
+      <material><ambient>0.051 0.219 0.067</ambient><diffuse>0.084 0.354 0.093</diffuse></material>
+    </visual>
+    <visual name="m129_1" cast_shadows="true">
+      <pose>197.11 64.93 1.96 0 0 0</pose>
+      <geometry><sphere><radius>1.57</radius></sphere></geometry>
+      <material><ambient>0.066 0.287 0.088</ambient><diffuse>0.110 0.463 0.121</diffuse></material>
+    </visual>
+    <visual name="m130_0" cast_shadows="true">
+      <pose>198.59 66.06 1.93 0 0 0</pose>
+      <geometry><sphere><radius>1.53</radius></sphere></geometry>
+      <material><ambient>0.066 0.286 0.088</ambient><diffuse>0.110 0.462 0.121</diffuse></material>
+    </visual>
+    <visual name="m130_1" cast_shadows="true">
+      <pose>197.64 66.23 1.47 0 0 0</pose>
+      <geometry><sphere><radius>0.91</radius></sphere></geometry>
+      <material><ambient>0.062 0.269 0.083</ambient><diffuse>0.104 0.435 0.114</diffuse></material>
+    </visual>
+    <visual name="m131_0" cast_shadows="true">
+      <pose>200.28 66.50 0.47 0 0 0</pose>
+      <geometry><sphere><radius>1.30</radius></sphere></geometry>
+      <material><ambient>0.073 0.317 0.098</ambient><diffuse>0.122 0.513 0.134</diffuse></material>
+    </visual>
+    <visual name="m131_1" cast_shadows="true">
+      <pose>200.17 66.33 0.32 0 0 0</pose>
+      <geometry><sphere><radius>1.11</radius></sphere></geometry>
+      <material><ambient>0.074 0.320 0.098</ambient><diffuse>0.123 0.517 0.135</diffuse></material>
+    </visual>
+    <visual name="m131_2" cast_shadows="true">
+      <pose>199.11 66.43 0.43 0 0 0</pose>
+      <geometry><sphere><radius>1.25</radius></sphere></geometry>
+      <material><ambient>0.054 0.234 0.072</ambient><diffuse>0.090 0.377 0.099</diffuse></material>
+    </visual>
+    <visual name="m132_0" cast_shadows="true">
+      <pose>211.68 66.80 0.47 0 0 0</pose>
+      <geometry><sphere><radius>1.06</radius></sphere></geometry>
+      <material><ambient>0.074 0.322 0.099</ambient><diffuse>0.124 0.520 0.136</diffuse></material>
+    </visual>
+    <visual name="m132_1" cast_shadows="true">
+      <pose>211.86 65.81 0.85 0 0 0</pose>
+      <geometry><sphere><radius>1.57</radius></sphere></geometry>
+      <material><ambient>0.055 0.240 0.074</ambient><diffuse>0.092 0.387 0.101</diffuse></material>
+    </visual>
+    <visual name="m133_0" cast_shadows="true">
+      <pose>214.37 65.36 1.87 0 0 0</pose>
+      <geometry><sphere><radius>1.45</radius></sphere></geometry>
+      <material><ambient>0.065 0.282 0.087</ambient><diffuse>0.109 0.456 0.119</diffuse></material>
+    </visual>
+    <visual name="m133_1" cast_shadows="true">
+      <pose>214.63 65.61 1.95 0 0 0</pose>
+      <geometry><sphere><radius>1.56</radius></sphere></geometry>
+      <material><ambient>0.068 0.293 0.090</ambient><diffuse>0.113 0.473 0.124</diffuse></material>
+    </visual>
+    <visual name="m133_2" cast_shadows="true">
+      <pose>215.31 65.70 1.47 0 0 0</pose>
+      <geometry><sphere><radius>0.92</radius></sphere></geometry>
+      <material><ambient>0.058 0.253 0.078</ambient><diffuse>0.097 0.409 0.107</diffuse></material>
+    </visual>
+    <visual name="m134_0" cast_shadows="true">
+      <pose>194.82 64.93 1.75 0 0 0</pose>
+      <geometry><sphere><radius>1.30</radius></sphere></geometry>
+      <material><ambient>0.059 0.257 0.079</ambient><diffuse>0.099 0.416 0.109</diffuse></material>
+    </visual>
+    <visual name="m134_1" cast_shadows="true">
+      <pose>194.75 64.66 1.89 0 0 0</pose>
+      <geometry><sphere><radius>1.48</radius></sphere></geometry>
+      <material><ambient>0.071 0.306 0.094</ambient><diffuse>0.118 0.495 0.130</diffuse></material>
+    </visual>
+    <visual name="m134_2" cast_shadows="true">
+      <pose>196.06 64.03 1.97 0 0 0</pose>
+      <geometry><sphere><radius>1.59</radius></sphere></geometry>
+      <material><ambient>0.066 0.286 0.088</ambient><diffuse>0.110 0.463 0.121</diffuse></material>
+    </visual>
+    <visual name="m135_0" cast_shadows="true">
+      <pose>196.36 64.61 1.65 0 0 0</pose>
+      <geometry><sphere><radius>1.16</radius></sphere></geometry>
+      <material><ambient>0.055 0.237 0.073</ambient><diffuse>0.091 0.383 0.100</diffuse></material>
+    </visual>
+    <visual name="m135_1" cast_shadows="true">
+      <pose>196.43 63.63 1.53 0 0 0</pose>
+      <geometry><sphere><radius>0.99</radius></sphere></geometry>
+      <material><ambient>0.059 0.254 0.078</ambient><diffuse>0.098 0.411 0.108</diffuse></material>
+    </visual>
+    <visual name="m136_0" cast_shadows="true">
+      <pose>199.41 65.06 1.49 0 0 0</pose>
+      <geometry><sphere><radius>0.95</radius></sphere></geometry>
+      <material><ambient>0.075 0.325 0.100</ambient><diffuse>0.125 0.525 0.137</diffuse></material>
+    </visual>
+    <visual name="m136_1" cast_shadows="true">
+      <pose>199.67 64.53 1.49 0 0 0</pose>
+      <geometry><sphere><radius>0.94</radius></sphere></geometry>
+      <material><ambient>0.072 0.313 0.096</ambient><diffuse>0.120 0.505 0.132</diffuse></material>
+    </visual>
+    <visual name="m137_0" cast_shadows="true">
+      <pose>200.09 62.96 1.97 0 0 0</pose>
+      <geometry><sphere><radius>1.58</radius></sphere></geometry>
+      <material><ambient>0.067 0.288 0.089</ambient><diffuse>0.111 0.466 0.122</diffuse></material>
+    </visual>
+    <visual name="m137_1" cast_shadows="true">
+      <pose>201.42 63.58 1.54 0 0 0</pose>
+      <geometry><sphere><radius>1.02</radius></sphere></geometry>
+      <material><ambient>0.054 0.235 0.072</ambient><diffuse>0.090 0.379 0.099</diffuse></material>
+    </visual>
+    <visual name="m137_2" cast_shadows="true">
+      <pose>201.34 64.11 1.77 0 0 0</pose>
+      <geometry><sphere><radius>1.32</radius></sphere></geometry>
+      <material><ambient>0.059 0.254 0.078</ambient><diffuse>0.098 0.410 0.107</diffuse></material>
+    </visual>
+    <visual name="m138_0" cast_shadows="true">
+      <pose>212.81 64.54 1.84 0 0 0</pose>
+      <geometry><sphere><radius>1.41</radius></sphere></geometry>
+      <material><ambient>0.063 0.271 0.083</ambient><diffuse>0.104 0.438 0.115</diffuse></material>
+    </visual>
+    <visual name="m138_1" cast_shadows="true">
+      <pose>213.37 63.78 1.59 0 0 0</pose>
+      <geometry><sphere><radius>1.07</radius></sphere></geometry>
+      <material><ambient>0.070 0.304 0.093</ambient><diffuse>0.117 0.491 0.128</diffuse></material>
+    </visual>
+    <visual name="m139_0" cast_shadows="true">
+      <pose>215.94 64.44 1.82 0 0 0</pose>
+      <geometry><sphere><radius>1.38</radius></sphere></geometry>
+      <material><ambient>0.051 0.221 0.068</ambient><diffuse>0.085 0.357 0.093</diffuse></material>
+    </visual>
+    <visual name="m139_1" cast_shadows="true">
+      <pose>216.46 63.88 1.89 0 0 0</pose>
+      <geometry><sphere><radius>1.47</radius></sphere></geometry>
+      <material><ambient>0.072 0.311 0.096</ambient><diffuse>0.119 0.502 0.131</diffuse></material>
+    </visual>
+    <visual name="m139_2" cast_shadows="true">
+      <pose>215.72 64.83 1.47 0 0 0</pose>
+      <geometry><sphere><radius>0.92</radius></sphere></geometry>
+      <material><ambient>0.068 0.294 0.090</ambient><diffuse>0.113 0.475 0.124</diffuse></material>
+    </visual>
+    <visual name="m140_0" cast_shadows="true">
+      <pose>217.46 64.63 0.50 0 0 0</pose>
+      <geometry><sphere><radius>1.04</radius></sphere></geometry>
+      <material><ambient>0.050 0.218 0.067</ambient><diffuse>0.084 0.353 0.092</diffuse></material>
+    </visual>
+    <visual name="m140_1" cast_shadows="true">
+      <pose>217.62 63.92 0.45 0 0 0</pose>
+      <geometry><sphere><radius>0.96</radius></sphere></geometry>
+      <material><ambient>0.075 0.324 0.100</ambient><diffuse>0.125 0.524 0.137</diffuse></material>
+    </visual>
+    <visual name="m141_0" cast_shadows="true">
+      <pose>195.43 61.24 1.50 0 0 0</pose>
+      <geometry><sphere><radius>0.96</radius></sphere></geometry>
+      <material><ambient>0.050 0.217 0.067</ambient><diffuse>0.084 0.351 0.092</diffuse></material>
+    </visual>
+    <visual name="m141_1" cast_shadows="true">
+      <pose>195.32 61.20 1.95 0 0 0</pose>
+      <geometry><sphere><radius>1.55</radius></sphere></geometry>
+      <material><ambient>0.050 0.218 0.067</ambient><diffuse>0.084 0.352 0.092</diffuse></material>
+    </visual>
+    <visual name="m142_0" cast_shadows="true">
+      <pose>195.68 62.27 1.79 0 0 0</pose>
+      <geometry><sphere><radius>1.35</radius></sphere></geometry>
+      <material><ambient>0.065 0.280 0.086</ambient><diffuse>0.108 0.452 0.118</diffuse></material>
+    </visual>
+    <visual name="m142_1" cast_shadows="true">
+      <pose>196.66 61.67 1.41 0 0 0</pose>
+      <geometry><sphere><radius>0.84</radius></sphere></geometry>
+      <material><ambient>0.066 0.285 0.088</ambient><diffuse>0.110 0.460 0.121</diffuse></material>
+    </visual>
+    <visual name="m142_2" cast_shadows="true">
+      <pose>196.39 62.44 1.54 0 0 0</pose>
+      <geometry><sphere><radius>1.00</radius></sphere></geometry>
+      <material><ambient>0.069 0.299 0.092</ambient><diffuse>0.115 0.483 0.126</diffuse></material>
+    </visual>
+    <visual name="m143_0" cast_shadows="true">
+      <pose>200.75 62.66 1.45 0 0 0</pose>
+      <geometry><sphere><radius>0.88</radius></sphere></geometry>
+      <material><ambient>0.051 0.220 0.068</ambient><diffuse>0.085 0.355 0.093</diffuse></material>
+    </visual>
+    <visual name="m143_1" cast_shadows="true">
+      <pose>199.95 62.48 1.47 0 0 0</pose>
+      <geometry><sphere><radius>0.91</radius></sphere></geometry>
+      <material><ambient>0.052 0.226 0.070</ambient><diffuse>0.087 0.366 0.096</diffuse></material>
+    </visual>
+    <visual name="m143_2" cast_shadows="true">
+      <pose>200.81 62.69 1.39 0 0 0</pose>
+      <geometry><sphere><radius>0.81</radius></sphere></geometry>
+      <material><ambient>0.048 0.208 0.064</ambient><diffuse>0.080 0.337 0.088</diffuse></material>
+    </visual>
+    <visual name="m144_0" cast_shadows="true">
+      <pose>202.33 62.35 1.43 0 0 0</pose>
+      <geometry><sphere><radius>0.87</radius></sphere></geometry>
+      <material><ambient>0.050 0.216 0.067</ambient><diffuse>0.083 0.349 0.091</diffuse></material>
+    </visual>
+    <visual name="m144_1" cast_shadows="true">
+      <pose>202.30 62.81 1.53 0 0 0</pose>
+      <geometry><sphere><radius>1.00</radius></sphere></geometry>
+      <material><ambient>0.069 0.301 0.093</ambient><diffuse>0.116 0.486 0.127</diffuse></material>
+    </visual>
+    <visual name="m144_2" cast_shadows="true">
+      <pose>201.16 63.05 1.90 0 0 0</pose>
+      <geometry><sphere><radius>1.49</radius></sphere></geometry>
+      <material><ambient>0.070 0.303 0.093</ambient><diffuse>0.117 0.490 0.128</diffuse></material>
+    </visual>
+    <visual name="m145_0" cast_shadows="true">
+      <pose>203.96 61.99 0.45 0 0 0</pose>
+      <geometry><sphere><radius>0.91</radius></sphere></geometry>
+      <material><ambient>0.050 0.216 0.066</ambient><diffuse>0.083 0.349 0.091</diffuse></material>
+    </visual>
+    <visual name="m145_1" cast_shadows="true">
+      <pose>203.70 62.51 0.90 0 0 0</pose>
+      <geometry><sphere><radius>1.51</radius></sphere></geometry>
+      <material><ambient>0.050 0.218 0.067</ambient><diffuse>0.084 0.352 0.092</diffuse></material>
+    </visual>
+    <visual name="m146_0" cast_shadows="true">
+      <pose>214.51 60.94 1.30 0 0 0</pose>
+      <geometry><sphere><radius>0.85</radius></sphere></geometry>
+      <material><ambient>0.061 0.266 0.082</ambient><diffuse>0.102 0.429 0.112</diffuse></material>
+    </visual>
+    <visual name="m146_1" cast_shadows="true">
+      <pose>214.82 61.85 1.69 0 0 0</pose>
+      <geometry><sphere><radius>1.37</radius></sphere></geometry>
+      <material><ambient>0.058 0.250 0.077</ambient><diffuse>0.096 0.403 0.106</diffuse></material>
+    </visual>
+    <visual name="m147_0" cast_shadows="true">
+      <pose>216.42 61.90 1.75 0 0 0</pose>
+      <geometry><sphere><radius>1.29</radius></sphere></geometry>
+      <material><ambient>0.055 0.237 0.073</ambient><diffuse>0.091 0.383 0.100</diffuse></material>
+    </visual>
+    <visual name="m147_1" cast_shadows="true">
+      <pose>216.51 62.85 1.95 0 0 0</pose>
+      <geometry><sphere><radius>1.56</radius></sphere></geometry>
+      <material><ambient>0.055 0.240 0.074</ambient><diffuse>0.092 0.387 0.101</diffuse></material>
+    </visual>
+    <visual name="m147_2" cast_shadows="true">
+      <pose>215.70 62.42 1.65 0 0 0</pose>
+      <geometry><sphere><radius>1.16</radius></sphere></geometry>
+      <material><ambient>0.049 0.211 0.065</ambient><diffuse>0.081 0.341 0.089</diffuse></material>
+    </visual>
+    <visual name="m148_0" cast_shadows="true">
+      <pose>217.49 61.81 1.49 0 0 0</pose>
+      <geometry><sphere><radius>0.95</radius></sphere></geometry>
+      <material><ambient>0.061 0.264 0.081</ambient><diffuse>0.102 0.426 0.112</diffuse></material>
+    </visual>
+    <visual name="m148_1" cast_shadows="true">
+      <pose>216.76 61.14 1.78 0 0 0</pose>
+      <geometry><sphere><radius>1.33</radius></sphere></geometry>
+      <material><ambient>0.054 0.234 0.072</ambient><diffuse>0.090 0.377 0.099</diffuse></material>
+    </visual>
+    <visual name="m149_0" cast_shadows="true">
+      <pose>196.34 59.78 1.49 0 0 0</pose>
+      <geometry><sphere><radius>0.94</radius></sphere></geometry>
+      <material><ambient>0.075 0.325 0.100</ambient><diffuse>0.125 0.525 0.137</diffuse></material>
+    </visual>
+    <visual name="m149_1" cast_shadows="true">
+      <pose>196.48 60.99 1.88 0 0 0</pose>
+      <geometry><sphere><radius>1.47</radius></sphere></geometry>
+      <material><ambient>0.067 0.290 0.089</ambient><diffuse>0.111 0.468 0.123</diffuse></material>
+    </visual>
+    <visual name="m149_2" cast_shadows="true">
+      <pose>196.57 59.91 1.39 0 0 0</pose>
+      <geometry><sphere><radius>0.81</radius></sphere></geometry>
+      <material><ambient>0.066 0.286 0.088</ambient><diffuse>0.110 0.462 0.121</diffuse></material>
+    </visual>
+    <visual name="m150_0" cast_shadows="true">
+      <pose>197.65 59.35 1.78 0 0 0</pose>
+      <geometry><sphere><radius>1.33</radius></sphere></geometry>
+      <material><ambient>0.071 0.307 0.095</ambient><diffuse>0.118 0.497 0.130</diffuse></material>
+    </visual>
+    <visual name="m150_1" cast_shadows="true">
+      <pose>197.28 59.12 1.54 0 0 0</pose>
+      <geometry><sphere><radius>1.01</radius></sphere></geometry>
+      <material><ambient>0.063 0.274 0.084</ambient><diffuse>0.106 0.443 0.116</diffuse></material>
+    </visual>
+    <visual name="m151_0" cast_shadows="true">
+      <pose>202.65 58.77 1.87 0 0 0</pose>
+      <geometry><sphere><radius>1.44</radius></sphere></geometry>
+      <material><ambient>0.049 0.211 0.065</ambient><diffuse>0.081 0.341 0.089</diffuse></material>
+    </visual>
+    <visual name="m151_1" cast_shadows="true">
+      <pose>203.21 60.12 1.68 0 0 0</pose>
+      <geometry><sphere><radius>1.19</radius></sphere></geometry>
+      <material><ambient>0.071 0.306 0.094</ambient><diffuse>0.118 0.495 0.130</diffuse></material>
+    </visual>
+    <visual name="m151_2" cast_shadows="true">
+      <pose>203.36 59.95 1.47 0 0 0</pose>
+      <geometry><sphere><radius>0.92</radius></sphere></geometry>
+      <material><ambient>0.062 0.267 0.082</ambient><diffuse>0.103 0.432 0.113</diffuse></material>
+    </visual>
+    <visual name="m152_0" cast_shadows="true">
+      <pose>203.70 59.75 1.97 0 0 0</pose>
+      <geometry><sphere><radius>1.59</radius></sphere></geometry>
+      <material><ambient>0.071 0.307 0.095</ambient><diffuse>0.118 0.496 0.130</diffuse></material>
+    </visual>
+    <visual name="m152_1" cast_shadows="true">
+      <pose>203.36 59.20 1.53 0 0 0</pose>
+      <geometry><sphere><radius>1.00</radius></sphere></geometry>
+      <material><ambient>0.068 0.294 0.090</ambient><diffuse>0.113 0.474 0.124</diffuse></material>
+    </visual>
+    <visual name="m153_0" cast_shadows="true">
+      <pose>213.06 59.47 0.62 0 0 0</pose>
+      <geometry><sphere><radius>1.57</radius></sphere></geometry>
+      <material><ambient>0.048 0.210 0.065</ambient><diffuse>0.081 0.339 0.089</diffuse></material>
+    </visual>
+    <visual name="m153_1" cast_shadows="true">
+      <pose>212.90 60.11 0.13 0 0 0</pose>
+      <geometry><sphere><radius>0.92</radius></sphere></geometry>
+      <material><ambient>0.074 0.322 0.099</ambient><diffuse>0.124 0.521 0.136</diffuse></material>
+    </visual>
+    <visual name="m154_0" cast_shadows="true">
+      <pose>219.90 59.49 0.92 0 0 0</pose>
+      <geometry><sphere><radius>1.53</radius></sphere></geometry>
+      <material><ambient>0.068 0.293 0.090</ambient><diffuse>0.113 0.474 0.124</diffuse></material>
+    </visual>
+    <visual name="m154_1" cast_shadows="true">
+      <pose>219.99 60.27 0.89 0 0 0</pose>
+      <geometry><sphere><radius>1.50</radius></sphere></geometry>
+      <material><ambient>0.069 0.298 0.092</ambient><diffuse>0.115 0.482 0.126</diffuse></material>
+    </visual>
+    <visual name="m154_2" cast_shadows="true">
+      <pose>218.71 58.91 0.92 0 0 0</pose>
+      <geometry><sphere><radius>1.53</radius></sphere></geometry>
+      <material><ambient>0.052 0.227 0.070</ambient><diffuse>0.087 0.366 0.096</diffuse></material>
+    </visual>
+    <visual name="m155_0" cast_shadows="true">
+      <pose>191.75 58.92 -0.21 0 0 0</pose>
+      <geometry><sphere><radius>1.19</radius></sphere></geometry>
+      <material><ambient>0.065 0.283 0.087</ambient><diffuse>0.109 0.458 0.120</diffuse></material>
+    </visual>
+    <visual name="m155_1" cast_shadows="true">
+      <pose>192.63 59.04 -0.15 0 0 0</pose>
+      <geometry><sphere><radius>1.27</radius></sphere></geometry>
+      <material><ambient>0.074 0.321 0.099</ambient><diffuse>0.124 0.519 0.136</diffuse></material>
+    </visual>
+    <visual name="m155_2" cast_shadows="true">
+      <pose>192.32 58.86 -0.40 0 0 0</pose>
+      <geometry><sphere><radius>0.94</radius></sphere></geometry>
+      <material><ambient>0.049 0.214 0.066</ambient><diffuse>0.082 0.345 0.090</diffuse></material>
+    </visual>
+    <visual name="m156_0" cast_shadows="true">
+      <pose>198.41 58.56 1.33 0 0 0</pose>
+      <geometry><sphere><radius>1.19</radius></sphere></geometry>
+      <material><ambient>0.066 0.287 0.088</ambient><diffuse>0.110 0.463 0.121</diffuse></material>
+    </visual>
+    <visual name="m156_1" cast_shadows="true">
+      <pose>198.08 58.67 1.08 0 0 0</pose>
+      <geometry><sphere><radius>0.87</radius></sphere></geometry>
+      <material><ambient>0.074 0.322 0.099</ambient><diffuse>0.124 0.520 0.136</diffuse></material>
+    </visual>
+    <visual name="m157_0" cast_shadows="true">
+      <pose>199.07 57.18 1.92 0 0 0</pose>
+      <geometry><sphere><radius>1.52</radius></sphere></geometry>
+      <material><ambient>0.048 0.209 0.064</ambient><diffuse>0.080 0.338 0.088</diffuse></material>
+    </visual>
+    <visual name="m157_1" cast_shadows="true">
+      <pose>199.17 58.52 1.85 0 0 0</pose>
+      <geometry><sphere><radius>1.42</radius></sphere></geometry>
+      <material><ambient>0.072 0.313 0.096</ambient><diffuse>0.120 0.506 0.133</diffuse></material>
+    </visual>
+    <visual name="m158_0" cast_shadows="true">
+      <pose>200.92 58.69 1.57 0 0 0</pose>
+      <geometry><sphere><radius>1.05</radius></sphere></geometry>
+      <material><ambient>0.059 0.257 0.079</ambient><diffuse>0.099 0.415 0.109</diffuse></material>
+    </visual>
+    <visual name="m158_1" cast_shadows="true">
+      <pose>200.78 57.94 1.63 0 0 0</pose>
+      <geometry><sphere><radius>1.13</radius></sphere></geometry>
+      <material><ambient>0.063 0.274 0.084</ambient><diffuse>0.105 0.442 0.116</diffuse></material>
+    </visual>
+    <visual name="m159_0" cast_shadows="true">
+      <pose>205.60 58.10 1.84 0 0 0</pose>
+      <geometry><sphere><radius>1.42</radius></sphere></geometry>
+      <material><ambient>0.059 0.254 0.078</ambient><diffuse>0.098 0.411 0.108</diffuse></material>
+    </visual>
+    <visual name="m159_1" cast_shadows="true">
+      <pose>205.56 58.43 1.60 0 0 0</pose>
+      <geometry><sphere><radius>1.09</radius></sphere></geometry>
+      <material><ambient>0.056 0.243 0.075</ambient><diffuse>0.093 0.392 0.103</diffuse></material>
+    </visual>
+    <visual name="m159_2" cast_shadows="true">
+      <pose>205.20 59.02 1.55 0 0 0</pose>
+      <geometry><sphere><radius>1.02</radius></sphere></geometry>
+      <material><ambient>0.051 0.222 0.068</ambient><diffuse>0.085 0.358 0.094</diffuse></material>
+    </visual>
+    <visual name="m160_0" cast_shadows="true">
+      <pose>218.81 58.21 0.26 0 0 0</pose>
+      <geometry><sphere><radius>1.46</radius></sphere></geometry>
+      <material><ambient>0.067 0.289 0.089</ambient><diffuse>0.111 0.467 0.122</diffuse></material>
+    </visual>
+    <visual name="m160_1" cast_shadows="true">
+      <pose>218.12 58.80 0.20 0 0 0</pose>
+      <geometry><sphere><radius>1.39</radius></sphere></geometry>
+      <material><ambient>0.054 0.234 0.072</ambient><diffuse>0.090 0.378 0.099</diffuse></material>
+    </visual>
+    <visual name="m161_0" cast_shadows="true">
+      <pose>192.49 55.04 -0.25 0 0 0</pose>
+      <geometry><sphere><radius>1.47</radius></sphere></geometry>
+      <material><ambient>0.070 0.305 0.094</ambient><diffuse>0.117 0.493 0.129</diffuse></material>
+    </visual>
+    <visual name="m161_1" cast_shadows="true">
+      <pose>192.52 54.71 -0.39 0 0 0</pose>
+      <geometry><sphere><radius>1.29</radius></sphere></geometry>
+      <material><ambient>0.056 0.242 0.075</ambient><diffuse>0.093 0.392 0.103</diffuse></material>
+    </visual>
+    <visual name="m161_2" cast_shadows="true">
+      <pose>192.66 55.10 -0.58 0 0 0</pose>
+      <geometry><sphere><radius>1.03</radius></sphere></geometry>
+      <material><ambient>0.072 0.314 0.097</ambient><diffuse>0.121 0.507 0.133</diffuse></material>
+    </visual>
+    <visual name="m162_0" cast_shadows="true">
+      <pose>194.30 56.59 1.08 0 0 0</pose>
+      <geometry><sphere><radius>0.81</radius></sphere></geometry>
+      <material><ambient>0.054 0.234 0.072</ambient><diffuse>0.090 0.378 0.099</diffuse></material>
+    </visual>
+    <visual name="m162_1" cast_shadows="true">
+      <pose>193.20 55.42 1.38 0 0 0</pose>
+      <geometry><sphere><radius>1.20</radius></sphere></geometry>
+      <material><ambient>0.073 0.317 0.097</ambient><diffuse>0.122 0.511 0.134</diffuse></material>
+    </visual>
+    <visual name="m162_2" cast_shadows="true">
+      <pose>193.42 56.76 1.26 0 0 0</pose>
+      <geometry><sphere><radius>1.04</radius></sphere></geometry>
+      <material><ambient>0.061 0.264 0.081</ambient><diffuse>0.102 0.427 0.112</diffuse></material>
+    </visual>
+    <visual name="m163_0" cast_shadows="true">
+      <pose>196.52 56.61 0.72 0 0 0</pose>
+      <geometry><sphere><radius>1.07</radius></sphere></geometry>
+      <material><ambient>0.058 0.253 0.078</ambient><diffuse>0.097 0.408 0.107</diffuse></material>
+    </visual>
+    <visual name="m163_1" cast_shadows="true">
+      <pose>196.49 57.07 0.90 0 0 0</pose>
+      <geometry><sphere><radius>1.32</radius></sphere></geometry>
+      <material><ambient>0.074 0.322 0.099</ambient><diffuse>0.124 0.521 0.136</diffuse></material>
+    </visual>
+    <visual name="m163_2" cast_shadows="true">
+      <pose>197.02 57.06 0.52 0 0 0</pose>
+      <geometry><sphere><radius>0.81</radius></sphere></geometry>
+      <material><ambient>0.059 0.257 0.079</ambient><diffuse>0.099 0.415 0.109</diffuse></material>
+    </visual>
+    <visual name="m164_0" cast_shadows="true">
+      <pose>204.25 56.66 1.36 0 0 0</pose>
+      <geometry><sphere><radius>0.93</radius></sphere></geometry>
+      <material><ambient>0.057 0.246 0.076</ambient><diffuse>0.094 0.397 0.104</diffuse></material>
+    </visual>
+    <visual name="m164_1" cast_shadows="true">
+      <pose>203.41 56.95 1.44 0 0 0</pose>
+      <geometry><sphere><radius>1.03</radius></sphere></geometry>
+      <material><ambient>0.069 0.300 0.092</ambient><diffuse>0.115 0.485 0.127</diffuse></material>
+    </visual>
+    <visual name="m165_0" cast_shadows="true">
+      <pose>205.84 55.45 0.80 0 0 0</pose>
+      <geometry><sphere><radius>1.18</radius></sphere></geometry>
+      <material><ambient>0.073 0.317 0.097</ambient><diffuse>0.122 0.511 0.134</diffuse></material>
+    </visual>
+    <visual name="m165_1" cast_shadows="true">
+      <pose>207.00 57.03 0.96 0 0 0</pose>
+      <geometry><sphere><radius>1.40</radius></sphere></geometry>
+      <material><ambient>0.056 0.241 0.074</ambient><diffuse>0.093 0.389 0.102</diffuse></material>
+    </visual>
+    <visual name="m165_2" cast_shadows="true">
+      <pose>206.14 55.52 1.11 0 0 0</pose>
+      <geometry><sphere><radius>1.60</radius></sphere></geometry>
+      <material><ambient>0.071 0.306 0.094</ambient><diffuse>0.118 0.494 0.129</diffuse></material>
+    </visual>
+    <visual name="m166_0" cast_shadows="true">
+      <pose>195.45 53.31 0.23 0 0 0</pose>
+      <geometry><sphere><radius>1.46</radius></sphere></geometry>
+      <material><ambient>0.073 0.317 0.098</ambient><diffuse>0.122 0.513 0.134</diffuse></material>
+    </visual>
+    <visual name="m166_1" cast_shadows="true">
+      <pose>195.56 53.71 -0.08 0 0 0</pose>
+      <geometry><sphere><radius>1.05</radius></sphere></geometry>
+      <material><ambient>0.053 0.228 0.070</ambient><diffuse>0.088 0.368 0.097</diffuse></material>
+    </visual>
+    <visual name="m166_2" cast_shadows="true">
+      <pose>196.91 53.29 0.29 0 0 0</pose>
+      <geometry><sphere><radius>1.54</radius></sphere></geometry>
+      <material><ambient>0.073 0.315 0.097</ambient><diffuse>0.121 0.508 0.133</diffuse></material>
+    </visual>
+    <visual name="m167_0" cast_shadows="true">
+      <pose>199.42 55.26 0.52 0 0 0</pose>
+      <geometry><sphere><radius>1.50</radius></sphere></geometry>
+      <material><ambient>0.060 0.259 0.080</ambient><diffuse>0.100 0.419 0.110</diffuse></material>
+    </visual>
+    <visual name="m167_1" cast_shadows="true">
+      <pose>199.75 55.17 0.47 0 0 0</pose>
+      <geometry><sphere><radius>1.43</radius></sphere></geometry>
+      <material><ambient>0.067 0.289 0.089</ambient><diffuse>0.111 0.466 0.122</diffuse></material>
+    </visual>
+    <visual name="m167_2" cast_shadows="true">
+      <pose>198.38 54.48 0.51 0 0 0</pose>
+      <geometry><sphere><radius>1.49</radius></sphere></geometry>
+      <material><ambient>0.053 0.228 0.070</ambient><diffuse>0.088 0.368 0.096</diffuse></material>
+    </visual>
+    <visual name="m168_0" cast_shadows="true">
+      <pose>197.08 52.98 0.74 0 0 0</pose>
+      <geometry><sphere><radius>1.23</radius></sphere></geometry>
+      <material><ambient>0.065 0.282 0.087</ambient><diffuse>0.109 0.456 0.119</diffuse></material>
+    </visual>
+    <visual name="m168_1" cast_shadows="true">
+      <pose>198.54 52.28 0.92 0 0 0</pose>
+      <geometry><sphere><radius>1.47</radius></sphere></geometry>
+      <material><ambient>0.061 0.266 0.082</ambient><diffuse>0.102 0.429 0.112</diffuse></material>
+    </visual>
+    <visual name="m169_0" cast_shadows="true">
+      <pose>199.95 52.77 0.69 0 0 0</pose>
+      <geometry><sphere><radius>1.47</radius></sphere></geometry>
+      <material><ambient>0.066 0.284 0.087</ambient><diffuse>0.109 0.459 0.120</diffuse></material>
+    </visual>
+    <visual name="m169_1" cast_shadows="true">
+      <pose>200.15 52.69 0.58 0 0 0</pose>
+      <geometry><sphere><radius>1.34</radius></sphere></geometry>
+      <material><ambient>0.066 0.284 0.087</ambient><diffuse>0.109 0.459 0.120</diffuse></material>
+    </visual>
+    <visual name="eg0" cast_shadows="true">
+      <pose>202.97 80.37 0.46 0 0 1.48</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb0" cast_shadows="true">
+      <pose>202.97 80.37 0.76 0 0.50 1.48</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg1" cast_shadows="true">
+      <pose>197.21 98.13 0.46 0 0 0.33</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb1" cast_shadows="true">
+      <pose>197.21 98.13 0.76 0 0.50 0.33</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg2" cast_shadows="true">
+      <pose>211.13 77.01 1.00 0 0 3.09</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb2" cast_shadows="true">
+      <pose>211.13 77.01 1.30 0 0.50 3.09</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg3" cast_shadows="true">
+      <pose>199.85 101.72 1.00 0 0 0.85</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb3" cast_shadows="true">
+      <pose>199.85 101.72 1.30 0 0.50 0.85</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg4" cast_shadows="true">
+      <pose>188.33 72.69 0.32 0 0 0.94</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb4" cast_shadows="true">
+      <pose>188.33 72.69 0.62 0 0.50 0.94</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg5" cast_shadows="true">
+      <pose>191.93 71.02 1.00 0 0 4.12</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb5" cast_shadows="true">
+      <pose>191.93 71.02 1.30 0 0.50 4.12</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg6" cast_shadows="true">
+      <pose>208.97 77.01 1.00 0 0 6.23</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb6" cast_shadows="true">
+      <pose>208.97 77.01 1.30 0 0.50 6.23</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg7" cast_shadows="true">
+      <pose>217.12 79.65 -0.90 0 0 4.92</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb7" cast_shadows="true">
+      <pose>217.12 79.65 -0.60 0 0.50 4.92</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg8" cast_shadows="true">
+      <pose>188.81 67.90 1.00 0 0 6.07</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb8" cast_shadows="true">
+      <pose>188.81 67.90 1.30 0 0.50 6.07</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg9" cast_shadows="true">
+      <pose>195.05 67.90 0.23 0 0 4.23</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb9" cast_shadows="true">
+      <pose>195.05 67.90 0.53 0 0.50 4.23</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg10" cast_shadows="true">
+      <pose>187.37 72.45 0.84 0 0 5.60</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb10" cast_shadows="true">
+      <pose>187.37 72.45 1.14 0 0.50 5.60</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg11" cast_shadows="true">
+      <pose>191.69 71.02 1.00 0 0 3.77</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb11" cast_shadows="true">
+      <pose>191.69 71.02 1.30 0 0.50 3.77</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg12" cast_shadows="true">
+      <pose>196.73 59.74 1.00 0 0 2.78</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb12" cast_shadows="true">
+      <pose>196.73 59.74 1.30 0 0.50 2.78</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    <visual name="eg13" cast_shadows="true">
+      <pose>204.17 80.37 1.00 0 0 5.84</pose>
+      <geometry><cylinder><radius>0.025</radius><length>0.45</length></cylinder></geometry>
+      <material><ambient>0.85 0.85 0.85</ambient><diffuse>0.9 0.9 0.9</diffuse></material>
+    </visual>
+    <visual name="eb13" cast_shadows="true">
+      <pose>204.17 80.37 1.30 0 0.50 5.84</pose>
+      <geometry><sphere><radius>0.11</radius></sphere></geometry>
+      <material><ambient>0.9 0.9 0.88</ambient><diffuse>0.95 0.95 0.93</diffuse></material>
+    </visual>
+    </link>
+  </model>
+</sdf>

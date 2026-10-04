@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- 东坡湖地形
+     视觉: 网格 meshes/dongpo_terrain.obj(UV=卫星贴图, 顶点高程=真值)
+     碰撞: 高度图(dartsim 不支持 SDF 网格碰撞)
+     x=东, y=北, 水面 z=0, 湖盆约 -3.5 m, 陆地约 +2.5 m。
+     湖长按实测 473.06 m 标定；素材重新生成后同步 <size> 与网格。 -->
+<sdf version="1.9">
+  <model name="dongpo_lake_terrain">
+    <static>true</static>
+    <link name="link">
+      <!-- dartsim/bullet 高度场不应用模型 pose z, 灰度直接映射 [0,size_z],
+           因此用 collision 自身 pose 把碰撞体下沉到 [bed_h, land_h] -->
+      <collision name="collision">
+        <pose>0 0 -3.5 0 0 0</pose>
+        <geometry>
+          <heightmap>
+            <uri>model://dongpo_lake_terrain/materials/textures/dongpo_heightmap.png</uri>
+            <size>512.0 307.1 6.0</size>
+          </heightmap>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://dongpo_lake_terrain/meshes/dongpo_terrain.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <pbr>
+            <metal>
+              <albedo_map>model://dongpo_lake_terrain/materials/textures/dongpo_satellite.jpg</albedo_map>
+              <metalness>0.0</metalness>
+              <roughness>1.0</roughness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
